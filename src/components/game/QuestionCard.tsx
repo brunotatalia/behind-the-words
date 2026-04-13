@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import type { Question } from '@/types/question';
 import { DifficultyBadge } from './DifficultyBadge';
+import { SongPreview } from './SongPreview';
 import { getCategoryInfo } from '@/data/categories';
 
 interface QuestionCardProps {
@@ -38,6 +39,12 @@ export function QuestionCard({ question, questionNumber }: QuestionCardProps) {
       <h2 className="text-xl md:text-2xl font-bold leading-relaxed px-2">
         {question.question_he}
       </h2>
+
+      <SongPreview
+        songTitle={question.songTitle}
+        artist={question.artist}
+        spotifyId={question.spotifyId}
+      />
     </motion.div>
   );
 }
