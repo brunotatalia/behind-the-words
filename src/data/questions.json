@@ -1,0 +1,3535 @@
+[
+  {
+    "id": "q001",
+    "question_he": "איזה שיר עוסק בהתאבדות של תלמיד תיכון מול הכיתה שלו?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Smells Like Teen Spirit\" - Nirvana"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Jeremy\" - Pearl Jam"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Welcome to the Jungle\" - Guns N' Roses"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Another Brick in the Wall\" - Pink Floyd"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר 'Jeremy' של Pearl Jam מבוסס על סיפור אמיתי של ג'רמי ווייד דל, תלמיד בן 15 שירה בעצמו מול הכיתה שלו בטקסס ב-1991. אדי ודר כתב את השיר כתגובה על התעלמות מבוגרים מסימני אזהרה אצל בני נוער.",
+    "songTitle": "Jeremy",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "tags": [
+      "90s",
+      "grunge",
+      "true-story"
+    ]
+  },
+  {
+    "id": "q002",
+    "question_he": "איזה שיר קליט ועליז עוסק בירי בבית ספר?",
+    "category": "tone-disconnect",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Walking on Sunshine\" - Katrina and the Waves"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Happy\" - Pharrell Williams"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Pumped Up Kicks\" - Foster the People"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Mr. Brightside\" - The Killers"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "למרות המלודיה הקליטה והעליזה, 'Pumped Up Kicks' מסופר מנקודת מבטו של נער מתוסכל עם כוונות אלימות. ה'Kicks' המפוצצים הם הנעליים היקרות של ילדים עשירים - סמל לפער מעמדי שמזין את הכעס.",
+    "songTitle": "Pumped Up Kicks",
+    "artist": "Foster the People",
+    "year": 2010,
+    "tags": [
+      "2010s",
+      "indie-pop",
+      "tone-disconnect"
+    ]
+  },
+  {
+    "id": "q003",
+    "question_he": "איזה שיר נחשב לשיר אהבה רומנטי אך בפועל עוסק בעוקב אובססיבי?",
+    "category": "misunderstood-romance",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"I Will Always Love You\" - Whitney Houston"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Every Breath You Take\" - The Police"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Unchained Melody\" - The Righteous Brothers"
+      },
+      {
+        "id": "d",
+        "text_he": "\"My Heart Will Go On\" - Celine Dion"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "סטינג כתב את 'Every Breath You Take' כשיר על מעקב ואובססיה, לא על אהבה. המילים 'כל נשימה שאתה לוקח, כל צעד שאתה עושה, אני אשגיח עליך' מתארות שליטה מפחידה. למרות זאת, השיר מושמע לעיתים קרובות בחתונות.",
+    "songTitle": "Every Breath You Take",
+    "artist": "The Police",
+    "year": 1983,
+    "tags": [
+      "80s",
+      "pop",
+      "stalking"
+    ]
+  },
+  {
+    "id": "q004",
+    "question_he": "איזה שיר משתמש במלון קליפורנייה כמטאפורה להתמכרות ולצד האפל של תעשיית הבידור?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"California Dreamin'\" - The Mamas & The Papas"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Going to California\" - Led Zeppelin"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Hotel California\" - Eagles"
+      },
+      {
+        "id": "d",
+        "text_he": "\"California Love\" - 2Pac"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "השיר 'Hotel California' של Eagles משתמש במטאפורה של מלון אלגנטי שאי אפשר לברוח ממנו כדי לתאר מלכודת ההתמכרות והעודפות. המשפט 'אתה יכול לעשות צ'ק-אאוט מתי שתרצה, אבל לעולם לא תוכל לעזוב' מסמל את חוסר היכולת להיחלץ.",
+    "songTitle": "Hotel California",
+    "artist": "Eagles",
+    "year": 1977,
+    "tags": [
+      "70s",
+      "rock",
+      "metaphor"
+    ]
+  },
+  {
+    "id": "q005",
+    "question_he": "איזה שיר נשמע כהמנון פטריוטי אמריקאי אך בפועל מבקר את הטיפול בוותיקי וייטנאם?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"American Pie\" - Don McLean"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Born in the USA\" - Bruce Springsteen"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Proud to Be an American\" - Lee Greenwood"
+      },
+      {
+        "id": "d",
+        "text_he": "\"America\" - Neil Diamond"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות שהפזמון נשמע פטריוטי ומושמע באירועים לאומיים, 'Born in the USA' הוא שיר מחאה. הבתים מתארים חייל שחוזר מווייטנאם לאבטלה ודחייה חברתית. פוליטיקאים רבים השתמשו בשיר בטעות כהמנון לאומי.",
+    "songTitle": "Born in the USA",
+    "artist": "Bruce Springsteen",
+    "year": 1984,
+    "tags": [
+      "80s",
+      "rock",
+      "political",
+      "vietnam"
+    ]
+  },
+  {
+    "id": "q006",
+    "question_he": "איזה שיר דאנס עליז עוסק למעשה בפירוק של זוגיות ובכישלון ביחסים?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Hey Ya!\" - OutKast"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Uptown Funk\" - Bruno Mars"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Shake It Off\" - Taylor Swift"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Get Lucky\" - Daft Punk"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות הקצב המדבק, 'Hey Ya!' שואל 'מה שהופך את זה כל כך קשה לכבות את האהבה?' ומגיע למסקנה שרוב הזוגות נשארים יחד מהרגל. אנדרה 3000 אמר שרצה לבדוק אם אנשים יקשיבו למילים עצובות בגלל המוזיקה השמחה - ולא הקשיבו.",
+    "songTitle": "Hey Ya!",
+    "artist": "OutKast",
+    "year": 2003,
+    "tags": [
+      "2000s",
+      "hip-hop",
+      "tone-disconnect"
+    ]
+  },
+  {
+    "id": "q007",
+    "question_he": "איזה שיר רוק שנשמע חיובי ואנרגטי עוסק למעשה בהתמכרות למתאמפטמין (קריסטל מת')?",
+    "category": "drug-references",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Dani California\" - Red Hot Chili Peppers"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Semi-Charmed Life\" - Third Eye Blind"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Closing Time\" - Semisonic"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Flagpole Sitta\" - Harvey Danger"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר 'Semi-Charmed Life' מתאר באופן גלוי שימוש בקריסטל מת'. הפזמון ה'דו דו דו' הקליט גרם לתחנות רדיו להשמיע אותו ללא הפסקה, אך הבתים מתארים התמכרות, אובדן שליטה ויחסים הורסניים. זה אחד השירים הכי מושמעים שאנשים לא מבינים.",
+    "songTitle": "Semi-Charmed Life",
+    "artist": "Third Eye Blind",
+    "year": 1997,
+    "tags": [
+      "90s",
+      "alt-rock",
+      "drugs"
+    ]
+  },
+  {
+    "id": "q008",
+    "question_he": "איזה שיר של Nirvana עוסק בחטיפה ואונס של נערה צעירה?",
+    "category": "biographical",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Come as You Are\" - Nirvana"
+      },
+      {
+        "id": "b",
+        "text_he": "\"In Bloom\" - Nirvana"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Polly\" - Nirvana"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Lithium\" - Nirvana"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "השיר 'Polly' מבוסס על מקרה אמיתי מ-1987 שבו נערה בת 14 נחטפה ועונתה. קורט קוביין כתב את השיר מנקודת מבטו של החוטף, מה שהפך אותו למטריד במיוחד. הנערה הצליחה לברוח לאחר שהערימה על חוטפה.",
+    "songTitle": "Polly",
+    "artist": "Nirvana",
+    "year": 1991,
+    "tags": [
+      "90s",
+      "grunge",
+      "true-story",
+      "dark"
+    ]
+  },
+  {
+    "id": "q009",
+    "question_he": "איזה שיר כתב Eric Clapton אחרי מותו הטראגי של בנו הקטן?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Wonderful Tonight\" - Eric Clapton"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Layla\" - Derek and the Dominos"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Tears in Heaven\" - Eric Clapton"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Cocaine\" - Eric Clapton"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "קלפטון כתב את 'Tears in Heaven' אחרי שבנו קונור, בן ה-4, נפל למוות מחלון בקומה 53 בניו יורק ב-1991. השיר שואל 'האם תדע את שמי, אם אראה אותך בגן עדן?' ונחשב לאחד השירים הכי מרגשים שנכתבו.",
+    "songTitle": "Tears in Heaven",
+    "artist": "Eric Clapton",
+    "year": 1992,
+    "tags": [
+      "90s",
+      "rock",
+      "tragedy",
+      "personal"
+    ]
+  },
+  {
+    "id": "q010",
+    "question_he": "איזה שיר גרמני מ-1983 עוסק בבלונים שגורמים בטעות למלחמה גרעינית?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"99 Luftballons\" - Nena"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Der Kommissar\" - Falco"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Major Tom\" - Peter Schilling"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Rock Me Amadeus\" - Falco"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "בשיר '99 Luftballons', 99 בלונים אדומים שמשוחררים לשמיים מזוהים בטעות על ידי מערכת ההגנה כאיום צבאי ומפעילים תגובת שרשרת שמובילה למלחמה גרעינית. השיר נכתב בשיא המלחמה הקרה כאזהרה מפני פרנויה צבאית.",
+    "songTitle": "99 Luftballons",
+    "artist": "Nena",
+    "year": 1983,
+    "tags": [
+      "80s",
+      "new-wave",
+      "anti-war",
+      "german"
+    ]
+  },
+  {
+    "id": "q011",
+    "question_he": "איזה שיר לטיני שכולם רוקדים עליו מספר למעשה על בגידה של אישה בבעלה?",
+    "category": "translation-barriers",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"La Bamba\" - Ritchie Valens"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Macarena\" - Los del Río"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Livin' la Vida Loca\" - Ricky Martin"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Despacito\" - Luis Fonsi"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר 'Macarena' מספר על בחורה בשם מקרנה שמנצלת את ההזדמנות שחברהּ מתגייס לצבא כדי לבגוד בו עם שני חברים שלו. הריקוד העליז גורם לכולם להתעלם מהעובדה שהמילים מספרות סיפור לא מוסרי במיוחד.",
+    "songTitle": "Macarena",
+    "artist": "Los del Río",
+    "year": 1993,
+    "tags": [
+      "90s",
+      "latin",
+      "dance"
+    ]
+  },
+  {
+    "id": "q012",
+    "question_he": "איזה שיר של Sia שנשמע כשיר חגיגי עוסק למעשה בהתמכרות לאלכוהול?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Cheap Thrills\" - Sia"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Titanium\" - David Guetta ft. Sia"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Chandelier\" - Sia"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Elastic Heart\" - Sia"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "למרות הפזמון הדרמטי 'אני הולכת לנדנד מהנברשת', 'Chandelier' הוא שיר על אלכוהוליזם ובריחה מכאב. סיה כתבה אותו מניסיונה האישי עם התמכרות. ה'מסיבה' שבשיר היא לא חגיגה אלא ניסיון עצוב לשכוח.",
+    "songTitle": "Chandelier",
+    "artist": "Sia",
+    "year": 2014,
+    "tags": [
+      "2010s",
+      "pop",
+      "addiction",
+      "personal"
+    ]
+  },
+  {
+    "id": "q013",
+    "question_he": "מאיזה שיר נולד המונח 'סטאן' שמתאר מעריץ אובססיבי?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Lose Yourself\" - Eminem"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Stan\" - Eminem ft. Dido"
+      },
+      {
+        "id": "c",
+        "text_he": "\"The Real Slim Shady\" - Eminem"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Love the Way You Lie\" - Eminem ft. Rihanna"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר 'Stan' מספר על מעריץ אובססיבי שכותב מכתבים לאמינם ומתדרדר לטירוף כשלא מקבל תשובה, עד שהורג את עצמו ואת חברתו. המונח 'stan' הפך למילה רשמית במילון ומתאר מעריצים קיצוניים.",
+    "songTitle": "Stan",
+    "artist": "Eminem",
+    "year": 2000,
+    "tags": [
+      "2000s",
+      "hip-hop",
+      "cultural-impact"
+    ]
+  },
+  {
+    "id": "q014",
+    "question_he": "איזה שיר של הביטלס עורר מחלוקת בגלל שראשי התיבות של שמו מאייתים LSD?",
+    "category": "drug-references",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Let It Be\" - The Beatles"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Strawberry Fields Forever\" - The Beatles"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Lucy in the Sky with Diamonds\" - The Beatles"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Across the Universe\" - The Beatles"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "ג'ון לנון טען שהשם מבוסס על ציור של בנו ג'וליאן שצייר חברה מבית הספר בשם לוסי. אך הצירוף המקרי של ראשי התיבות L-S-D, יחד עם הדימויים הפסיכדליים בשיר, הפכו אותו לשנוי במחלוקת ואף גרמו לאיסור השמעתו ב-BBC.",
+    "songTitle": "Lucy in the Sky with Diamonds",
+    "artist": "The Beatles",
+    "year": 1967,
+    "tags": [
+      "60s",
+      "psychedelic",
+      "beatles"
+    ]
+  },
+  {
+    "id": "q015",
+    "question_he": "איזה שיר של הביטלס מסווה סיפור על בגידה כסיפור על רהיטים סקנדינביים?",
+    "category": "biographical",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Yesterday\" - The Beatles"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Norwegian Wood\" - The Beatles"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Eleanor Rigby\" - The Beatles"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Blackbird\" - The Beatles"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "ג'ון לנון כתב את 'Norwegian Wood' על רומן שהיה לו, והסווה את הסיפור בשפה פואטית כדי שאשתו לא תבין. ה'עץ נורווגי' מתייחס לעיצוב הדירה של המאהבת. הסוף העמום ('הצתתי אש') מרמז על הרס הסיפור.",
+    "songTitle": "Norwegian Wood",
+    "artist": "The Beatles",
+    "year": 1965,
+    "tags": [
+      "60s",
+      "beatles",
+      "personal"
+    ]
+  },
+  {
+    "id": "q016",
+    "question_he": "איזה שיר עליז של שנות ה-80 עוסק למעשה בחרדת הגיל הצעיר והפחד מהעתיד?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Girls Just Want to Have Fun\" - Cyndi Lauper"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Wake Me Up Before You Go-Go\" - Wham!"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Forever Young\" - Alphaville"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Take on Me\" - a-ha"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "למרות המלודיה הנוסטלגית, 'Forever Young' נכתב בשיא המלחמה הקרה ועוסק בפחד מהשמדה גרעינית. השאלה 'האם אתה באמת רוצה לחיות לנצח?' היא לא רומנטית אלא מלאת חרדה. הלהקה שאלה אם בכלל שווה לתכנן עתיד בעולם שעלול להיהרס.",
+    "songTitle": "Forever Young",
+    "artist": "Alphaville",
+    "year": 1984,
+    "tags": [
+      "80s",
+      "synth-pop",
+      "cold-war"
+    ]
+  },
+  {
+    "id": "q017",
+    "question_he": "איזה שיר של R.E.M. נשמע כמו שיר שמח אך מתאר את סוף העולם?",
+    "category": "tone-disconnect",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Shiny Happy People\" - R.E.M."
+      },
+      {
+        "id": "b",
+        "text_he": "\"It's the End of the World as We Know It\" - R.E.M."
+      },
+      {
+        "id": "c",
+        "text_he": "\"Everybody Hurts\" - R.E.M."
+      },
+      {
+        "id": "d",
+        "text_he": "\"Losing My Religion\" - R.E.M."
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר מפרט תרחישי קטסטרופה בקצב מסחרר ומסתיים ב'ואני מרגיש מצוין'. מייקל סטייפ אמר שהשיר הוא על עומס מידע ותחושת חוסר אונים מול אסונות שאי אפשר לשלוט בהם - אבל הפזמון האירוני גורם לכולם לשיר איתו בשמחה.",
+    "songTitle": "It's the End of the World as We Know It (And I Feel Fine)",
+    "artist": "R.E.M.",
+    "year": 1987,
+    "tags": [
+      "80s",
+      "alt-rock",
+      "ironic"
+    ]
+  },
+  {
+    "id": "q018",
+    "question_he": "איזה שיר פופ ענק של שנות ה-80 עוסק למעשה בזנות?",
+    "category": "translation-barriers",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Material Girl\" - Madonna"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Roxanne\" - The Police"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Private Eyes\" - Hall & Oates"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Every Little Thing She Does Is Magic\" - The Police"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "סטינג כתב את 'Roxanne' על זונה בפריז שהוא התאהב בה. השיר מתחנן אליה להפסיק 'להדליק את האור האדום' - התייחסות לרובע האורות האדומים. למרות הנושא, המנגינה הפכה את השיר ללהיט רדיו עולמי.",
+    "songTitle": "Roxanne",
+    "artist": "The Police",
+    "year": 1978,
+    "tags": [
+      "70s",
+      "rock",
+      "new-wave"
+    ]
+  },
+  {
+    "id": "q019",
+    "question_he": "איזה שיר קלאסי של Queen נכתב בהשראת חוויה אישית של פרדי מרקורי עם אשמה ובריחה?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"We Will Rock You\" - Queen"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Somebody to Love\" - Queen"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Bohemian Rhapsody\" - Queen"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Don't Stop Me Now\" - Queen"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "פרדי מרקורי מעולם לא חשף את המשמעות המלאה, אך חברי הלהקה אישרו שהשיר עוסק במאבקים פנימיים שלו. חלקים רבים מתארים אדם שעשה משהו בלתי הפיך ('מאמא, הרגתי איש') ומתמודד עם אשמה, פחד ובריחה - ככל הנראה קשורים לזהותו ולחייו הפרטיים.",
+    "songTitle": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "year": 1975,
+    "tags": [
+      "70s",
+      "rock",
+      "opera",
+      "iconic"
+    ]
+  },
+  {
+    "id": "q020",
+    "question_he": "איזה שיר מפורסם נכתב על ידי האמן כמכתב אחרון לפני שתכנן לסיים את חייו?",
+    "category": "biographical",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Hurt\" - Nine Inch Nails"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Adam's Song\" - Blink-182"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Mad World\" - Tears for Fears"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Creep\" - Radiohead"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "מארק הופוס מ-Blink-182 כתב את 'Adam's Song' בתקופה קשה של דיכאון וחיי טורינג מפרכים. השיר, שנקרא על שם מכתב אמיתי של מתבגר שהתאבד, מתאר בדידות ומחשבות חשוכות אך מסתיים בתקווה - 'לעולם לא חשבתי שאהיה כל כך לבד'.",
+    "songTitle": "Adam's Song",
+    "artist": "Blink-182",
+    "year": 1999,
+    "tags": [
+      "90s",
+      "punk-rock",
+      "depression"
+    ]
+  },
+  {
+    "id": "q021",
+    "question_he": "איזה שיר של Smashing Pumpkins ביטא את הזעם והדיכאון של דור ה-90?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Disarm\" - Smashing Pumpkins"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Bullet with Butterfly Wings\" - Smashing Pumpkins"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Black Hole Sun\" - Soundgarden"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Alive\" - Pearl Jam"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "המשפט 'למרות כל הזעם שלי, אני עדיין רק עכבר בכלוב' מתאר תחושת חוסר אונים וכעס כלוא. בילי קורגן כתב על הדיכאון שלו ועל תחושת שאי אפשר לשנות דבר, למרות הכוח הרגשי שמבפנים.",
+    "songTitle": "Bullet with Butterfly Wings",
+    "artist": "Smashing Pumpkins",
+    "year": 1995,
+    "tags": [
+      "90s",
+      "alt-rock",
+      "depression"
+    ]
+  },
+  {
+    "id": "q022",
+    "question_he": "איזה שיר של Red Hot Chili Peppers עוסק בבדידות ובהתמכרות לסמים ברחובות לוס אנג'לס?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Californication\" - Red Hot Chili Peppers"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Under the Bridge\" - Red Hot Chili Peppers"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Scar Tissue\" - Red Hot Chili Peppers"
+      },
+      {
+        "id": "d",
+        "text_he": "\"By the Way\" - Red Hot Chili Peppers"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "אנתוני קידיס כתב את 'Under the Bridge' על הבדידות שחש למרות שהיה מוקף בחברי להקה. ה'גשר' הוא מקום אמיתי בלוס אנג'לס שבו קנה ושימש בסמים. השיר מתאר את הכמיהה לעיר שאוהב אותו כשאף אדם לא.",
+    "songTitle": "Under the Bridge",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1991,
+    "tags": [
+      "90s",
+      "alt-rock",
+      "drugs",
+      "loneliness"
+    ]
+  },
+  {
+    "id": "q023",
+    "question_he": "איזה שיר קאנטרי קלאסי משתמש ב'טבעת של אש' כמטאפורה לאהבה שמכלה כמו התמכרות?",
+    "category": "misunderstood-romance",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Jolene\" - Dolly Parton"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Ring of Fire\" - Johnny Cash"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Folsom Prison Blues\" - Johnny Cash"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Stand by Your Man\" - Tammy Wynette"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר נכתב על ידי ג'ון קרטר קאש, אשתו של ג'וני, כשנפלה באהבתו למרות שידעה על בעיות ההתמכרות שלו. 'טבעת האש' מתארת תחושת אהבה בלתי נשלטת שצורבת כמו אש - אהבה שגם מחממת וגם הורסת.",
+    "songTitle": "Ring of Fire",
+    "artist": "Johnny Cash",
+    "year": 1963,
+    "tags": [
+      "60s",
+      "country",
+      "love",
+      "addiction"
+    ]
+  },
+  {
+    "id": "q024",
+    "question_he": "איזה שיר פופ-רוק עדין של Goo Goo Dolls עוסק למעשה בהפלה?",
+    "category": "misunderstood-romance",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Iris\" - Goo Goo Dolls"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Slide\" - Goo Goo Dolls"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Name\" - Goo Goo Dolls"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Wonderwall\" - Oasis"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות הצליל העדין, 'Slide' מספר על זוג צעיר שמתמודד עם החלטה על הפלה. המילים 'אני לא רוצה שייפגעו בך' ו'תחליקי אל תוכי' מתארות את הפחד והתמיכה ההדדית. הזמר ג'ון ז'סניק אישר שזה הנושא.",
+    "songTitle": "Slide",
+    "artist": "Goo Goo Dolls",
+    "year": 1998,
+    "tags": [
+      "90s",
+      "alt-rock",
+      "social"
+    ]
+  },
+  {
+    "id": "q025",
+    "question_he": "איזה שיר של R.E.M. נשמע כמו שיר אהבה אך המילים מתארות ניצול רגשי?",
+    "category": "misunderstood-romance",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"The One I Love\" - R.E.M."
+      },
+      {
+        "id": "b",
+        "text_he": "\"Everybody Hurts\" - R.E.M."
+      },
+      {
+        "id": "c",
+        "text_he": "\"Man on the Moon\" - R.E.M."
+      },
+      {
+        "id": "d",
+        "text_he": "\"Orange Crush\" - R.E.M."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שהשם נשמע רומנטי, מייקל סטייפ תיאר את 'The One I Love' כ'שיר אנטי-אהבה ברוטלי'. המשפט 'אדם פשוט כדי לזרוק עליו דברים' מתאר שימוש באדם אחר כמטרה רגשית. סטייפ אמר שהוא תמיד מופתע שאנשים מנגנים את זה בחתונות.",
+    "songTitle": "The One I Love",
+    "artist": "R.E.M.",
+    "year": 1987,
+    "tags": [
+      "80s",
+      "alt-rock",
+      "anti-love"
+    ]
+  },
+  {
+    "id": "q026",
+    "question_he": "איזה שיר של הרולינג סטונס עוסק בעבדות וניצול מיני?",
+    "category": "historical-political",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Sympathy for the Devil\" - Rolling Stones"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Brown Sugar\" - Rolling Stones"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Paint It Black\" - Rolling Stones"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Gimme Shelter\" - Rolling Stones"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות הריף המפורסם, 'Brown Sugar' עוסק בעבדות, בסחר בעבדים ובניצול מיני של נשים שחורות על ידי בעלי עבדים. מיק ג'אגר עצמו הודה שהמילים בעייתיות ואמר 'לעולם לא הייתי כותב את זה היום'. הלהקה הפסיקה לנגן אותו בהופעות חיות ב-2021.",
+    "songTitle": "Brown Sugar",
+    "artist": "Rolling Stones",
+    "year": 1971,
+    "tags": [
+      "70s",
+      "rock",
+      "slavery",
+      "controversial"
+    ]
+  },
+  {
+    "id": "q027",
+    "question_he": "איזה שיר של הקרנבריז נכתב כתגובה לפיגוע של ה-IRA שהרג שני ילדים?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Linger\" - The Cranberries"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Dreams\" - The Cranberries"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Zombie\" - The Cranberries"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Ode to My Family\" - The Cranberries"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "דולורס אוריורדן כתבה את 'Zombie' אחרי פיגוע ה-IRA בוורינגטון, אנגליה ב-1993, שבו נהרגו שני ילדים - ג'ונתן בול בן ה-3 וטים פארי בן ה-12. המילה 'זומבי' מתארת את אלה שממשיכים באלימות בלי לחשוב. השיר הפך להמנון נגד אלימות באירלנד.",
+    "songTitle": "Zombie",
+    "artist": "The Cranberries",
+    "year": 1994,
+    "tags": [
+      "90s",
+      "alt-rock",
+      "political",
+      "IRA"
+    ]
+  },
+  {
+    "id": "q028",
+    "question_he": "איזה שיר של U2 עוסק בטבח 'יום ראשון העקוב מדם' באירלנד הצפונית?",
+    "category": "historical-political",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Where the Streets Have No Name\" - U2"
+      },
+      {
+        "id": "b",
+        "text_he": "\"One\" - U2"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Sunday Bloody Sunday\" - U2"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Pride (In the Name of Love)\" - U2"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "השיר מתייחס לטבח 'יום ראשון העקוב מדם' ב-1972, כשחיילים בריטיים ירו במפגינים לא חמושים בצפון אירלנד והרגו 14 אנשים. בונו אמר שזה לא שיר מחאה אלא שיר נגד אלימות מכל הצדדים, ומבקש 'כמה זמן עוד נצטרך לשיר את השיר הזה?'",
+    "songTitle": "Sunday Bloody Sunday",
+    "artist": "U2",
+    "year": 1983,
+    "tags": [
+      "80s",
+      "rock",
+      "political",
+      "ireland"
+    ]
+  },
+  {
+    "id": "q029",
+    "question_he": "איזה שיר של The Kinks מספר על מפגש עם אישה טרנסג'נדרית?",
+    "category": "translation-barriers",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"You Really Got Me\" - The Kinks"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Lola\" - The Kinks"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Waterloo Sunset\" - The Kinks"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Sunny Afternoon\" - The Kinks"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר 'Lola' מספר על גבר שפוגש אישה מושכת במועדון ומגלה שהיא טרנסג'נדרית - 'היא הלכה כמו אישה ודיברה כמו גבר'. ריי דייוויס כתב את השיר על מפגש אמיתי שהמנהל שלהם עבר. השיר היה פורץ דרך ב-1970 בגלל הנושא הפתוח.",
+    "songTitle": "Lola",
+    "artist": "The Kinks",
+    "year": 1970,
+    "tags": [
+      "70s",
+      "rock",
+      "gender",
+      "progressive"
+    ]
+  },
+  {
+    "id": "q030",
+    "question_he": "איזה שיר של שנות ה-70 שנשמע כמו שיר רומנטי תמים עוסק למעשה ביחסי מין?",
+    "category": "translation-barriers",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Afternoon Delight\" - Starland Vocal Band"
+      },
+      {
+        "id": "b",
+        "text_he": "\"You Light Up My Life\" - Debby Boone"
+      },
+      {
+        "id": "c",
+        "text_he": "\"How Deep Is Your Love\" - Bee Gees"
+      },
+      {
+        "id": "d",
+        "text_he": "\"More Than a Feeling\" - Boston"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות הצליל העדין והתמים, 'Afternoon Delight' עוסק לחלוטין ביחסי מין באמצע היום. המילים 'שמיים מלאים זיקוקים' ו'הנאת אחר הצהריים' הן מטאפורות ברורות. השיר הפך ללהיט משפחתי למרות תוכנו הארוטי - מה שמראה שרוב האנשים באמת לא הקשיבו למילים.",
+    "songTitle": "Afternoon Delight",
+    "artist": "Starland Vocal Band",
+    "year": 1976,
+    "tags": [
+      "70s",
+      "pop",
+      "sexual-content"
+    ]
+  },
+  {
+    "id": "q031",
+    "question_he": "איזה שיר של Green Day נכתב כהנצחה לאביו של הסולן שנפטר מסרטן?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Boulevard of Broken Dreams\" - Green Day"
+      },
+      {
+        "id": "b",
+        "text_he": "\"21 Guns\" - Green Day"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Wake Me Up When September Ends\" - Green Day"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Good Riddance (Time of Your Life)\" - Green Day"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "בילי ג'ו ארמסטרונג כתב את השיר על אביו שנפטר מסרטן כשבילי היה בן 10, בספטמבר 1982. הילד ביקש שיעירו אותו כש'ספטמבר ייגמר' כי לא רצה להתמודד עם הכאב. למרות שרבים חושבים שהשיר על אירועי ספטמבר 2001, המשמעות אישית הרבה יותר.",
+    "songTitle": "Wake Me Up When September Ends",
+    "artist": "Green Day",
+    "year": 2004,
+    "tags": [
+      "2000s",
+      "punk-rock",
+      "personal",
+      "grief"
+    ]
+  },
+  {
+    "id": "q032",
+    "question_he": "איזה שיר של אמינם עוסק בחרדת ביצוע ובהזדמנות חד-פעמית בחיים?",
+    "category": "biographical",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Lose Yourself\" - Eminem"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Not Afraid\" - Eminem"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Rap God\" - Eminem"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Without Me\" - Eminem"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "אמינם כתב את 'Lose Yourself' עבור הסרט '8 Mile' והוא מתאר את הרגע שבו אתה מקבל הזדמנות אחת להוכיח את עצמך. 'הידיים מזיעות, הברכיים חלשות, הזרועות כבדות' - התחושות הפיזיות של חרדת ביצוע. השיר זכה באוסקר והפך להמנון מוטיבציה עולמי.",
+    "songTitle": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002,
+    "tags": [
+      "2000s",
+      "hip-hop",
+      "motivation"
+    ]
+  },
+  {
+    "id": "q033",
+    "question_he": "איזה שיר של ג'ון לנון נשמע כמו שיר שלום אך הוא למעשה מניפסט נגד דת ובעלות?",
+    "category": "historical-political",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Give Peace a Chance\" - John Lennon"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Imagine\" - John Lennon"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Happy Xmas (War Is Over)\" - John Lennon"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Instant Karma!\" - John Lennon"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "לנון עצמו אמר ש'Imagine' הוא 'מניפסט קומוניסטי עטוף בסוכר'. השיר קורא לדמיין עולם בלי דת ('אין גן עדן, אין גיהינום'), בלי מדינות ובלי רכוש פרטי. המנגינה הרכה מסווה מסר רדיקלי שהיה מעורר מחלוקת אילו הוצג ישירות.",
+    "songTitle": "Imagine",
+    "artist": "John Lennon",
+    "year": 1971,
+    "tags": [
+      "70s",
+      "rock",
+      "political",
+      "anti-religion"
+    ]
+  },
+  {
+    "id": "q034",
+    "question_he": "איזה שיר של מרווין גיי נכתב כתגובה לאלימות שחזר ממלחמת וייטנאם סיפר לו עליה?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Let's Get It On\" - Marvin Gaye"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Sexual Healing\" - Marvin Gaye"
+      },
+      {
+        "id": "c",
+        "text_he": "\"What's Going On\" - Marvin Gaye"
+      },
+      {
+        "id": "d",
+        "text_he": "\"I Heard It Through the Grapevine\" - Marvin Gaye"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "אחיו של מרווין גיי חזר מווייטנאם וסיפר לו על הזוועות שראה. השיר שואל 'מה קורה?' ומדבר על אלימות משטרתית, מלחמה ואי-צדק חברתי. חברת Motown לא רצתה להוציא שיר פוליטי, אך גיי איים לעזוב אם לא יוציאו אותו.",
+    "songTitle": "What's Going On",
+    "artist": "Marvin Gaye",
+    "year": 1971,
+    "tags": [
+      "70s",
+      "soul",
+      "political",
+      "vietnam"
+    ]
+  },
+  {
+    "id": "q035",
+    "question_he": "איזה שיר של טרייסי צ'פמן מספר על ניסיון לברוח מעוני באמצעות מכונית ישנה?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Fast Car\" - Tracy Chapman"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Talkin' Bout a Revolution\" - Tracy Chapman"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Drive\" - The Cars"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Little Red Corvette\" - Prince"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "השיר מספר על אישה שרוצה לברוח מחיי עוני עם בן זוגה, אך מגלה שהוא הופך לאלכוהוליסט כמו אביה. ה'מכונית המהירה' מסמלת תקווה לבריחה, אך הסוף חושף שהמעגל חוזר על עצמו. השיר חזר למקום הראשון במצעדים ב-2023 אחרי כיסוי של לוק קומבס.",
+    "songTitle": "Fast Car",
+    "artist": "Tracy Chapman",
+    "year": 1988,
+    "tags": [
+      "80s",
+      "folk",
+      "poverty",
+      "alcoholism"
+    ]
+  },
+  {
+    "id": "q036",
+    "question_he": "איזה שיר של דיוויד בואי מתאר אסטרונאוט אבוד בחלל כמטאפורה לבדידות ודיכאון?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Starman\" - David Bowie"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Space Oddity\" - David Bowie"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Life on Mars?\" - David Bowie"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Rocket Man\" - Elton John"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "השיר על מייג'ור טום שנותק מבקרת הקרקע ונעלם בחלל הוא מטאפורה לניתוק רגשי ובדידות. בואי כתב אותו בתקופה של שימוש בסמים ותחושת ניכור. בהמשך הקריירה, ב'Ashes to Ashes', חשף שמייג'ור טום הוא למעשה מכור לסמים.",
+    "songTitle": "Space Oddity",
+    "artist": "David Bowie",
+    "year": 1969,
+    "tags": [
+      "60s",
+      "rock",
+      "metaphor",
+      "isolation"
+    ]
+  },
+  {
+    "id": "q037",
+    "question_he": "איזה שיר של TLC שנשמע כשיר רומנטי עוסק בסכנות של איידס וסחר בסמים?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"No Scrubs\" - TLC"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Creep\" - TLC"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Waterfalls\" - TLC"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Unpretty\" - TLC"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "למרות המנגינה השלווה, 'Waterfalls' מספר שלושה סיפורים טראגיים: בן שנהרג מאלימות רחוב, אישה שנדבקה באיידס, וסוחר סמים שנהרג. המילים 'אל תרדפו אחרי מפלי מים' מבקשות להימנע מפיתויים מסוכנים. השיר יצא בשיא מגפת האיידס ב-1995.",
+    "songTitle": "Waterfalls",
+    "artist": "TLC",
+    "year": 1995,
+    "tags": [
+      "90s",
+      "r-and-b",
+      "AIDS",
+      "social"
+    ]
+  },
+  {
+    "id": "q038",
+    "question_he": "איזה שיר של The Killers עוסק בקנאה פתולוגית ופרנויה?",
+    "category": "misunderstood-romance",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Somebody Told Me\" - The Killers"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Human\" - The Killers"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Mr. Brightside\" - The Killers"
+      },
+      {
+        "id": "d",
+        "text_he": "\"When You Were Young\" - The Killers"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "ברנדון פלאוורס כתב את 'Mr. Brightside' אחרי שתפס את חברתו בוגדת בו. השיר מתאר את הרגע שבו הדמיון לא מפסיק לייצר תמונות - 'זה התחיל בנשיקה, איך זה הגיע לככה?' השם האירוני 'מר אופטימי' מדגיש שהוא מנסה בייאוש לראות את הצד החיובי.",
+    "songTitle": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2003,
+    "tags": [
+      "2000s",
+      "indie-rock",
+      "jealousy"
+    ]
+  },
+  {
+    "id": "q039",
+    "question_he": "איזה שיר של Soundgarden מתאר עולם פרברי דיסטופי מאחורי חזות מושלמת?",
+    "category": "tone-disconnect",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Spoonman\" - Soundgarden"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Black Hole Sun\" - Soundgarden"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Fell on Black Days\" - Soundgarden"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Rusty Cage\" - Soundgarden"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות שנשמע כמו שיר רוק סטנדרטי, 'Black Hole Sun' מתאר עולם פרברי שמסתיר ריקנות וכאב מאחורי חיוכים מזויפים. כריס קורנל אמר שה'שמש השחורה' היא כוח שישאב את כל השקר - סוג של חזון אפוקליפטי של חשיפת האמת.",
+    "songTitle": "Black Hole Sun",
+    "artist": "Soundgarden",
+    "year": 1994,
+    "tags": [
+      "90s",
+      "grunge",
+      "dystopia"
+    ]
+  },
+  {
+    "id": "q040",
+    "question_he": "איזה שיר של Radiohead הפך להמנון של כל מי שהרגיש לא שייך?",
+    "category": "biographical",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Karma Police\" - Radiohead"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Paranoid Android\" - Radiohead"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Creep\" - Radiohead"
+      },
+      {
+        "id": "d",
+        "text_he": "\"No Surprises\" - Radiohead"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "תום יורק כתב את 'Creep' על אישה שראה במסיבה ולא העז לגשת אליה כי חש שהוא לא ראוי. המילים 'אני מוזר, אני מנוול, מה אני עושה פה?' ביטאו שנאה עצמית כה עמוקה שיורק שנא את השיר עצמו ובמשך שנים סירב לנגן אותו בהופעות.",
+    "songTitle": "Creep",
+    "artist": "Radiohead",
+    "year": 1992,
+    "tags": [
+      "90s",
+      "alt-rock",
+      "self-loathing"
+    ]
+  },
+  {
+    "id": "q041",
+    "question_he": "איזה שיר של לאונרד כהן משלב דימויים דתיים עם מיניות ואובדן אמונה?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Suzanne\" - Leonard Cohen"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Hallelujah\" - Leonard Cohen"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Bird on the Wire\" - Leonard Cohen"
+      },
+      {
+        "id": "d",
+        "text_he": "\"So Long, Marianne\" - Leonard Cohen"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "רוב האנשים מכירים את 'Hallelujah' כשיר רוחני, אך כהן כתב על אמונה שבורה, תשוקה מינית ('היא קשרה אותך לכיסא, שברה את כס המלכות שלך, גזרה את שערך') ועל ה'הללויה' כצעקה של אדם שנפל מקרבת אלוהים. כהן כתב 80 טיוטות לפני שסיים.",
+    "songTitle": "Hallelujah",
+    "artist": "Leonard Cohen",
+    "year": 1984,
+    "tags": [
+      "80s",
+      "folk",
+      "religion",
+      "sexuality"
+    ]
+  },
+  {
+    "id": "q042",
+    "question_he": "איזה שיר של Coldplay שנשמע כשיר אהבה רומנטי עוסק למעשה בהתמסרות אובססיבית?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Fix You\" - Coldplay"
+      },
+      {
+        "id": "b",
+        "text_he": "\"The Scientist\" - Coldplay"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Yellow\" - Coldplay"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Clocks\" - Coldplay"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "כריס מרטין כתב את 'Yellow' בהשראת הכוכבים שראה בלילה. למרות שנשמע רומנטי, המילים 'אשפוך דם בשבילך, אתן עצמות בשבילך' מתארות מסירות שגובלת באובססיה הרסנית. מרטין הודה שהשיר מתאר אהבה שמגיעה למקום לא בריא.",
+    "songTitle": "Yellow",
+    "artist": "Coldplay",
+    "year": 2000,
+    "tags": [
+      "2000s",
+      "alt-rock",
+      "obsession"
+    ]
+  },
+  {
+    "id": "q043",
+    "question_he": "איזה שיר של בילי אייליש מתאר משחקי כוח ושליטה ביחסים?",
+    "category": "tone-disconnect",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Ocean Eyes\" - Billie Eilish"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Lovely\" - Billie Eilish ft. Khalid"
+      },
+      {
+        "id": "c",
+        "text_he": "\"bad guy\" - Billie Eilish"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Bury a Friend\" - Billie Eilish"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "למרות הקצב הקליט, 'bad guy' הוא שיר אירוני שבו אייליש מציגה את עצמה כ'הרעה' בזוגיות - אבל בסוף חושפת שהגבר הוא ה'רע באמת'. השיר עוסק בדינמיקת כוח מעוותת ובתפקידים מגדריים. הטוויסט בסוף השיר, שבו הקצב משתנה, מסמל את הפיכת היוצרות.",
+    "songTitle": "bad guy",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "tags": [
+      "2010s",
+      "pop",
+      "power-dynamics"
+    ]
+  },
+  {
+    "id": "q044",
+    "question_he": "איזה שיר של The Weeknd מתאר את ההרס העצמי של מערכות יחסים רעילות?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Starboy\" - The Weeknd"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Blinding Lights\" - The Weeknd"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Can't Feel My Face\" - The Weeknd"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Save Your Tears\" - The Weeknd"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות הצליל הרטרו העליז, 'Blinding Lights' מתאר נהיגה מסוכנת בלילה תחת השפעת סמים בחיפוש אחר אקסית. ה'אורות המסנוורים' הם גם אורות לאס וגאס וגם השפעת הסמים. The Weeknd דיבר בגלוי על כך שהשיר מתאר את החלק האפל של חיי הלילה שלו.",
+    "songTitle": "Blinding Lights",
+    "artist": "The Weeknd",
+    "year": 2019,
+    "tags": [
+      "2010s",
+      "pop",
+      "drugs",
+      "self-destruction"
+    ]
+  },
+  {
+    "id": "q045",
+    "question_he": "איזה שיר של Hozier עוסק בביקורת חריפה על דת מאורגנת ודיכוי הומוסקסואלים?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Cherry Wine\" - Hozier"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Take Me to Church\" - Hozier"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Someone New\" - Hozier"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Movement\" - Hozier"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "הוזייר כתב את 'Take Me to Church' כביקורת על הכנסייה הקתולית ודיכוי מיניות. ה'כנסייה' בשיר היא לא מקום פולחן אלא מטאפורה למיניות ואהבה. הקליפ, שמתאר רדיפה של זוג הומוסקסואלי ברוסיה, הפך את המסר לבלתי ניתן להתעלמות.",
+    "songTitle": "Take Me to Church",
+    "artist": "Hozier",
+    "year": 2013,
+    "tags": [
+      "2010s",
+      "indie",
+      "religion",
+      "LGBTQ"
+    ]
+  },
+  {
+    "id": "q046",
+    "question_he": "איזה שיר של קייטי פרי עוסק למעשה בהתגברות על טראומה ומציאת ערך עצמי?",
+    "category": "tone-disconnect",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Roar\" - Katy Perry"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Firework\" - Katy Perry"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Teenage Dream\" - Katy Perry"
+      },
+      {
+        "id": "d",
+        "text_he": "\"California Gurls\" - Katy Perry"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות שנשמע כשיר חגיגי, 'Firework' נכתב בהשראת הרומן 'על הדרך' של קרואק ופונה לאנשים שמרגישים חסרי ערך. פרי אמרה שהשיר מיועד לכל מי שעבר טראומה - התעללות, דחייה, דיכאון - ומנסה למצוא מחדש את הניצוץ הפנימי.",
+    "songTitle": "Firework",
+    "artist": "Katy Perry",
+    "year": 2010,
+    "tags": [
+      "2010s",
+      "pop",
+      "empowerment"
+    ]
+  },
+  {
+    "id": "q047",
+    "question_he": "איזה שיר של Vanessa Carlton מתאר כמיהה אובססיבית שגובלת במעקב?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"A Thousand Miles\" - Vanessa Carlton"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Torn\" - Natalie Imbruglia"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Kiss Me\" - Sixpence None the Richer"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Unwritten\" - Natasha Bedingfield"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שנשמע כשיר אהבה רומנטי, 'A Thousand Miles' מתאר אובססיה עזה - 'אם אוכל ליפול למעלה, הייתי מגיעה אליך'. קרלטון הודתה שהשיר עוסק בכמיהה בלתי נשלטת לאדם שכנראה לא מודע לקיומה, מה שהופך את השיר לקצת מטריד כשמקשיבים היטב.",
+    "songTitle": "A Thousand Miles",
+    "artist": "Vanessa Carlton",
+    "year": 2002,
+    "tags": [
+      "2000s",
+      "pop",
+      "obsession"
+    ]
+  },
+  {
+    "id": "q048",
+    "question_he": "איזה שיר של Cardi B ומגן תי סטאליון עורר מחלוקת בגלל מסר של העצמה מינית נשית?",
+    "category": "translation-barriers",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Bodak Yellow\" - Cardi B"
+      },
+      {
+        "id": "b",
+        "text_he": "\"WAP\" - Cardi B ft. Megan Thee Stallion"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Savage\" - Megan Thee Stallion"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Money\" - Cardi B"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "WAP (ראשי תיבות של ביטוי מיני גלוי) עורר סערה תרבותית ב-2020. פוליטיקאים שמרנים גינו אותו, אך רבים ראו בו פריצת דרך של נשים שדורשות שוויון גם בביטוי מיני. השיר הראה שנשים יכולות להיות גלויות במיניותן כמו גברים בהיפ-הופ.",
+    "songTitle": "WAP",
+    "artist": "Cardi B ft. Megan Thee Stallion",
+    "year": 2020,
+    "tags": [
+      "2020s",
+      "hip-hop",
+      "feminism",
+      "controversial"
+    ]
+  },
+  {
+    "id": "q049",
+    "question_he": "איזה שיר של The Weeknd שנשמע כשיר אהבה עוסק למעשה בהתמכרות לקוקאין?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"The Hills\" - The Weeknd"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Can't Feel My Face\" - The Weeknd"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Earned It\" - The Weeknd"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Often\" - The Weeknd"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות הצליל הפופי המדבק, 'Can't Feel My Face' הוא שיר על התמכרות לקוקאין. 'היא' בשיר היא לא אישה אלא הסם עצמו - 'אני לא מרגיש את הפנים שלי כשאני איתה' מתאר את ההרדמה מהסם. The Weeknd הסביר שכתב שיר אהבה לסמים.",
+    "songTitle": "Can't Feel My Face",
+    "artist": "The Weeknd",
+    "year": 2015,
+    "tags": [
+      "2010s",
+      "pop",
+      "drugs",
+      "metaphor"
+    ]
+  },
+  {
+    "id": "q050",
+    "question_he": "איזה שיר קאנטרי-פופ נשמע כהמנון עליז אך מסתיר מסר על בריחה מאלימות במשפחה?",
+    "category": "tone-disconnect",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Before He Cheats\" - Carrie Underwood"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Goodbye Earl\" - Dixie Chicks"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Independence Day\" - Martina McBride"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Gunpowder & Lead\" - Miranda Lambert"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "למרות שהשם מרמז על חג לאומי, 'Independence Day' של מרטינה מקברייד מספר על אם שמציתה אש בבית כדי לברוח מבעלה האלים. ה'יום עצמאות' הוא היום שבו סוף סוף שיחררה את עצמה מהאלימות. השיר נחשב לאחד השירים החשובים על אלימות במשפחה.",
+    "songTitle": "Independence Day",
+    "artist": "Martina McBride",
+    "year": 1994,
+    "tags": [
+      "90s",
+      "country",
+      "domestic-violence"
+    ]
+  },
+  {
+    "id": "q051",
+    "question_he": "איזה שיר של דון מקלין מספר על מותם של שלושה מוזיקאים בהתרסקות מטוס?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"American Pie\" - Don McLean"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Piano Man\" - Billy Joel"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Free Bird\" - Lynyrd Skynyrd"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Stairway to Heaven\" - Led Zeppelin"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'היום שהמוזיקה מתה' מתייחס ל-3 בפברואר 1959, כשבאדי הולי, ריצ'י ולנס והביג באפר נהרגו בהתרסקות מטוס. השיר בן 8 הדקות עוקב אחרי שינויים בתרבות האמריקאית מ-1959 ועד שנות ה-70, עם רמזים מוצפנים לביטלס, רולינג סטונס ובוב דילן.",
+    "songTitle": "American Pie",
+    "artist": "Don McLean",
+    "year": 1971,
+    "tags": [
+      "70s",
+      "folk-rock",
+      "tragedy",
+      "cultural"
+    ]
+  },
+  {
+    "id": "q052",
+    "question_he": "איזה שיר של Gotye מתאר את הכאב של פרידה שבה שני הצדדים מתנהגים כזרים?",
+    "category": "misunderstood-romance",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Somebody That I Used to Know\" - Gotye"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Use Somebody\" - Kings of Leon"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Chasing Cars\" - Snow Patrol"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Fix You\" - Coldplay"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שנשמע כשיר פרידה רגיל, גוטייה חושף שני צדדים של הסיפור. הגבר מרגיש נפגע, אך כשקימברה מצטרפת בבית השני, היא חושפת שהוא היה מניפולטיבי ושלט בה. השיר מראה איך כל צד בפרידה מרגיש שהוא הקורבן.",
+    "songTitle": "Somebody That I Used to Know",
+    "artist": "Gotye ft. Kimbra",
+    "year": 2011,
+    "tags": [
+      "2010s",
+      "indie-pop",
+      "breakup"
+    ]
+  },
+  {
+    "id": "q053",
+    "question_he": "איזה שיר של Outkast נשמע כמו המנון מסיבות אך עוסק בקשיים של הורות יחידנית?",
+    "category": "tone-disconnect",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Rosa Parks\" - Outkast"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Ms. Jackson\" - Outkast"
+      },
+      {
+        "id": "c",
+        "text_he": "\"So Fresh, So Clean\" - Outkast"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Roses\" - Outkast"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות הפזמון הקליט, 'Ms. Jackson' הוא שיר התנצלות אמיתי שאנדרה 3000 כתב לאמא של אריקה בדו, אמם של ילדיו. השיר עוסק בכישלון זוגיות כשיש ילדים באמצע, ובמערכות היחסים המסובכות עם ההורים של בני הזוג לשעבר.",
+    "songTitle": "Ms. Jackson",
+    "artist": "Outkast",
+    "year": 2000,
+    "tags": [
+      "2000s",
+      "hip-hop",
+      "parenting"
+    ]
+  },
+  {
+    "id": "q054",
+    "question_he": "איזה שיר פופ של שנות ה-80 שנשמע כשיר חגיגי עוסק למעשה ביחסי מין?",
+    "category": "translation-barriers",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Like a Virgin\" - Madonna"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Physical\" - Olivia Newton-John"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Girls Just Want to Have Fun\" - Cyndi Lauper"
+      },
+      {
+        "id": "d",
+        "text_he": "\"I Love Rock 'n' Roll\" - Joan Jett"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "אוליביה ניוטון-ג'ון הקליטה את 'Physical' ככושר גופני, אבל המילים 'בוא ניהיה פיזיים, תן לי לשמוע את הגוף שלך מדבר' היו כל כך מיניות שתחנות רדיו רבות אסרו את השיר. היא הצילה את המוניטין שלה בקליפ שהתמקד בחדר כושר, מה שגרם לכולם לשכוח את המשמעות האמיתית.",
+    "songTitle": "Physical",
+    "artist": "Olivia Newton-John",
+    "year": 1981,
+    "tags": [
+      "80s",
+      "pop",
+      "sexual-content"
+    ]
+  },
+  {
+    "id": "q055",
+    "question_he": "איזה שיר של Nirvana מבקר צעירים שאוהבים את המוזיקה בלי להבין את המסר?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"In Bloom\" - Nirvana"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Heart-Shaped Box\" - Nirvana"
+      },
+      {
+        "id": "c",
+        "text_he": "\"All Apologies\" - Nirvana"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Rape Me\" - Nirvana"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "באירוניה מרה, 'In Bloom' מדבר על מעריצים שנהנים מהמוזיקה של הלהקה אך לא מבינים את המילים - 'הוא אוהב לשיר עם, ולירות ברובה שלו, אבל הוא לא יודע מה זה אומר'. קורט קוביין היה מתוסכל מכך שהיפ הגראנג' משך אנשים שלא הבינו את המסר.",
+    "songTitle": "In Bloom",
+    "artist": "Nirvana",
+    "year": 1991,
+    "tags": [
+      "90s",
+      "grunge",
+      "ironic",
+      "meta"
+    ]
+  },
+  {
+    "id": "q056",
+    "question_he": "איזה שיר של פרינס שנשמע כשיר על מכונית עוסק למעשה ביחסי מין?",
+    "category": "translation-barriers",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Little Red Corvette\" - Prince"
+      },
+      {
+        "id": "b",
+        "text_he": "\"1999\" - Prince"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Kiss\" - Prince"
+      },
+      {
+        "id": "d",
+        "text_he": "\"When Doves Cry\" - Prince"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "ה'קורבט האדומה הקטנה' היא לא באמת מכונית - זו מטאפורה לגוף של אישה. כל השיר מלא ברמזים מיניים מוסווים: 'היא הייתה מהירה מדי', 'מצאתי כרטיסים ישנים בתיבת הכפפות'. פרינס היה אמן המטאפורות המיניות והצליח להעביר את השיר ברדיו למרות תוכנו.",
+    "songTitle": "Little Red Corvette",
+    "artist": "Prince",
+    "year": 1982,
+    "tags": [
+      "80s",
+      "pop",
+      "sexual-metaphor"
+    ]
+  },
+  {
+    "id": "q057",
+    "question_he": "איזה שיר של Nine Inch Nails שג'וני קאש כיסה הפך לשיר על הסתכלות אחורה על חיים של כאב?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Hurt\" - Nine Inch Nails / Johnny Cash"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Closer\" - Nine Inch Nails"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Head Like a Hole\" - Nine Inch Nails"
+      },
+      {
+        "id": "d",
+        "text_he": "\"The Hand That Feeds\" - Nine Inch Nails"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "טרנט רזנור כתב את 'Hurt' על התמכרות לסמים ופגיעה עצמית. כשג'וני קאש הקליט כיסוי ב-2002, הוא הפך אותו לשיר על חיים שלמים של כאב, אובדן והתמכרות. רזנור אמר שהשיר 'כבר לא שלי' אחרי שראה את הקליפ של קאש, שצולם זמן קצר לפני מותו.",
+    "songTitle": "Hurt",
+    "artist": "Nine Inch Nails",
+    "year": 1994,
+    "tags": [
+      "90s",
+      "industrial",
+      "addiction",
+      "cover"
+    ]
+  },
+  {
+    "id": "q058",
+    "question_he": "איזה שיר מפורסם של שנות ה-80 שכולם שרים בשמחה עוסק למעשה בסחר בזנות?",
+    "category": "translation-barriers",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Every Little Thing She Does Is Magic\" - The Police"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Money for Nothing\" - Dire Straits"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Young Girl\" - Gary Puckett"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Don't Stand So Close to Me\" - The Police"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation_he": "השיר מספר על מורה תיכון שתלמידה מתאהבת בו, ועל הלחץ והפיתוי שהוא חווה. סטינג, שהיה מורה לפני שהפך למוזיקאי, כתב מניסיון אישי. המילים מתייחסות ל'לוליטה' של נבוקוב ומתארות מצב של גבולות מטושטשים בין מורה לתלמידה.",
+    "songTitle": "Don't Stand So Close to Me",
+    "artist": "The Police",
+    "year": 1980,
+    "tags": [
+      "80s",
+      "new-wave",
+      "taboo"
+    ]
+  },
+  {
+    "id": "q059",
+    "question_he": "איזה שיר של Pearl Jam עוסק בגילוי מזעזע שהאב שגידל אותך הוא לא האב הביולוגי?",
+    "category": "biographical",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Alive\" - Pearl Jam"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Black\" - Pearl Jam"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Even Flow\" - Pearl Jam"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Release\" - Pearl Jam"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שהקהל שר 'אני עדיין חי!' כצעקת ניצחון, אדי ודר כתב את השיר על הגילוי שהאיש שגידל אותו לא היה אביו הביולוגי, ושאביו האמיתי כבר מת. המילה 'alive' נאמרת לא בשמחה אלא בתדהמה ובכאב - 'אני עדיין חי? למה?'",
+    "songTitle": "Alive",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "tags": [
+      "90s",
+      "grunge",
+      "personal",
+      "identity"
+    ]
+  },
+  {
+    "id": "q060",
+    "question_he": "איזה שיר של Childish Gambino עוסק באלימות נגד שחורים ובתרבות הצריכה באמריקה?",
+    "category": "historical-political",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Redbone\" - Childish Gambino"
+      },
+      {
+        "id": "b",
+        "text_he": "\"This Is America\" - Childish Gambino"
+      },
+      {
+        "id": "c",
+        "text_he": "\"3005\" - Childish Gambino"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Feels Like Summer\" - Childish Gambino"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "הקליפ של 'This Is America' שובר את האשליה של אמריקה השמחה - דונלד גלובר רוקד בשמחה ברגע אחד ויורה באנשים ברגע הבא. השיר מבקר את הדרך שבה אמריקה מתעלמת מאלימות ומגזענות ומתמקדת בבידור ובצריכה. הקליפ צבר מיליארד צפיות.",
+    "songTitle": "This Is America",
+    "artist": "Childish Gambino",
+    "year": 2018,
+    "tags": [
+      "2010s",
+      "hip-hop",
+      "social-commentary",
+      "racism"
+    ]
+  },
+  {
+    "id": "q061",
+    "question_he": "איזה שיר של Elton John משתמש ב'איש הרקטות' כמטאפורה לבדידות של כוכב?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Rocket Man\" - Elton John"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Tiny Dancer\" - Elton John"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Crocodile Rock\" - Elton John"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Your Song\" - Elton John"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "אלטון ג'ון וברני טאופין כתבו את 'Rocket Man' על הבדידות של מוזיקאי מצליח שנמצא כל הזמן בדרכים, רחוק מהמשפחה. האסטרונאוט הוא מטאפורה לזמר שמנותק מהחיים הנורמליים. המילים 'אני לא האיש שחושבים שאני' מתארות את הפער בין הדמות הציבורית לאדם האמיתי.",
+    "songTitle": "Rocket Man",
+    "artist": "Elton John",
+    "year": 1972,
+    "tags": [
+      "70s",
+      "rock",
+      "loneliness",
+      "fame"
+    ]
+  },
+  {
+    "id": "q062",
+    "question_he": "איזה שיר של Lorde שנשמע כהמנון חגיגי הוא למעשה ביקורת אירונית על עושר מוגזם?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Team\" - Lorde"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Royals\" - Lorde"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Green Light\" - Lorde"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Buzzcut Season\" - Lorde"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "לורד כתבה את 'Royals' בגיל 16 בניו זילנד כביקורת על תרבות ההיפ-הופ שמפארת עושר - 'לעולם לא נהיה מלכותיים, זה לא בדם שלנו'. השיר מגיע מנקודת מבט של נערה ממעמד ביניים שרואה דרך השקר של תרבות הצריכה. הוא הפך לאנטיתזה של שירי הפאר.",
+    "songTitle": "Royals",
+    "artist": "Lorde",
+    "year": 2013,
+    "tags": [
+      "2010s",
+      "pop",
+      "social-critique"
+    ]
+  },
+  {
+    "id": "q063",
+    "question_he": "איזה שיר של Eric Clapton שנשמע כשיר אהבה נכתב על אשתו של חברו הטוב ג'ורג' האריסון?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Wonderful Tonight\" - Eric Clapton"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Layla\" - Derek and the Dominos"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Change the World\" - Eric Clapton"
+      },
+      {
+        "id": "d",
+        "text_he": "\"My Father's Eyes\" - Eric Clapton"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "קלפטון היה מאוהב בפאטי בויד, אשתו של חברו הטוב ג'ורג' האריסון מהביטלס. 'Layla' מבטא את הייאוש של אהבה בלתי אפשרית. הצעקה 'ליילה, את מכניסה אותי על הברכיים' היא קריאה אמיתית של כאב. בסוף, פאטי עזבה את האריסון ונישאה לקלפטון.",
+    "songTitle": "Layla",
+    "artist": "Derek and the Dominos",
+    "year": 1970,
+    "tags": [
+      "70s",
+      "rock",
+      "love-triangle"
+    ]
+  },
+  {
+    "id": "q064",
+    "question_he": "איזה שיר של Kendrick Lamar עוסק בלחצים של הצלחה ובתסמונת המתחזה?",
+    "category": "biographical",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"HUMBLE.\" - Kendrick Lamar"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Swimming Pools (Drank)\" - Kendrick Lamar"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Money Trees\" - Kendrick Lamar"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Alright\" - Kendrick Lamar"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "למרות שנשמע כשיר מסיבות על שתייה, 'Swimming Pools' הוא למעשה ביקורת על תרבות האלכוהול בקהילה השחורה. קנדריק מתאר את הלחץ החברתי לשתות ואת ההיסטוריה המשפחתית של אלכוהוליזם. 'בריכות השחייה' הן מטאפורה לכמויות האלכוהול שאנשים שותים.",
+    "songTitle": "Swimming Pools (Drank)",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "tags": [
+      "2010s",
+      "hip-hop",
+      "alcoholism",
+      "social"
+    ]
+  },
+  {
+    "id": "q065",
+    "question_he": "איזה שיר של Fleetwood Mac נכתב בזמן שכל חברי הלהקה עברו פרידות כואבות?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Go Your Own Way\" - Fleetwood Mac"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Dreams\" - Fleetwood Mac"
+      },
+      {
+        "id": "c",
+        "text_he": "\"The Chain\" - Fleetwood Mac"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Landslide\" - Fleetwood Mac"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "לינדזי בקינגהאם כתב את 'Go Your Own Way' ישירות על הפרידה שלו מסטיווי ניקס - בזמן שהם המשיכו לנגן באותה להקה. סטיווי שנאה את המילים ובמיוחד את השורה 'חבילה כמו סחבת' ודרשה שתוסר. כל האלבום 'Rumours' הוא תיעוד של פרידות בתוך הלהקה.",
+    "songTitle": "Go Your Own Way",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "tags": [
+      "70s",
+      "rock",
+      "breakup",
+      "personal"
+    ]
+  },
+  {
+    "id": "q066",
+    "question_he": "איזה שיר של ברוס ספרינגסטין נשמע כהזמנה רומנטית לריקוד אך עוסק בדיכאון ותסכול?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Dancing in the Dark\" - Bruce Springsteen"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Dancing Queen\" - ABBA"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Let's Dance\" - David Bowie"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Dance, Dance\" - Fall Out Boy"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שהשיר נשמע כמו שיר ריקוד אנרגטי, ספרינגסטין כתב אותו מתוך דיכאון עמוק ותסכול יצירתי. המילים 'אני מתעורר ולא מוצא שום דבר שעושה לי טוב' מתארות חוסר תקווה. הפרודוסר ג'ון לנדאו דרש ממנו להיט, מה שרק החמיר את התסכול.",
+    "songTitle": "Dancing in the Dark",
+    "artist": "Bruce Springsteen",
+    "year": 1984,
+    "tags": [
+      "80s",
+      "rock",
+      "depression"
+    ]
+  },
+  {
+    "id": "q067",
+    "question_he": "איזה שיר קלאסי מהשמונות נכתב במקור כחלק מעלילת ערפדים מוזיקלית?",
+    "category": "misunderstood-romance",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Total Eclipse of the Heart\" - Bonnie Tyler"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Thriller\" - Michael Jackson"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Hungry Like the Wolf\" - Duran Duran"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Living Dead Girl\" - Rob Zombie"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "ג'ים סטיינמן כתב את 'Total Eclipse of the Heart' כסצנת אהבה בין ערפדים למחזמר שלא יצא לפועל. הכותרת המקורית הייתה 'Vampires in Love'. השורות הדרמטיות על חושך, סיבוב ונפילה מתארות את העוצמה האפלה של אהבה ערפדית.",
+    "songTitle": "Total Eclipse of the Heart",
+    "artist": "Bonnie Tyler",
+    "year": 1983,
+    "tags": [
+      "80s",
+      "pop",
+      "vampires"
+    ]
+  },
+  {
+    "id": "q068",
+    "question_he": "איזה שיר של מדונה עורר מחלוקת עצומה בגלל ערבוב של דימויים מיניים ודתיים?",
+    "category": "misunderstood-romance",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Like a Prayer\" - Madonna"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Papa Don't Preach\" - Madonna"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Judas\" - Lady Gaga"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Personal Jesus\" - Depeche Mode"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "הקליפ של 'Like a Prayer' הציג צלבים בוערים, נשיקה לקדוש שחור ועירוב פרובוקטיבי של אקסטזה דתית ומינית. הוותיקן גינה את הקליפ, פפסי ביטלה חוזה פרסום של 5 מיליון דולר, אך מדונה סירבה להתנצל.",
+    "songTitle": "Like a Prayer",
+    "artist": "Madonna",
+    "year": 1989,
+    "tags": [
+      "80s",
+      "pop",
+      "controversy"
+    ]
+  },
+  {
+    "id": "q069",
+    "question_he": "איזה שיר מפורסם נכתב על חוויה של צפייה בהופעה של דון מקלין?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Killing Me Softly with His Song\" - Roberta Flack"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Piano Man\" - Billy Joel"
+      },
+      {
+        "id": "c",
+        "text_he": "\"The Sound of Silence\" - Simon & Garfunkel"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Song for Guy\" - Elton John"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "לורי ליברמן ראתה את דון מקלין (של 'American Pie') בהופעה קטנה ובמוט כל כך עד שהרגישה שהוא שר ישירות אליה. היא שיתפה את החוויה עם המלחינים נורמן גימבל וצ'רלס פוקס, שכתבו את השיר שהפך ללהיט עולמי עם רוברטה פלאק ואחר כך הפיוג'יס.",
+    "songTitle": "Killing Me Softly with His Song",
+    "artist": "Roberta Flack",
+    "year": 1973,
+    "tags": [
+      "70s",
+      "soul",
+      "true-story"
+    ]
+  },
+  {
+    "id": "q070",
+    "question_he": "איזה שיר של פרינס עוסק למעשה באפוקליפסה ובסוף העולם?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Purple Rain\" - Prince"
+      },
+      {
+        "id": "b",
+        "text_he": "\"When Doves Cry\" - Prince"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Purple Haze\" - Jimi Hendrix"
+      },
+      {
+        "id": "d",
+        "text_he": "\"November Rain\" - Guns N' Roses"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'הגשם הסגול' הוא מטאפורה לסוף העולם - גשם של דם מעורב בשמיים כחולים. פרינס תיאר את השיר כתפילה אחרונה לפני האפוקליפסה, בקשת סליחה על כל החטאים. ההשראה הגיעה מפחדי המלחמה הקרה ואיום גרעיני בשנות ה-80.",
+    "songTitle": "Purple Rain",
+    "artist": "Prince",
+    "year": 1984,
+    "tags": [
+      "80s",
+      "pop",
+      "apocalypse"
+    ]
+  },
+  {
+    "id": "q071",
+    "question_he": "איזה שיר רוק קלאסי נכתב על עיניה של חברתו של הזמר?",
+    "category": "biographical",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Sweet Child O' Mine\" - Guns N' Roses"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Brown Eyed Girl\" - Van Morrison"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Eyes Without a Face\" - Billy Idol"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Beautiful Day\" - U2"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "אקסל רוז כתב את 'Sweet Child O' Mine' על חברתו ארין אברלי. השורה 'יש לה עיניים של הכחול הכי בהיר' נכתבה כשיר אהבה פשוט. סלאש המציא את הריף המפורסם כתרגיל חימום - הוא לא התכוון שזה יהפוך לשיר אמיתי.",
+    "songTitle": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "tags": [
+      "80s",
+      "rock",
+      "love"
+    ]
+  },
+  {
+    "id": "q073",
+    "question_he": "איזה שיר של קייט בוש עוסק ברצון להחליף מגדר עם בן הזוג כדי להבין אותו?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Running Up That Hill\" - Kate Bush"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Wuthering Heights\" - Kate Bush"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Just a Girl\" - No Doubt"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Man! I Feel Like a Woman!\" - Shania Twain"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "השם המקורי של השיר היה 'A Deal with God' - עסקה עם אלוהים להחליף מקומות בין גבר ואישה כדי שכל אחד יבין את חוויות השני. בוש ביקשה לחקור את הפער בין המינים דרך החלפת גופים. השיר זכה לתחייה עצומה ב-2022 הודות לסדרה 'Stranger Things'.",
+    "songTitle": "Running Up That Hill",
+    "artist": "Kate Bush",
+    "year": 1985,
+    "tags": [
+      "80s",
+      "art-pop",
+      "gender"
+    ]
+  },
+  {
+    "id": "q074",
+    "question_he": "איזה שיר של מייקל ג'קסון הוא למעשה מחווה לסרטי אימה?",
+    "category": "tone-disconnect",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Thriller\" - Michael Jackson"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Disturbia\" - Rihanna"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Monster\" - Kanye West"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Superstition\" - Stevie Wonder"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'Thriller' נוצר כמחווה מכוונת לסרטי אימה מהסוג B. רוד טמפרטון כתב את השיר בהשראת 'An American Werewolf in London'. וינסנט פרייס, אגדת אימה בת 73, הקליט את הנרטיב המפורסם תמורת 20,000 דולר בלבד.",
+    "songTitle": "Thriller",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "tags": [
+      "80s",
+      "pop",
+      "horror"
+    ]
+  },
+  {
+    "id": "q075",
+    "question_he": "איזה שיר מתאר את חייהם העצובים של אנשים רגילים בבר?",
+    "category": "biographical",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Closing Time\" - Semisonic"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Cheers Theme\" - Gary Portnoy"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Piano Man\" - Billy Joel"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Margaritaville\" - Jimmy Buffett"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation_he": "בילי ג'ואל כתב את 'Piano Man' כשעבד כפסנתרן בבר בלוס אנג'לס תחת השם הבדוי 'בילי מרטין'. כל הדמויות בשיר - ג'ון, פול, דייווי ואחרים - היו אנשים אמיתיים שישבו בבר מדי לילה, כל אחד עם חלומות שבורים ובדידות עמוקה.",
+    "songTitle": "Piano Man",
+    "artist": "Billy Joel",
+    "year": 1973,
+    "tags": [
+      "70s",
+      "pop-rock",
+      "storytelling"
+    ]
+  },
+  {
+    "id": "q076",
+    "question_he": "איזה שיר של ג'יימס בלאנט נחשב לרומנטי אך למעשה מתאר מפגש חולף עם זרה ברכבת תחתית?",
+    "category": "misunderstood-romance",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"You're Beautiful\" - James Blunt"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Wonderful Tonight\" - Eric Clapton"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Just the Way You Are\" - Bruno Mars"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Your Song\" - Elton John"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "ג'יימס בלאנט עצמו אמר שהשיר הוא 'מפחיד ולא רומנטי'. הוא מתאר בחור מסומם ברכבת תחתית שרואה אישה יפה עם בן זוגה ונאחז בה באובססיה. בלאנט הודה שהוא שונא את זה שהשיר הפך לבלדה רומנטית.",
+    "songTitle": "You're Beautiful",
+    "artist": "James Blunt",
+    "year": 2004,
+    "tags": [
+      "2000s",
+      "pop",
+      "stalking"
+    ]
+  },
+  {
+    "id": "q077",
+    "question_he": "איזה שיר ילדים אהוב נחשד כמכיל רמזים נסתרים לשימוש בסמים?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Puff the Magic Dragon\" - Peter, Paul and Mary"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Yellow Submarine\" - The Beatles"
+      },
+      {
+        "id": "c",
+        "text_he": "\"The Wheels on the Bus\" - Traditional"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Twinkle Twinkle Little Star\" - Traditional"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "שנים רבות יש ויכוח אם 'Puff' הוא קוד למריחואנה, 'dragon' לעישון, ו'Jackie Paper' לנייר גלגול. פיטר יארו תמיד הכחיש ואמר שהשיר עוסק באובדן תמימות הילדות - הילד ג'קי גדל ועוזב את חברו הדמיוני, הדרקון.",
+    "songTitle": "Puff the Magic Dragon",
+    "artist": "Peter, Paul and Mary",
+    "year": 1963,
+    "tags": [
+      "60s",
+      "folk",
+      "controversy"
+    ]
+  },
+  {
+    "id": "q078",
+    "question_he": "איזה שיר של אד שירן שנשמע כרומנטי עוסק בהיכרות מזדמנת בבר?",
+    "category": "misunderstood-romance",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Shape of You\" - Ed Sheeran"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Perfect\" - Ed Sheeran"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Thinking Out Loud\" - Ed Sheeran"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Photograph\" - Ed Sheeran"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שרבים חושבים ש'Shape of You' הוא שיר אהבה רומנטי, שירן כתב אותו על היכרות מזדמנת בבר שמובילה לקשר פיזי ולא רגשי. השיר נכתב במקור עבור ריהאנה, והמילים 'הגוף שלך' ו'סדינים' רומזים בבירור לקשר גופני.",
+    "songTitle": "Shape of You",
+    "artist": "Ed Sheeran",
+    "year": 2017,
+    "tags": [
+      "2010s",
+      "pop",
+      "casual"
+    ]
+  },
+  {
+    "id": "q079",
+    "question_he": "איזה שיר היפ-הופ קלאסי מתאר את הייאוש וחוסר התקווה בשכונות עוני?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Gangsta's Paradise\" - Coolio"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Straight Outta Compton\" - N.W.A."
+      },
+      {
+        "id": "c",
+        "text_he": "\"Changes\" - 2Pac"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Juicy\" - The Notorious B.I.G."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'Gangsta's Paradise' נכתב מנקודת מבטו של צעיר כלוא במעגל אלימות ועוני ללא מוצא. קוליו דגם את סטיבי וונדר ('Pastime Paradise') כדי ליצור אווירה עגומה. השיר זכה בגראמי והפך לשיר הנמכר ביותר של 1995.",
+    "songTitle": "Gangsta's Paradise",
+    "artist": "Coolio",
+    "year": 1995,
+    "tags": [
+      "90s",
+      "hip-hop",
+      "social-commentary"
+    ]
+  },
+  {
+    "id": "q080",
+    "question_he": "איזה שיר של נירוונה נכתב כלעג למהפכה נעורית מזויפת?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Smells Like Teen Spirit\" - Nirvana"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Teenage Dirtbag\" - Wheatus"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Anarchy in the U.K.\" - Sex Pistols"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Blitzkrieg Bop\" - Ramones"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "קורט קוביין כתב את השיר כלעג על דור שחושב שהוא מהפכני אבל בעצם צורך תרבות פופ ריקה. השם 'Teen Spirit' הוא למעשה שם של דאודורנט לנערות - חברתו של קוביין כתבה על הקיר 'קורט מריח כמו טין ספיריט', והוא לא ידע שזה מוצר.",
+    "songTitle": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "year": 1991,
+    "tags": [
+      "90s",
+      "grunge",
+      "irony"
+    ]
+  },
+  {
+    "id": "q081",
+    "question_he": "איזה שיר של הווייט סטרייפס עוסק בחרדה מפני תהילה ולא במלחמה?",
+    "category": "biographical",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Seven Nation Army\" - The White Stripes"
+      },
+      {
+        "id": "b",
+        "text_he": "\"War Pigs\" - Black Sabbath"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Fortunate Son\" - Creedence Clearwater Revival"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Bulls on Parade\" - Rage Against the Machine"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שהריף המפורסם הפך להמנון ספורט בכל העולם, ג'ק ווייט כתב את השיר על החרדה שלו מפני התהילה הגוברת. 'צבא של שבע מדינות לא יכול לעצור אותי' מבטא את ההרגשה שכולם רוצים משהו ממנו. הילד ג'ק ווייט חשב ש-Salvation Army נקרא 'Seven Nation Army'.",
+    "songTitle": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "year": 2003,
+    "tags": [
+      "2000s",
+      "rock",
+      "anxiety"
+    ]
+  },
+  {
+    "id": "q082",
+    "question_he": "איזה שיר של לד זפלין עוסק בחומרנות מול רוחניות?",
+    "category": "drug-references",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Stairway to Heaven\" - Led Zeppelin"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Comfortably Numb\" - Pink Floyd"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Highway to Hell\" - AC/DC"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Sympathy for the Devil\" - The Rolling Stones"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'Stairway to Heaven' מתאר אישה שמאמינה שהיא יכולה לקנות את דרכה לגן עדן. רוברט פלאנט כתב על המסע מחומרנות ריקה לחיפוש רוחני אמיתי. חנויות מוזיקה רבות אסרו לנגן את הריף בגלל שכל גיטריסט מתחיל ניסה לנגן אותו.",
+    "songTitle": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "tags": [
+      "70s",
+      "rock",
+      "spirituality"
+    ]
+  },
+  {
+    "id": "q083",
+    "question_he": "איזה שיר של דייוויד בואי נכתב על זוג אמיתי שהתנשק ליד חומת ברלין?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Heroes\" - David Bowie"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Berlin\" - Lou Reed"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Winds of Change\" - Scorpions"
+      },
+      {
+        "id": "d",
+        "text_he": "\"99 Red Balloons\" - Nena"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "בואי ראה את המפיק טוני ויסקונטי ואהובתו מתנשקים ליד חומת ברלין, כשחיילים מזרח-גרמניים משקיפים עליהם. הוא כתב את השיר על האומץ של אהבה בצל מלחמה קרה. ב-1987 בואי ניגן את השיר ליד החומה - מאזינים מהצד המזרחי שמעו ובכו.",
+    "songTitle": "Heroes",
+    "artist": "David Bowie",
+    "year": 1977,
+    "tags": [
+      "70s",
+      "art-rock",
+      "berlin-wall"
+    ]
+  },
+  {
+    "id": "q084",
+    "question_he": "איזה שיר של בריטני ספירס עוסק בהתמכרות ליחסים הרסניים?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Toxic\" - Britney Spears"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Womanizer\" - Britney Spears"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Addicted to Love\" - Robert Palmer"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Rehab\" - Amy Winehouse"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'Toxic' משתמש במטאפורה של רעל וסם כדי לתאר את ההתמכרות ליחסים רעילים. המילים 'אני מכורה לך, אתה לא יודע שאתה רעיל?' מערבבות בין תשוקה מינית להתמכרות מסוכנת. הביט ההודי של השיר נוצר מדגימה של שיר בוליוודי משנות ה-40.",
+    "songTitle": "Toxic",
+    "artist": "Britney Spears",
+    "year": 2004,
+    "tags": [
+      "2000s",
+      "pop",
+      "addiction"
+    ]
+  },
+  {
+    "id": "q085",
+    "question_he": "איזה שיר פופ שוודי קליט מסתיר בתוכו קריאת ייאוש אמיתית?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"SOS\" - ABBA"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Waterloo\" - ABBA"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Don't Stop Me Now\" - Queen"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Take On Me\" - a-ha"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות המלודיה הקליטה והפופית, 'SOS' של ABBA הוא שיר על ייאוש מוחלט. אגנתה פלצקוג שרה על תחושת שבירה פנימית ובקשה נואשת לעזרה. אות המצוקה SOS הפך לשם השיר כי זו ממש קריאה לעזרה מוסווית בעטיפה דיסקו.",
+    "songTitle": "SOS",
+    "artist": "ABBA",
+    "year": 1975,
+    "tags": [
+      "70s",
+      "pop",
+      "desperation"
+    ]
+  },
+  {
+    "id": "q086",
+    "question_he": "איזה שיר של אואזיס עוסק במושיע דמיוני שעוזר להתמודד עם המציאות?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Wonderwall\" - Oasis"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Champagne Supernova\" - Oasis"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Fix You\" - Coldplay"
+      },
+      {
+        "id": "d",
+        "text_he": "\"With or Without You\" - U2"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "רבים חושבים ש'Wonderwall' הוא שיר אהבה פשוט, אך נואל גלאגר אמר שהוא על 'חבר דמיוני שמגיע להציל אותך'. ה'Wonderwall' הוא מנגנון הגנה - אדם שלא בהכרח קיים אלא מייצג תקווה. השיר הוא אחד המנוגנים ביותר בגיטרה על ידי מתחילים.",
+    "songTitle": "Wonderwall",
+    "artist": "Oasis",
+    "year": 1995,
+    "tags": [
+      "90s",
+      "britpop",
+      "imaginary"
+    ]
+  },
+  {
+    "id": "q087",
+    "question_he": "איזה שיר של בוב מארלי עוסק בזיכרונות מהגטו ולא במסר פמיניסטי?",
+    "category": "translation-barriers",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"No Woman, No Cry\" - Bob Marley"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Redemption Song\" - Bob Marley"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Buffalo Soldier\" - Bob Marley"
+      },
+      {
+        "id": "d",
+        "text_he": "\"One Love\" - Bob Marley"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "רבים חושבים שהכותרת אומרת 'אין אישה, אין בכי' (בלי נשים חיים קלים). אבל המשמעות האמיתית היא 'אישה, אל תבכי' - מארלי מנחם אישה ומזכיר זיכרונות מהגטו של טרנצ'טאון בקינגסטון, ג'מייקה, שם גדל בעוני.",
+    "songTitle": "No Woman, No Cry",
+    "artist": "Bob Marley",
+    "year": 1974,
+    "tags": [
+      "70s",
+      "reggae",
+      "ghetto"
+    ]
+  },
+  {
+    "id": "q088",
+    "question_he": "איזה שיר של קניה ווסט מציג ביקורת על דינמיקה גזעית ביחסים ולא רק על נשים חומדניות?",
+    "category": "historical-political",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Gold Digger\" - Kanye West"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Golddigger\" - Kanye West"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Money, Money, Money\" - ABBA"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Bills, Bills, Bills\" - Destiny's Child"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "מעבר ללכאורה שיר על נשים שרודפות אחרי כסף, קניה מספר סיפור של אישה שחורה שתמכה בגבר כשלא היה לו כלום, ואז הוא עזב אותה כשהתעשר. הפזמון עם ריי צ'ארלס מוסיף שכבה של ביקורת על אופן השימוש בתרבות שחורה.",
+    "songTitle": "Gold Digger",
+    "artist": "Kanye West",
+    "year": 2005,
+    "tags": [
+      "2000s",
+      "hip-hop",
+      "social-commentary"
+    ]
+  },
+  {
+    "id": "q089",
+    "question_he": "איזה שיר של גרין דיי נכתב על הפרעת פאניקה של הזמר?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Basket Case\" - Green Day"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Longview\" - Green Day"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Boulevard of Broken Dreams\" - Green Day"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Paranoid\" - Black Sabbath"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "בילי ג'ו ארמסטרונג כתב את 'Basket Case' על התקפות הפאניקה שלו לפני שאובחן. המילים 'האם אני פשוט פרנואיד או שאני מסומם?' מתארות את הבלבול של מישהו שלא מבין מה קורה לו. השיר עזר לרבים לזהות את עצמם ולפנות לעזרה.",
+    "songTitle": "Basket Case",
+    "artist": "Green Day",
+    "year": 1994,
+    "tags": [
+      "90s",
+      "punk",
+      "mental-health"
+    ]
+  },
+  {
+    "id": "q090",
+    "question_he": "איזה שיר של רדיוהד מתאר ניכור חברתי וחרדה מפני אנשים?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Paranoid Android\" - Radiohead"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Karma Police\" - Radiohead"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Exit Music (For a Film)\" - Radiohead"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Fake Plastic Trees\" - Radiohead"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "תום יורק כתב את 'Paranoid Android' אחרי לילה מטריד בבר בלוס אנג'לס שבו ראה אנשים מסוממים ואלימים. השם שאול מהרובוט הפרנואיד מ'מדריך הטרמפיסט לגלקסיה'. השיר בן 6 הדקות מתאר את ההזויות והאימה של חברה שאיבדה אנושיות.",
+    "songTitle": "Paranoid Android",
+    "artist": "Radiohead",
+    "year": 1997,
+    "tags": [
+      "90s",
+      "alternative",
+      "alienation"
+    ]
+  },
+  {
+    "id": "q091",
+    "question_he": "איזה שיר של פרינס עוסק בחגיגות לפני אפוקליפסה גרעינית?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"1999\" - Prince"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Party Rock Anthem\" - LMFAO"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Celebration\" - Kool & the Gang"
+      },
+      {
+        "id": "d",
+        "text_he": "\"It's the End of the World as We Know It\" - R.E.M."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות שמרגיש כמו שיר מסיבה, '1999' נכתב בפחד אמיתי מאפוקליפסה גרעינית. פרינס תיאר את החלום שלו על פצצות שנופלות מהשמיים ואמר 'אם העולם עומד להסתיים, אני רוצה לחגוג'. המילים 'מלחמה גרעינית' מופיעות בפסוק הראשון.",
+    "songTitle": "1999",
+    "artist": "Prince",
+    "year": 1982,
+    "tags": [
+      "80s",
+      "pop-funk",
+      "nuclear"
+    ]
+  },
+  {
+    "id": "q092",
+    "question_he": "איזה שיר של MGMT שנשמע עליז הוא למעשה ביקורת אירונית על הורות?",
+    "category": "tone-disconnect",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Kids\" - MGMT"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Electric Feel\" - MGMT"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Young Folks\" - Peter Bjorn and John"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Kids\" - OneRepublic"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות הסינת'ים העליזים, 'Kids' של MGMT הוא שיר אירוני על האימה של הורות ואובדן החופש. המילים 'השליטה' ו'הניהול' של ילדים מוצגים כמשימה בלתי אפשרית. הלהקה הופתעה שהשיר הפך ללהיט פופ, כי הם כתבו אותו כסטירה.",
+    "songTitle": "Kids",
+    "artist": "MGMT",
+    "year": 2007,
+    "tags": [
+      "2000s",
+      "indie-pop",
+      "irony"
+    ]
+  },
+  {
+    "id": "q093",
+    "question_he": "איזה שיר של בון איבר עוסק ביחסים גוססים ולא באהבה רכה?",
+    "category": "misunderstood-romance",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Skinny Love\" - Bon Iver"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Holocene\" - Bon Iver"
+      },
+      {
+        "id": "c",
+        "text_he": "\"The Night We Met\" - Lord Huron"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Youth\" - Daughter"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'Skinny Love' (אהבה רזה) מתאר יחסים שמחזיקים בקושי - 'רזים' מדי כדי לשרוד. ג'סטין ורנון כתב את השיר בבקתה מבודדת בוויסקונסין אחרי פרידה כואבת. המילים 'בוא, לקרוע את הסדינים ולהתחיל מחדש' מביעות ייאוש, לא תקווה.",
+    "songTitle": "Skinny Love",
+    "artist": "Bon Iver",
+    "year": 2007,
+    "tags": [
+      "2000s",
+      "indie-folk",
+      "heartbreak"
+    ]
+  },
+  {
+    "id": "q096",
+    "question_he": "איזה שיר של ריהאנה מתאר מציאת אהבה בנסיבות הרסניות?",
+    "category": "tone-disconnect",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"We Found Love\" - Rihanna"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Umbrella\" - Rihanna"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Stay\" - Rihanna"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Diamonds\" - Rihanna"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "למרות הביט האופורי, 'We Found Love' מתאר אהבה שנמצאה 'במקום חסר תקווה'. הקליפ מציג זוג שנסחף להתמכרות לסמים ויחסים אלימים. קלווין האריס כתב את השיר בעשר דקות, והקליפ צולם בצפון אירלנד עם סצנות קשות של התדרדרות.",
+    "songTitle": "We Found Love",
+    "artist": "Rihanna",
+    "year": 2011,
+    "tags": [
+      "2010s",
+      "dance-pop",
+      "destructive-love"
+    ]
+  },
+  {
+    "id": "q097",
+    "question_he": "איזה שיר של לאנה דל ריי עוסק בהסכם התאבדות משותף?",
+    "category": "drug-references",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Summertime Sadness\" - Lana Del Rey"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Video Games\" - Lana Del Rey"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Young and Beautiful\" - Lana Del Rey"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Blue Jeans\" - Lana Del Rey"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "מאחורי המלודיה הנוסטלגית, 'Summertime Sadness' מתאר שתי נשים שמתכננות לסיים את חייהן יחד. המילים 'קופצת מגג הגשר' ו'לך אליי בייבי' מרמזות על הסכם נוראי. הרמיקס של Cedric Gervais הפך את השיר ללהיט מחול, מה שטשטש את המסר האפל.",
+    "songTitle": "Summertime Sadness",
+    "artist": "Lana Del Rey",
+    "year": 2012,
+    "tags": [
+      "2010s",
+      "indie-pop",
+      "dark"
+    ]
+  },
+  {
+    "id": "q098",
+    "question_he": "איזה שיר של טום פטי מפורש על ידי רבים כשיר על התאבדות למרות שנשמע תמים?",
+    "category": "tone-disconnect",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"American Girl\" - Tom Petty"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Free Fallin'\" - Tom Petty"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Mary Jane's Last Dance\" - Tom Petty"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Learning to Fly\" - Tom Petty"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "שמועה עיקשת טוענת ש'American Girl' עוסק בסטודנטית מאוניברסיטת פלורידה שקפצה ממרפסת. פטי תמיד הכחיש, אך המילים 'היא עמדה לבד על מרפסתה' ו'היא יכלה לשמוע את הכביש המהיר' מתיישבות עם הסיפור. הוא טען שהשיר רק על חלום אמריקאי.",
+    "songTitle": "American Girl",
+    "artist": "Tom Petty",
+    "year": 1976,
+    "tags": [
+      "70s",
+      "rock",
+      "urban-legend"
+    ]
+  },
+  {
+    "id": "q099",
+    "question_he": "איזה שיר של R.E.M. שנשמע כמו שיר חגיגי הוא למעשה על אובדן אמונה באנושות?",
+    "category": "translation-barriers",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Losing My Religion\" - R.E.M."
+      },
+      {
+        "id": "b",
+        "text_he": "\"Everybody Hurts\" - R.E.M."
+      },
+      {
+        "id": "c",
+        "text_he": "\"Shiny Happy People\" - R.E.M."
+      },
+      {
+        "id": "d",
+        "text_he": "\"Man on the Moon\" - R.E.M."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "רבים חושבים ש'Losing My Religion' עוסק באובדן אמונה דתית, אך בדרום ארצות הברית הביטוי 'losing my religion' פירושו 'לאבד את הסבלנות' או 'להגיע לקצה'. מייקל סטייפ כתב על אובססיה חד-צדדית לאדם שלא שם לב אליו - לא על אלוהים.",
+    "songTitle": "Losing My Religion",
+    "artist": "R.E.M.",
+    "year": 1991,
+    "tags": [
+      "90s",
+      "alternative",
+      "idiom"
+    ]
+  },
+  {
+    "id": "q100",
+    "question_he": "איזה שיר של רדיוהד עוסק בכניעה לתרבות תאגידית ולא במשטרה?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Karma Police\" - Radiohead"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Police and Thieves\" - Junior Murvin"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Killing in the Name\" - Rage Against the Machine"
+      },
+      {
+        "id": "d",
+        "text_he": "\"F**k tha Police\" - N.W.A."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "'משטרת הקארמה' אינם שוטרים אמיתיים אלא ביטוי שהלהקה השתמשה בו בחדר ההקלטות. כשמישהו התנהג רע, הם אמרו 'משטרת הקארמה תתפוס אותך'. השיר מבקר קונפורמיות תאגידית - 'זה מה שמקבלים כשמתעסקים איתנו'.",
+    "songTitle": "Karma Police",
+    "artist": "Radiohead",
+    "year": 1997,
+    "tags": [
+      "90s",
+      "alternative",
+      "conformity"
+    ]
+  },
+  {
+    "id": "q101",
+    "question_he": "איזה שיר של היא היא היאז עוסק בפחד מנטישה של בן זוג שיוצא לדרך?",
+    "category": "biographical",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Maps\" - Yeah Yeah Yeahs"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Don't Leave Me\" - Blink-182"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Stay\" - Lisa Loeb"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Come Back\" - Pearl Jam"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "קארן או אמרה ש-'Maps' הוא ראשי תיבות של 'My Angus Please Stay' - בקשה מחברה אנגוס אנדרו (ממפולנט סימפוני) לא לעזוב. הדמעות האמיתיות שלה בקליפ הן אמיתיות - אנגוס איחר לצילומים והיא חשבה שהוא לא יגיע כלל.",
+    "songTitle": "Maps",
+    "artist": "Yeah Yeah Yeahs",
+    "year": 2003,
+    "tags": [
+      "2000s",
+      "indie-rock",
+      "abandonment"
+    ]
+  },
+  {
+    "id": "q102",
+    "question_he": "איזה שיר קלאסי של סיימון וגרפונקל נכתב בחדר אמבטיה חשוך?",
+    "category": "translation-barriers",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"The Sound of Silence\" - Simon & Garfunkel"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Bridge Over Troubled Water\" - Simon & Garfunkel"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Scarborough Fair\" - Simon & Garfunkel"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Mrs. Robinson\" - Simon & Garfunkel"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "פול סיימון כתב את 'The Sound of Silence' בגיל 21, בחושך של חדר האמבטיה שלו כדי להתרכז. השיר, שנולד מתוך בדידות ואי-יכולת לתקשר, הוקלט בהתחלה כבלדה אקוסטית שנכשלה. המפיק טום ווילסון הוסיף מאוחר יותר גיטרות חשמליות ללא ידיעתם.",
+    "songTitle": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "year": 1964,
+    "tags": [
+      "60s",
+      "folk-rock",
+      "isolation"
+    ]
+  },
+  {
+    "id": "q104",
+    "question_he": "איזה שיר רוק קלאסי של דה הו מספר על מתבגר שעובד בקרנבל ומתנתק ממשפחתו?",
+    "category": "translation-barriers",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Baba O'Riley\" - The Who"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Pinball Wizard\" - The Who"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Born to Run\" - Bruce Springsteen"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Rebel Rebel\" - David Bowie"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "השיר שרבים מכירים בטעות כ-'Teenage Wasteland' נקרא על שם שני אנשים: מלחין הודי בבא מהר ג'י וטרי ריילי, חלוץ מוזיקה מינימליסטית. טאונסנד כתב על נוער בריטי שבורח לחיי קרנבל, 'ארץ שממה של מתבגרים' שמבטאת ניכור דורי.",
+    "songTitle": "Baba O'Riley",
+    "artist": "The Who",
+    "year": 1971,
+    "tags": [
+      "70s",
+      "rock",
+      "youth"
+    ]
+  },
+  {
+    "id": "q105",
+    "question_he": "איזה שיר של פיטר גבריאל נכתב על אלימות משטרתית ממשית בדרום אפריקה?",
+    "category": "historical-political",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"Biko\" - Peter Gabriel"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Free Nelson Mandela\" - The Special AKA"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Gimme Shelter\" - The Rolling Stones"
+      },
+      {
+        "id": "d",
+        "text_he": "\"War\" - Bob Marley"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "סטיב ביקו היה פעיל אנטי-אפרטהייד שנרצח על ידי המשטרה הדרום אפריקאית ב-1977. פיטר גבריאל כתב את השיר אחרי שקרא עיתון על מותו. 'אתה יכול לפוצץ את הנר, אבל אתה לא יכול לפוצץ את האש' הפך למשפט ההתנגדות המפורסם.",
+    "songTitle": "Biko",
+    "artist": "Peter Gabriel",
+    "year": 1980,
+    "tags": [
+      "80s",
+      "art-rock",
+      "apartheid"
+    ]
+  },
+  {
+    "id": "q107",
+    "question_he": "איזה שיר אלקטרוני מפורסם שנשמע כשיר אהבה עוסק בהתמכרות לסמים?",
+    "category": "drug-references",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"I Feel Love\" - Donna Summer"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Blue Monday\" - New Order"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Personal Jesus\" - Depeche Mode"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Just Like Heaven\" - The Cure"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation_he": "'Blue Monday' של ניו אורדר נכתב בצל מותו של איאן קרטיס מג'וי דיוויז'ן. 'איך זה מרגיש כשאתה מתייחס אליי ככה?' ו'אמור לי עכשיו, איך אני צריך להרגיש?' מתארים את הניסיון להתמודד דרך סמים ומסיבות. הסינת'ים הקרירים מסווים כאב עמוק.",
+    "songTitle": "Blue Monday",
+    "artist": "New Order",
+    "year": 1983,
+    "tags": [
+      "80s",
+      "electronic",
+      "grief"
+    ]
+  },
+  {
+    "id": "q108",
+    "question_he": "איזה שיר מפורסם בעברית ובאנגלית מבוסס על שיר תנ\"כי אך המשמעות המקורית עוסקת בכמיהה רוחנית?",
+    "category": "translation-barriers",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": "a",
+        "text_he": "\"By the Rivers of Babylon\" - Boney M"
+      },
+      {
+        "id": "b",
+        "text_he": "\"Turn! Turn! Turn!\" - The Byrds"
+      },
+      {
+        "id": "c",
+        "text_he": "\"Hallelujah\" - Leonard Cohen"
+      },
+      {
+        "id": "d",
+        "text_he": "\"Spirit in the Sky\" - Norman Greenbaum"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation_he": "השיר מבוסס על תהילים קל\"ז - 'על נהרות בבל שם ישבנו גם בכינו'. בוני אם הפכו את הקינה העתיקה של גולי בבל על חורבן בית המקדש לדיסקו קליט. רוב המאזינים לא מבינים שהם רוקדים על שיר גלות, חורבן ובכי.",
+    "songTitle": "By the Rivers of Babylon",
+    "artist": "Boney M",
+    "year": 1978,
+    "tags": [
+      "70s",
+      "disco",
+      "biblical"
+    ]
+  }
+]
