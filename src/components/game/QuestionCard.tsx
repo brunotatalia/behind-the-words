@@ -9,9 +9,10 @@ import { getCategoryInfo } from '@/data/categories';
 interface QuestionCardProps {
   question: Question;
   questionNumber: number;
+  isPlaying?: boolean;
 }
 
-export function QuestionCard({ question, questionNumber }: QuestionCardProps) {
+export function QuestionCard({ question, questionNumber, isPlaying }: QuestionCardProps) {
   const category = getCategoryInfo(question.category);
 
   return (
@@ -44,6 +45,8 @@ export function QuestionCard({ question, questionNumber }: QuestionCardProps) {
         songTitle={question.songTitle}
         artist={question.artist}
         spotifyId={question.spotifyId}
+        previewUrl={question.previewUrl}
+        isPlaying={isPlaying}
       />
     </motion.div>
   );

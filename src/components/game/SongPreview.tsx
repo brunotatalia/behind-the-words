@@ -1,14 +1,17 @@
 'use client';
 
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 interface SongPreviewProps {
   songTitle: string;
   artist: string;
   spotifyId?: string;
+  previewUrl?: string;
+  isPlaying?: boolean;
 }
 
-export function SongPreview({ songTitle, artist, spotifyId }: SongPreviewProps) {
+export function SongPreview({ songTitle, artist, spotifyId, previewUrl, isPlaying }: SongPreviewProps) {
   const [showPlayer, setShowPlayer] = useState(false);
 
   // YouTube search fallback
@@ -32,7 +35,35 @@ export function SongPreview({ songTitle, artist, spotifyId }: SongPreviewProps) 
   }
 
   return (
-    <div className="flex justify-center gap-2">
+    <div className="flex justify-center gap-2 items-center">
+      {/* Now Playing indicator when previewUrl is active */}
+      {previewUrl && isPlaying && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-accent/15 text-accent text-xs font-medium"
+        >
+          <div className="flex items-end gap-0.5 h-3">
+            <motion.div
+              className="w-0.5 bg-accent rounded-full"
+              animate={{ height: ['4px', '12px', '6px', '10px', '4px'] }}
+              transition={{ duration: 1.2, repeat: Infinity, ease: 'easeInOut' }}
+            />
+            <motion.div
+              className="w-0.5 bg-accent rounded-full"
+              animate={{ height: ['10px', '4px', '12px', '6px', '10px'] }}
+              transition={{ duration: 1.2, repeat: Infinity, ease: 'easeInOut', delay: 0.2 }}
+            />
+            <motion.div
+              className="w-0.5 bg-accent rounded-full"
+              animate={{ height: ['6px', '10px', '4px', '12px', '6px'] }}
+              transition={{ duration: 1.2, repeat: Infinity, ease: 'easeInOut', delay: 0.4 }}
+            />
+          </div>
+          מתנגן ברקע
+        </motion.div>
+      )}
+
       {spotifyId ? (
         <button
           onClick={() => setShowPlayer(true)}

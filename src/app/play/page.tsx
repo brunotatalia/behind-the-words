@@ -12,6 +12,7 @@ import { AnswerOption } from '@/components/game/AnswerOption';
 import { AnswerFeedback } from '@/components/game/AnswerFeedback';
 import { DidYouKnow } from '@/components/game/DidYouKnow';
 import { useSound } from '@/hooks/useSound';
+import { useSongPreview } from '@/hooks/useSongPreview';
 
 export default function PlayPage() {
   const router = useRouter();
@@ -34,9 +35,17 @@ export default function PlayPage() {
 
   const playSound = useSound();
   const isLearnMode = mode === 'learn';
+  const isPlaying = phase === 'playing';
   const isDaily = mode === 'daily';
   const currentQuestion = questions[currentIndex];
   const timeLimit = currentQuestion ? TIME_LIMITS[currentQuestion.difficulty] : 15;
+
+  // Background song preview - plays during question, fades out on answer
+  useSongPreview({
+    url: currentQuestion?.previewUrl,
+    play: isPlaying,
+    volume: 0.25,
+  });
 
   const handleExpire = useCallback(() => {
     if (phase === 'playing' && !isLearnMode) {
@@ -152,6 +161,7 @@ export default function PlayPage() {
             key={currentQuestion.id}
             question={currentQuestion}
             questionNumber={currentIndex + 1}
+            isPlaying={isPlaying && !!currentQuestion.previewUrl}
           />
         </AnimatePresence>
 

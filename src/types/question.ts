@@ -27,4 +27,5 @@ export interface Question {
   tags?: string[];
   lyricQuote?: string;
   spotifyId?: string;
+  previewUrl?: string;
 }
