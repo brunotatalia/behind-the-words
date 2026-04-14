@@ -41,8 +41,8 @@ export default function PlayPage() {
   const timeLimit = currentQuestion ? TIME_LIMITS[currentQuestion.difficulty] : 15;
 
   // Background song preview - plays during question, fades out on answer
-  useSongPreview({
-    url: currentQuestion?.previewUrl,
+  const { isAudioPlaying } = useSongPreview({
+    deezerId: currentQuestion?.deezerId,
     play: isPlaying,
     volume: 0.25,
   });
@@ -161,7 +161,7 @@ export default function PlayPage() {
             key={currentQuestion.id}
             question={currentQuestion}
             questionNumber={currentIndex + 1}
-            isPlaying={isPlaying && !!currentQuestion.previewUrl}
+            isPlaying={isAudioPlaying}
           />
         </AnimatePresence>
 

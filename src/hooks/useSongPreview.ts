@@ -1,17 +1,37 @@
 'use client';
 
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback, useState } from 'react';
 import { useSettingsStore } from '@/store/settingsStore';
 
 interface UseSongPreviewOptions {
-  url: string | undefined;
-  play: boolean;          // should be playing right now?
-  volume?: number;        // 0-1, default 0.3 (background level)
-  fadeDuration?: number;  // ms, default 800
+  deezerId: number | undefined;
+  play: boolean;
+  volume?: number;
+  fadeDuration?: number;
+}
+
+// Cache fetched preview URLs for the session
+const previewCache = new Map<number, string | null>();
+
+async function fetchPreviewUrl(deezerId: number): Promise<string | null> {
+  if (previewCache.has(deezerId)) {
+    return previewCache.get(deezerId) ?? null;
+  }
+
+  try {
+    const res = await fetch(`https://api.deezer.com/track/${deezerId}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const url = data.preview || null;
+    previewCache.set(deezerId, url);
+    return url;
+  } catch {
+    return null;
+  }
 }
 
 export function useSongPreview({
-  url,
+  deezerId,
   play,
   volume = 0.3,
   fadeDuration = 800,
@@ -19,6 +39,8 @@ export function useSongPreview({
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const fadeIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const soundEnabled = useSettingsStore((s) => s.soundEnabled);
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
 
   const clearFade = useCallback(() => {
     if (fadeIntervalRef.current) {
@@ -46,6 +68,7 @@ export function useSongPreview({
       if (audio.volume <= 0.01) {
         audio.pause();
         audio.volume = 0;
+        setIsAudioPlaying(false);
         clearFade();
       }
     }, stepTime);
@@ -57,7 +80,9 @@ export function useSongPreview({
 
     clearFade();
     audio.volume = 0;
-    audio.play().catch(() => {/* autoplay blocked */});
+    audio.play().then(() => {
+      setIsAudioPlaying(true);
+    }).catch(() => {/* autoplay blocked */});
 
     const steps = 20;
     const stepTime = fadeDuration / steps;
@@ -77,19 +102,34 @@ export function useSongPreview({
     }, stepTime);
   }, [fadeDuration, clearFade]);
 
+  // Fetch preview URL when deezerId changes
+  useEffect(() => {
+    setPreviewUrl(null);
+    setIsAudioPlaying(false);
+
+    if (!deezerId) return;
+
+    let cancelled = false;
+    fetchPreviewUrl(deezerId).then((url) => {
+      if (!cancelled) setPreviewUrl(url);
+    });
+
+    return () => { cancelled = true; };
+  }, [deezerId]);
+
   // Create/update audio element when URL changes
   useEffect(() => {
-    // Clean up previous
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.src = '';
       audioRef.current = null;
     }
     clearFade();
+    setIsAudioPlaying(false);
 
-    if (!url) return;
+    if (!previewUrl) return;
 
-    const audio = new Audio(url);
+    const audio = new Audio(previewUrl);
     audio.loop = true;
     audio.volume = 0;
     audio.preload = 'auto';
@@ -101,18 +141,18 @@ export function useSongPreview({
       audioRef.current = null;
       clearFade();
     };
-  }, [url, clearFade]);
+  }, [previewUrl, clearFade]);
 
   // Handle play/pause with fade
   useEffect(() => {
-    if (!audioRef.current || !url) return;
+    if (!audioRef.current || !previewUrl) return;
 
     if (play && soundEnabled) {
       fadeIn(volume);
     } else {
       fadeOut();
     }
-  }, [play, soundEnabled, url, volume, fadeIn, fadeOut]);
+  }, [play, soundEnabled, previewUrl, volume, fadeIn, fadeOut]);
 
   // If sound is toggled off mid-play, fade out
   useEffect(() => {
@@ -120,4 +160,6 @@ export function useSongPreview({
       fadeOut();
     }
   }, [soundEnabled, fadeOut]);
+
+  return { isAudioPlaying };
 }

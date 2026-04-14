@@ -28,4 +28,5 @@ export interface Question {
   lyricQuote?: string;
   spotifyId?: string;
   previewUrl?: string;
+  deezerId?: number;
 }

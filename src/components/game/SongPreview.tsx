@@ -7,11 +7,11 @@ interface SongPreviewProps {
   songTitle: string;
   artist: string;
   spotifyId?: string;
-  previewUrl?: string;
+  deezerId?: number;
   isPlaying?: boolean;
 }
 
-export function SongPreview({ songTitle, artist, spotifyId, previewUrl, isPlaying }: SongPreviewProps) {
+export function SongPreview({ songTitle, artist, spotifyId, deezerId, isPlaying }: SongPreviewProps) {
   const [showPlayer, setShowPlayer] = useState(false);
 
   // YouTube search fallback
@@ -36,8 +36,8 @@ export function SongPreview({ songTitle, artist, spotifyId, previewUrl, isPlayin
 
   return (
     <div className="flex justify-center gap-2 items-center">
-      {/* Now Playing indicator when previewUrl is active */}
-      {previewUrl && isPlaying && (
+      {/* Now Playing indicator when audio is actually playing */}
+      {isPlaying && (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -74,7 +74,7 @@ export function SongPreview({ songTitle, artist, spotifyId, previewUrl, isPlayin
           </svg>
           השמע קטע
         </button>
-      ) : (
+      ) : !deezerId ? (
         <a
           href={ytUrl}
           target="_blank"
@@ -86,7 +86,7 @@ export function SongPreview({ songTitle, artist, spotifyId, previewUrl, isPlayin
           </svg>
           שמע ביוטיוב
         </a>
-      )}
+      ) : null}
     </div>
   );
 }
