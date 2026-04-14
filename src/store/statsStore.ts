@@ -25,10 +25,12 @@ interface StatsState {
   favoriteQuestions: string[];
   unlockedAchievements: string[];
   recentQuestionIds: string[];
+  likedSongs: { questionId: string; songTitle: string; artist: string; spotifyId?: string; deezerId?: number }[];
   // Actions
   recordGame: (record: Omit<GameRecord, 'date'>) => void;
   trackQuestions: (questionIds: string[]) => void;
   toggleFavorite: (questionId: string) => void;
+  toggleLikedSong: (song: { questionId: string; songTitle: string; artist: string; spotifyId?: string; deezerId?: number }) => void;
   addAchievements: (ids: string[]) => void;
 }
 
@@ -44,6 +46,7 @@ export const useStatsStore = create<StatsState>()(
       favoriteQuestions: [],
       unlockedAchievements: [],
       recentQuestionIds: [],
+      likedSongs: [],
 
       recordGame: (record) => {
         const state = get();
@@ -63,9 +66,9 @@ export const useStatsStore = create<StatsState>()(
 
       trackQuestions: (questionIds) => {
         const state = get();
-        // Keep a rolling window of last 150 question IDs to avoid repeats
-        // but not exhaust the pool (303 total questions)
-        const updated = [...questionIds, ...state.recentQuestionIds].slice(0, 150);
+        // Keep a rolling window of last 120 question IDs to avoid repeats
+        // but not exhaust the pool (247 total questions)
+        const updated = [...questionIds, ...state.recentQuestionIds].slice(0, 120);
         set({ recentQuestionIds: updated });
       },
 
@@ -76,6 +79,16 @@ export const useStatsStore = create<StatsState>()(
           favoriteQuestions: exists
             ? state.favoriteQuestions.filter((id) => id !== questionId)
             : [...state.favoriteQuestions, questionId],
+        });
+      },
+
+      toggleLikedSong: (song) => {
+        const state = get();
+        const exists = state.likedSongs.some(s => s.questionId === song.questionId);
+        set({
+          likedSongs: exists
+            ? state.likedSongs.filter(s => s.questionId !== song.questionId)
+            : [...state.likedSongs, song],
         });
       },
 

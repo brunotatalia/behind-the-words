@@ -17,6 +17,8 @@ import { useSongPreview, prefetchPreview } from '@/hooks/useSongPreview';
 export default function PlayPage() {
   const router = useRouter();
   const [showQuitConfirm, setShowQuitConfirm] = useState(false);
+  const [showAnswers, setShowAnswers] = useState(false);
+  const [readingPhase, setReadingPhase] = useState(false);
   const {
     phase,
     questions,
@@ -43,6 +45,7 @@ export default function PlayPage() {
   // Background song preview - plays during question, fades out on answer
   const { isAudioPlaying } = useSongPreview({
     deezerId: currentQuestion?.deezerId,
+    itunesPreviewUrl: currentQuestion?.itunesPreviewUrl,
     play: isPlaying,
     volume: 0.25,
   });
@@ -78,12 +81,34 @@ export default function PlayPage() {
     }
   }, [phase, router]);
 
-  // Start timer when entering playing phase (classic mode only)
+  // Calculate reading delay based on question length (3-5 seconds)
+  const getReadingDelay = (question: typeof currentQuestion) => {
+    if (!question) return 3000;
+    const len = question.question_he.length;
+    if (len > 80) return 5000;
+    if (len > 50) return 4000;
+    return 3000;
+  };
+
+  // Reading phase: show question without answers, then reveal and start timer
   useEffect(() => {
     if (phase === 'playing' && currentQuestion && !isLearnMode) {
+      setShowAnswers(false);
+      setReadingPhase(true);
       resetTimer(TIME_LIMITS[currentQuestion.difficulty]);
-      const timeout = setTimeout(() => startTimer(), 50);
+
+      const readDelay = getReadingDelay(currentQuestion);
+      const timeout = setTimeout(() => {
+        setShowAnswers(true);
+        setReadingPhase(false);
+        startTimer();
+      }, readDelay);
+
       return () => clearTimeout(timeout);
+    }
+    if (phase === 'playing' && isLearnMode) {
+      setShowAnswers(true);
+      setReadingPhase(false);
     }
     if (phase === 'answered') {
       stopTimer();
@@ -158,6 +183,7 @@ export default function PlayPage() {
         timeRemaining={isLearnMode ? timeLimit : timeRemaining}
         timeLimit={timeLimit}
         isLearnMode={isLearnMode}
+        isReadingPhase={readingPhase}
         onQuit={() => setShowQuitConfirm(true)}
       />
 
@@ -171,19 +197,42 @@ export default function PlayPage() {
           />
         </AnimatePresence>
 
-        <div className="space-y-3">
-          {currentQuestion.options.map((option, index) => (
-            <AnswerOption
-              key={option.id}
-              id={option.id}
-              text={option.text_he}
-              index={index}
-              state={getAnswerState(option.id)}
-              onSelect={() => handleSelectAnswer(option.id)}
-              disabled={phase !== 'playing'}
-            />
-          ))}
-        </div>
+        <AnimatePresence>
+          {showAnswers && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3 }}
+              className="space-y-3"
+            >
+              {currentQuestion.options.map((option, index) => (
+                <AnswerOption
+                  key={option.id}
+                  id={option.id}
+                  text={option.text_he}
+                  index={index}
+                  state={getAnswerState(option.id)}
+                  onSelect={() => handleSelectAnswer(option.id)}
+                  disabled={phase !== 'playing' || !showAnswers}
+                />
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Reading phase indicator */}
+        {readingPhase && !isLearnMode && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="text-center py-4"
+          >
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium">
+              <span className="animate-pulse">🎵</span>
+              <span>הקשיבו לשיר וקראו את השאלה...</span>
+            </div>
+          </motion.div>
+        )}
       </div>
 
       <AnimatePresence>

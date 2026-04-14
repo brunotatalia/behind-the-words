@@ -11,6 +11,7 @@ interface GameHeaderProps {
   timeRemaining: number;
   timeLimit: number;
   isLearnMode?: boolean;
+  isReadingPhase?: boolean;
   onQuit?: () => void;
 }
 
@@ -22,6 +23,7 @@ export function GameHeader({
   timeRemaining,
   timeLimit,
   isLearnMode = false,
+  isReadingPhase = false,
   onQuit,
 }: GameHeaderProps) {
   const { soundEnabled, toggleSound } = useSettingsStore();
@@ -77,6 +79,32 @@ export function GameHeader({
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-tertiary">
           <span className="text-sm">📚</span>
           <span className="text-xs font-medium text-text-secondary">מצב למידה</span>
+        </div>
+      ) : isReadingPhase ? (
+        <div className="relative flex items-center justify-center">
+          <svg width="48" height="48" className="-rotate-90 animate-spin-slow">
+            <circle
+              cx="24"
+              cy="24"
+              r="20"
+              fill="none"
+              stroke="var(--color-surface-tertiary)"
+              strokeWidth="3"
+            />
+            <circle
+              cx="24"
+              cy="24"
+              r="20"
+              fill="none"
+              stroke="var(--color-accent)"
+              strokeWidth="3"
+              strokeLinecap="round"
+              strokeDasharray={circumference}
+              strokeDashoffset={circumference * 0.75}
+              className="transition-all duration-100"
+            />
+          </svg>
+          <span className="absolute text-sm">🎵</span>
         </div>
       ) : (
         <div className="relative flex items-center justify-center">

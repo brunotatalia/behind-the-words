@@ -46,6 +46,7 @@ export function QuestionCard({ question, questionNumber, isPlaying }: QuestionCa
         artist={question.artist}
         spotifyId={question.spotifyId}
         deezerId={question.deezerId}
+        itunesPreviewUrl={question.itunesPreviewUrl}
         isPlaying={isPlaying}
       />
     </motion.div>

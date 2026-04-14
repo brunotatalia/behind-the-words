@@ -18,7 +18,7 @@ export default function HomePage() {
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | null>(null);
   const [mode, setMode] = useState<GameMode>('classic');
   const [showOptions, setShowOptions] = useState(false);
-  const { gamesPlayed, bestScore, bestStreak, totalCorrect, totalQuestions } = useStatsStore();
+  const { gamesPlayed, bestScore, bestStreak, totalCorrect, totalQuestions, likedSongs } = useStatsStore();
   const { soundEnabled, toggleSound } = useSettingsStore();
 
   const handleStart = () => {
@@ -268,6 +268,30 @@ export default function HomePage() {
           </button>
         </motion.div>
 
+        {/* Explore Mode */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.52 }}
+        >
+          <button
+            onClick={() => router.push('/explore')}
+            className="w-full px-4 py-3 rounded-2xl border-2 border-accent/20 bg-accent/5 hover:bg-accent/10 hover:border-accent/40 transition-all duration-200"
+          >
+            <div className="flex items-center justify-center gap-3">
+              <span className="text-xl">🎧</span>
+              <div className="text-start">
+                <div className="font-bold text-accent-light text-sm">
+                  גלה שירים
+                </div>
+                <div className="text-[11px] text-text-muted">
+                  גללו בין עובדות מפתיעות על שירים מפורסמים עם מוזיקה ברקע
+                </div>
+              </div>
+            </div>
+          </button>
+        </motion.div>
+
         {/* Personal Stats */}
         {gamesPlayed > 0 && (
           <motion.div
@@ -297,6 +321,28 @@ export default function HomePage() {
                 <div className="text-[10px] text-text-muted">דיוק</div>
               </div>
             </div>
+          </motion.div>
+        )}
+
+        {/* Liked Songs */}
+        {likedSongs.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.57 }}
+          >
+            <button
+              onClick={() => router.push('/liked')}
+              className="w-full px-4 py-2.5 rounded-xl bg-surface-secondary hover:bg-surface-card transition-colors flex items-center justify-between"
+            >
+              <span className="text-xs text-text-muted">←</span>
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-medium text-text-secondary">
+                  {likedSongs.length} שירים שאהבתי
+                </span>
+                <span>💚</span>
+              </div>
+            </button>
           </motion.div>
         )}
 

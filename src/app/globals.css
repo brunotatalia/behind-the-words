@@ -30,6 +30,7 @@
   --animate-shake: shake 0.5s ease-in-out;
   --animate-float-up: float-up 0.8s ease-out forwards;
   --animate-count-up: count-up 1.5s ease-out;
+  --animate-spin-slow: spin-slow 2s linear infinite;
 }
 
 @keyframes pulse-glow {
@@ -53,6 +54,11 @@
 @keyframes float-up {
   from { transform: translateY(0); opacity: 1; }
   to { transform: translateY(-30px); opacity: 0; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 * {

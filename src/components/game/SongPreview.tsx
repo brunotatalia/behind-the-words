@@ -8,10 +8,11 @@ interface SongPreviewProps {
   artist: string;
   spotifyId?: string;
   deezerId?: number;
+  itunesPreviewUrl?: string;
   isPlaying?: boolean;
 }
 
-export function SongPreview({ songTitle, artist, spotifyId, deezerId, isPlaying }: SongPreviewProps) {
+export function SongPreview({ songTitle, artist, spotifyId, deezerId, itunesPreviewUrl, isPlaying }: SongPreviewProps) {
   const [showPlayer, setShowPlayer] = useState(false);
 
   // YouTube search fallback
@@ -74,7 +75,7 @@ export function SongPreview({ songTitle, artist, spotifyId, deezerId, isPlaying 
           </svg>
           השמע קטע
         </button>
-      ) : !deezerId ? (
+      ) : !deezerId && !itunesPreviewUrl ? (
         <a
           href={ytUrl}
           target="_blank"

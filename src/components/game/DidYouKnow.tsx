@@ -11,8 +11,9 @@ interface DidYouKnowProps {
 }
 
 export function DidYouKnow({ question, onContinue, isLast }: DidYouKnowProps) {
-  const { favoriteQuestions, toggleFavorite } = useStatsStore();
+  const { favoriteQuestions, toggleFavorite, likedSongs, toggleLikedSong } = useStatsStore();
   const isFav = favoriteQuestions.includes(question.id);
+  const isSongLiked = likedSongs.some(s => s.questionId === question.id);
 
   return (
     <motion.div
@@ -33,11 +34,23 @@ export function DidYouKnow({ question, onContinue, isLast }: DidYouKnowProps) {
         {/* Header */}
         <div className="flex items-center justify-between">
           <button
-            onClick={(e) => { e.stopPropagation(); toggleFavorite(question.id); }}
-            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-tertiary transition-colors"
-            aria-label={isFav ? 'הסר ממועדפים' : 'הוסף למועדפים'}
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleLikedSong({
+                questionId: question.id,
+                songTitle: question.songTitle,
+                artist: question.artist,
+                spotifyId: question.spotifyId,
+                deezerId: question.deezerId,
+              });
+            }}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-surface-tertiary transition-all duration-200"
+            aria-label={isSongLiked ? 'הסר מהשירים שאהבתי' : 'הוסף לשירים שאהבתי'}
           >
-            {isFav ? '❤️' : '🤍'}
+            <span className={`text-lg transition-transform duration-200 ${isSongLiked ? 'scale-125' : ''}`}>
+              {isSongLiked ? '💚' : '🤍'}
+            </span>
+            <span className="text-xs text-text-secondary">{isSongLiked ? 'אהבתי!' : 'אהבתי'}</span>
           </button>
           <div className="flex items-center gap-2">
             <span className="text-2xl">💡</span>

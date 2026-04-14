@@ -5,6 +5,7 @@ import { useSettingsStore } from '@/store/settingsStore';
 
 interface UseSongPreviewOptions {
   deezerId: number | undefined;
+  itunesPreviewUrl: string | undefined;
   play: boolean;
   volume?: number;
   fadeDuration?: number;
@@ -65,6 +66,7 @@ function getOrCreateAudio(deezerId: number, url: string): HTMLAudioElement {
 
 export function useSongPreview({
   deezerId,
+  itunesPreviewUrl,
   play,
   volume = 0.3,
   fadeDuration = 800,
@@ -135,20 +137,32 @@ export function useSongPreview({
     }, stepTime);
   }, [fadeDuration, clearFade]);
 
-  // Fetch preview URL when deezerId changes
+  // Fetch preview URL when deezerId changes, fall back to itunesPreviewUrl
   useEffect(() => {
     setPreviewUrl(null);
     setIsAudioPlaying(false);
 
-    if (!deezerId) return;
+    if (!deezerId && !itunesPreviewUrl) return;
+
+    // iTunes URLs don't expire and work directly (no CORS issues)
+    if (!deezerId && itunesPreviewUrl) {
+      setPreviewUrl(itunesPreviewUrl);
+      return;
+    }
 
     let cancelled = false;
-    fetchPreviewUrl(deezerId).then((url) => {
-      if (!cancelled) setPreviewUrl(url);
+    fetchPreviewUrl(deezerId!).then((url) => {
+      if (cancelled) return;
+      // If Deezer fails, try iTunes fallback
+      if (!url && itunesPreviewUrl) {
+        setPreviewUrl(itunesPreviewUrl);
+      } else {
+        setPreviewUrl(url);
+      }
     });
 
     return () => { cancelled = true; };
-  }, [deezerId]);
+  }, [deezerId, itunesPreviewUrl]);
 
   // Create/update audio element when URL changes
   useEffect(() => {
@@ -160,9 +174,10 @@ export function useSongPreview({
     clearFade();
     setIsAudioPlaying(false);
 
-    if (!previewUrl || !deezerId) return;
+    if (!previewUrl) return;
 
-    const audio = getOrCreateAudio(deezerId, previewUrl);
+    const cacheKey = deezerId ?? 0;
+    const audio = getOrCreateAudio(cacheKey, previewUrl);
     audioRef.current = audio;
 
     return () => {
