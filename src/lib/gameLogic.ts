@@ -61,11 +61,27 @@ export function selectQuestions(
   pool: Question[],
   count: number = 10,
   category?: Category | null,
-  difficulty?: Difficulty | null
+  difficulty?: Difficulty | null,
+  recentIds?: string[]
 ): Question[] {
   let filtered = category ? pool.filter(q => q.category === category) : pool;
   if (difficulty) {
     filtered = filtered.filter(q => q.difficulty === difficulty);
+  }
+
+  // Exclude recently seen questions to avoid repeats across games.
+  // Only exclude if enough fresh questions remain (at least count * 2)
+  // to maintain good difficulty distribution.
+  if (recentIds && recentIds.length > 0) {
+    const recentSet = new Set(recentIds);
+    const fresh = filtered.filter(q => !recentSet.has(q.id));
+    if (fresh.length >= count * 2) {
+      filtered = fresh;
+    } else if (fresh.length >= count) {
+      // Use fresh questions but don't be too strict
+      filtered = fresh;
+    }
+    // If even fresh < count, fall back to full filtered pool
   }
 
   if (filtered.length <= count) {

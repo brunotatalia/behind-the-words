@@ -24,8 +24,10 @@ interface StatsState {
   recentGames: GameRecord[];
   favoriteQuestions: string[];
   unlockedAchievements: string[];
+  recentQuestionIds: string[];
   // Actions
   recordGame: (record: Omit<GameRecord, 'date'>) => void;
+  trackQuestions: (questionIds: string[]) => void;
   toggleFavorite: (questionId: string) => void;
   addAchievements: (ids: string[]) => void;
 }
@@ -41,6 +43,7 @@ export const useStatsStore = create<StatsState>()(
       recentGames: [],
       favoriteQuestions: [],
       unlockedAchievements: [],
+      recentQuestionIds: [],
 
       recordGame: (record) => {
         const state = get();
@@ -56,6 +59,14 @@ export const useStatsStore = create<StatsState>()(
           bestStreak: Math.max(state.bestStreak, record.maxStreak),
           recentGames: [gameRecord, ...state.recentGames].slice(0, 20),
         });
+      },
+
+      trackQuestions: (questionIds) => {
+        const state = get();
+        // Keep a rolling window of last 150 question IDs to avoid repeats
+        // but not exhaust the pool (303 total questions)
+        const updated = [...questionIds, ...state.recentQuestionIds].slice(0, 150);
+        set({ recentQuestionIds: updated });
       },
 
       toggleFavorite: (questionId) => {

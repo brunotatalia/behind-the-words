@@ -5,6 +5,7 @@ import type { GameState, GameActions, GameMode } from '@/types/game';
 import type { Category, Difficulty } from '@/types/question';
 import { questions } from '@/data/questions';
 import { calculateScore, selectQuestions, selectDailyQuestions } from '@/lib/gameLogic';
+import { useStatsStore } from '@/store/statsStore';
 
 type GameStore = GameState & GameActions;
 
@@ -29,9 +30,12 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
   startGame: (category?: Category, mode?: GameMode, difficulty?: Difficulty) => {
     const gameMode = mode ?? 'classic';
+    const { recentQuestionIds, trackQuestions } = useStatsStore.getState();
     const selected = gameMode === 'daily'
       ? selectDailyQuestions(questions, 10)
-      : selectQuestions(questions, 10, category ?? null, difficulty ?? null);
+      : selectQuestions(questions, 10, category ?? null, difficulty ?? null, recentQuestionIds);
+    // Track selected questions so they won't repeat in the next games
+    trackQuestions(selected.map(q => q.id));
     set({
       ...initialState,
       phase: 'playing',
