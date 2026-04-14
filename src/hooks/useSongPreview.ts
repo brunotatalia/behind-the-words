@@ -19,7 +19,7 @@ async function fetchPreviewUrl(deezerId: number): Promise<string | null> {
   }
 
   try {
-    const res = await fetch(`https://api.deezer.com/track/${deezerId}`);
+    const res = await fetch(`/api/deezer/${deezerId}`);
     if (!res.ok) return null;
     const data = await res.json();
     const url = data.preview || null;
