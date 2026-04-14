@@ -12,7 +12,7 @@ import { AnswerOption } from '@/components/game/AnswerOption';
 import { AnswerFeedback } from '@/components/game/AnswerFeedback';
 import { DidYouKnow } from '@/components/game/DidYouKnow';
 import { useSound } from '@/hooks/useSound';
-import { useSongPreview } from '@/hooks/useSongPreview';
+import { useSongPreview, prefetchPreview } from '@/hooks/useSongPreview';
 
 export default function PlayPage() {
   const router = useRouter();
@@ -46,6 +46,12 @@ export default function PlayPage() {
     play: isPlaying,
     volume: 0.25,
   });
+
+  // Prefetch next question's song preview for instant playback
+  const nextQuestion_q = questions[currentIndex + 1];
+  useEffect(() => {
+    prefetchPreview(nextQuestion_q?.deezerId);
+  }, [nextQuestion_q?.deezerId]);
 
   const handleExpire = useCallback(() => {
     if (phase === 'playing' && !isLearnMode) {

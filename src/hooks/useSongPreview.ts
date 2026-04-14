@@ -12,6 +12,8 @@ interface UseSongPreviewOptions {
 
 // Cache fetched preview URLs for the session
 const previewCache = new Map<number, string | null>();
+// Cache preloaded Audio elements
+const audioCache = new Map<number, HTMLAudioElement>();
 
 async function fetchPreviewUrl(deezerId: number): Promise<string | null> {
   if (previewCache.has(deezerId)) {
@@ -28,6 +30,37 @@ async function fetchPreviewUrl(deezerId: number): Promise<string | null> {
   } catch {
     return null;
   }
+}
+
+/** Prefetch preview URL and preload audio for a deezerId */
+export function prefetchPreview(deezerId: number | undefined) {
+  if (!deezerId) return;
+  if (audioCache.has(deezerId)) return;
+
+  fetchPreviewUrl(deezerId).then((url) => {
+    if (!url || audioCache.has(deezerId)) return;
+    const audio = new Audio(url);
+    audio.preload = 'auto';
+    audio.loop = true;
+    audio.volume = 0;
+    audioCache.set(deezerId, audio);
+  });
+}
+
+function getOrCreateAudio(deezerId: number, url: string): HTMLAudioElement {
+  const cached = audioCache.get(deezerId);
+  if (cached) {
+    // Reset for reuse
+    cached.currentTime = 0;
+    cached.volume = 0;
+    return cached;
+  }
+  const audio = new Audio(url);
+  audio.loop = true;
+  audio.volume = 0;
+  audio.preload = 'auto';
+  audioCache.set(deezerId, audio);
+  return audio;
 }
 
 export function useSongPreview({
@@ -121,27 +154,24 @@ export function useSongPreview({
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.pause();
-      audioRef.current.src = '';
+      audioRef.current.volume = 0;
       audioRef.current = null;
     }
     clearFade();
     setIsAudioPlaying(false);
 
-    if (!previewUrl) return;
+    if (!previewUrl || !deezerId) return;
 
-    const audio = new Audio(previewUrl);
-    audio.loop = true;
-    audio.volume = 0;
-    audio.preload = 'auto';
+    const audio = getOrCreateAudio(deezerId, previewUrl);
     audioRef.current = audio;
 
     return () => {
       audio.pause();
-      audio.src = '';
+      audio.volume = 0;
       audioRef.current = null;
       clearFade();
     };
-  }, [previewUrl, clearFade]);
+  }, [previewUrl, deezerId, clearFade]);
 
   // Handle play/pause with fade
   useEffect(() => {
