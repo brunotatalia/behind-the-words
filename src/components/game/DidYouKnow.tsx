@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import type { Question } from '@/types/question';
 import { useStatsStore } from '@/store/statsStore';
@@ -11,9 +12,17 @@ interface DidYouKnowProps {
 }
 
 export function DidYouKnow({ question, onContinue, isLast }: DidYouKnowProps) {
-  const { favoriteQuestions, toggleFavorite, likedSongs, toggleLikedSong } = useStatsStore();
-  const isFav = favoriteQuestions.includes(question.id);
-  const isSongLiked = likedSongs.some(s => s.questionId === question.id);
+  const isSongLiked = useStatsStore((s) => s.likedSongs.some((l) => l.questionId === question.id));
+  const toggleLikedSong = useStatsStore((s) => s.toggleLikedSong);
+
+  // Escape closes the dialog
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onContinue();
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [onContinue]);
 
   return (
     <motion.div
@@ -24,12 +33,16 @@ export function DidYouKnow({ question, onContinue, isLast }: DidYouKnowProps) {
       onClick={onContinue}
     >
       <motion.div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="didyouknow-title"
         initial={{ y: '100%' }}
         animate={{ y: 0 }}
         exit={{ y: '100%' }}
         transition={{ type: 'spring', damping: 25, stiffness: 300 }}
         onClick={(e) => e.stopPropagation()}
         className="w-full max-w-lg bg-surface-secondary rounded-t-3xl sm:rounded-3xl p-6 pb-8 sm:pb-6 space-y-5 shadow-2xl max-h-[80dvh] overflow-y-auto"
+        style={{ paddingBottom: 'max(2rem, env(safe-area-inset-bottom))' }}
       >
         {/* Header */}
         <div className="flex items-center justify-between">
@@ -44,17 +57,18 @@ export function DidYouKnow({ question, onContinue, isLast }: DidYouKnowProps) {
                 deezerId: question.deezerId,
               });
             }}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-surface-tertiary transition-all duration-200"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-surface-tertiary transition-[background-color,transform] duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-secondary"
             aria-label={isSongLiked ? 'הסר מהשירים שאהבתי' : 'הוסף לשירים שאהבתי'}
+            aria-pressed={isSongLiked}
           >
-            <span className={`text-lg transition-transform duration-200 ${isSongLiked ? 'scale-125' : ''}`}>
+            <span className={`text-lg transition-transform duration-200 ${isSongLiked ? 'scale-125' : ''}`} aria-hidden="true">
               {isSongLiked ? '💚' : '🤍'}
             </span>
             <span className="text-xs text-text-secondary">{isSongLiked ? 'אהבתי!' : 'אהבתי'}</span>
           </button>
           <div className="flex items-center gap-2">
-            <span className="text-2xl">💡</span>
-            <h3 className="text-xl font-bold text-gold">?הידעת</h3>
+            <span className="text-2xl" aria-hidden="true">💡</span>
+            <h3 id="didyouknow-title" className="text-xl font-bold text-gold">הידעת?</h3>
           </div>
           <div className="w-8" />
         </div>
@@ -108,7 +122,8 @@ export function DidYouKnow({ question, onContinue, isLast }: DidYouKnowProps) {
         {/* Continue Button */}
         <button
           onClick={onContinue}
-          className="w-full py-3.5 rounded-xl bg-accent hover:bg-accent-light text-white font-bold text-lg transition-colors duration-200 active:scale-[0.98]"
+          autoFocus
+          className="w-full py-3.5 rounded-xl bg-accent hover:bg-accent-light text-white font-bold text-lg transition-colors duration-200 active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-light focus-visible:ring-offset-2 focus-visible:ring-offset-surface-secondary"
         >
           {isLast ? 'לתוצאות' : 'שאלה הבאה'}
         </button>

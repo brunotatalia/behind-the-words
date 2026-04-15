@@ -61,8 +61,26 @@
   to { transform: rotate(360deg); }
 }
 
+:root {
+  color-scheme: dark;
+}
+
 * {
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Global focus-visible fallback for any interactive element
+   that doesn't define its own focus styles. */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+button,
+a,
+[role="button"] {
+  touch-action: manipulation;
 }
 
 body {
@@ -70,6 +88,20 @@ body {
   color: var(--color-text-primary);
   font-family: var(--font-heebo);
   min-height: 100dvh;
+  overscroll-behavior-y: contain;
+}
+
+/* Honor users who request reduced motion — disable all keyframe
+   animations and flatten transitions to near-instant. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 ::selection {

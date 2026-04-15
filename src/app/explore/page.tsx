@@ -140,16 +140,18 @@ function ExploreCard({
           {/* Like button */}
           <button
             onClick={handleLike}
-            className="flex flex-col items-center gap-1 group"
+            aria-label={isLiked ? 'הסר מהשירים שאהבתי' : 'הוסף לשירים שאהבתי'}
+            aria-pressed={isLiked}
+            className="flex flex-col items-center gap-1 group rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary"
           >
             <div
-              className={`w-14 h-14 rounded-full flex items-center justify-center transition-all duration-200 ${
+              className={`w-14 h-14 rounded-full flex items-center justify-center transition-[transform,background-color] duration-200 ${
                 isLiked
                   ? 'bg-correct/20 scale-110'
                   : 'bg-surface-tertiary group-hover:bg-surface-card'
               }`}
             >
-              <span className={`text-2xl transition-transform duration-200 ${isLiked ? 'scale-125' : ''}`}>
+              <span className={`text-2xl transition-transform duration-200 ${isLiked ? 'scale-125' : ''}`} aria-hidden="true">
                 {isLiked ? '💚' : '🤍'}
               </span>
             </div>
@@ -163,7 +165,8 @@ function ExploreCard({
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
-              className="flex flex-col items-center gap-1 group"
+              aria-label={`פתח את ${question.songTitle} בספוטיפיי`}
+              className="flex flex-col items-center gap-1 group rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-[#1DB954] focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary"
             >
               <div className="w-14 h-14 rounded-full bg-[#1DB954]/15 flex items-center justify-center group-hover:bg-[#1DB954]/25 transition-colors">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="#1DB954">
@@ -187,10 +190,11 @@ function ExploreCard({
                 await navigator.clipboard.writeText(text);
               }
             }}
-            className="flex flex-col items-center gap-1 group"
+            aria-label="שתף את העובדה על השיר"
+            className="flex flex-col items-center gap-1 group rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary"
           >
             <div className="w-14 h-14 rounded-full bg-surface-tertiary flex items-center justify-center group-hover:bg-surface-card transition-colors">
-              <span className="text-2xl">📤</span>
+              <span className="text-2xl" aria-hidden="true">📤</span>
             </div>
             <span className="text-xs text-text-muted">שיתוף</span>
           </button>
@@ -245,24 +249,27 @@ export default function ExplorePage() {
   return (
     <main className="fixed inset-0 bg-surface-primary overflow-hidden" dir="rtl">
       {/* Header */}
-      <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between px-4 py-3">
+      <div className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between px-4 py-3" style={{ paddingTop: 'max(0.75rem, env(safe-area-inset-top))' }}>
         <button
           onClick={() => router.push('/')}
-          className="w-10 h-10 flex items-center justify-center rounded-full bg-surface-tertiary/80 backdrop-blur-sm text-text-muted hover:text-text-primary transition-colors"
+          aria-label="סגור וחזור לדף הבית"
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-surface-tertiary/80 backdrop-blur-sm text-text-muted hover:text-text-primary transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary"
         >
-          ✕
+          <span aria-hidden="true">✕</span>
         </button>
 
-        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-tertiary/80 backdrop-blur-sm">
-          <span className="text-sm">🎵</span>
-          <span className="text-sm font-medium text-text-secondary">גלה שירים</span>
-        </div>
+        <h1 className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-tertiary/80 backdrop-blur-sm text-sm font-medium text-text-secondary m-0">
+          <span aria-hidden="true">🎵</span>
+          <span>גלה שירים</span>
+        </h1>
 
         <button
           onClick={toggleSound}
-          className="w-10 h-10 flex items-center justify-center rounded-full bg-surface-tertiary/80 backdrop-blur-sm text-text-muted hover:text-text-primary transition-colors"
+          aria-label={soundEnabled ? 'השתק צלילים' : 'הפעל צלילים'}
+          aria-pressed={soundEnabled}
+          className="w-10 h-10 flex items-center justify-center rounded-full bg-surface-tertiary/80 backdrop-blur-sm text-text-muted hover:text-text-primary transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary"
         >
-          {soundEnabled ? '🔊' : '🔇'}
+          <span aria-hidden="true">{soundEnabled ? '🔊' : '🔇'}</span>
         </button>
       </div>
 

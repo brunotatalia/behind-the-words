@@ -40,8 +40,15 @@ export function AnswerOption({ id, text, index, state, onSelect, disabled }: Ans
       transition={{ duration: 0.3, delay: index * 0.08 }}
       onClick={onSelect}
       disabled={disabled}
+      aria-label={
+        state === 'selected-correct' || state === 'reveal-correct'
+          ? `${text} — תשובה נכונה`
+          : state === 'selected-wrong'
+          ? `${text} — תשובה שגויה`
+          : text
+      }
       className={cn(
-        'w-full flex items-center gap-3 p-4 rounded-xl border-2 transition-all duration-200 text-start min-h-[56px]',
+        'w-full flex items-center gap-3 p-4 rounded-xl border-2 transition-[border-color,background-color,transform] duration-200 text-start min-h-[56px] focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary',
         stateStyles[state]
       )}
     >
