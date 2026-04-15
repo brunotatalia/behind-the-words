@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform, PanInfo } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { questions } from '@/data/questions';
@@ -30,8 +30,8 @@ function ExploreCard({
   onSwipeUp: () => void;
   onSwipeDown: () => void;
 }) {
-  const { likedSongs, toggleLikedSong } = useStatsStore();
-  const isLiked = likedSongs.some((s) => s.questionId === question.id);
+  const isLiked = useStatsStore((s) => s.likedSongs.some((l) => l.questionId === question.id));
+  const toggleLikedSong = useStatsStore((s) => s.toggleLikedSong);
 
   // Audio plays only when active
   const { isAudioPlaying } = useSongPreview({
@@ -213,13 +213,11 @@ function ExploreCard({
 
 export default function ExplorePage() {
   const router = useRouter();
-  const { soundEnabled, toggleSound } = useSettingsStore();
-  const [shuffled, setShuffled] = useState<Question[]>([]);
+  const soundEnabled = useSettingsStore((s) => s.soundEnabled);
+  const toggleSound = useSettingsStore((s) => s.toggleSound);
+  // Lazy init — shuffled once, won't re-shuffle on re-render
+  const [shuffled] = useState<Question[]>(() => shuffleArray(questions));
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    setShuffled(shuffleArray(questions));
-  }, []);
 
   const handleNext = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % shuffled.length);

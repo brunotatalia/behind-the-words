@@ -3,7 +3,6 @@
 import { create } from 'zustand';
 import type { GameState, GameActions, GameMode } from '@/types/game';
 import type { Category, Difficulty } from '@/types/question';
-import { questions } from '@/data/questions';
 import { calculateScore, selectQuestions, selectDailyQuestions } from '@/lib/gameLogic';
 import { useStatsStore } from '@/store/statsStore';
 
@@ -28,8 +27,10 @@ const initialState: GameState = {
 export const useGameStore = create<GameStore>((set, get) => ({
   ...initialState,
 
-  startGame: (category?: Category, mode?: GameMode, difficulty?: Difficulty) => {
+  startGame: async (category?: Category, mode?: GameMode, difficulty?: Difficulty) => {
     const gameMode = mode ?? 'classic';
+    // Dynamic import keeps the 300KB questions dataset out of the home-page bundle
+    const { questions } = await import('@/data/questions');
     const { recentQuestionIds, trackQuestions } = useStatsStore.getState();
     const selected = gameMode === 'daily'
       ? selectDailyQuestions(questions, 10)

@@ -6,7 +6,8 @@ import { useStatsStore } from '@/store/statsStore';
 
 export default function LikedSongsPage() {
   const router = useRouter();
-  const { likedSongs, toggleLikedSong } = useStatsStore();
+  const likedSongs = useStatsStore((s) => s.likedSongs);
+  const toggleLikedSong = useStatsStore((s) => s.toggleLikedSong);
 
   const spotifySongs = likedSongs.filter((s) => s.spotifyId);
 

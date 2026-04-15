@@ -30,7 +30,7 @@ export interface GameState {
 }
 
 export interface GameActions {
-  startGame: (category?: Category, mode?: GameMode, difficulty?: Difficulty) => void;
+  startGame: (category?: Category, mode?: GameMode, difficulty?: Difficulty) => Promise<void>;
   selectAnswer: (answerId: string, timeRemaining: number) => void;
   proceedToExplanation: () => void;
   nextQuestion: () => void;

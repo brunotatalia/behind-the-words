@@ -66,8 +66,8 @@ export default function ResultsPage() {
 
   const correctCount = answers.filter((a) => a.isCorrect).length;
 
-  const handlePlayAgain = () => {
-    startGame();
+  const handlePlayAgain = async () => {
+    await startGame();
     router.push('/play');
   };
 

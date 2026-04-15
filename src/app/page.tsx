@@ -1,11 +1,12 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useShallow } from 'zustand/react/shallow';
 import { useGameStore } from '@/store/gameStore';
 import { categories } from '@/data/categories';
-import { questions } from '@/data/questions';
+import { QUESTION_COUNT, countQuestions } from '@/data/questions-meta';
 import type { Category, Difficulty } from '@/types/question';
 import type { GameMode } from '@/types/game';
 import { useStatsStore } from '@/store/statsStore';
@@ -18,33 +19,43 @@ export default function HomePage() {
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | null>(null);
   const [mode, setMode] = useState<GameMode>('classic');
   const [showOptions, setShowOptions] = useState(false);
-  const { gamesPlayed, bestScore, bestStreak, totalCorrect, totalQuestions, likedSongs } = useStatsStore();
-  const { soundEnabled, toggleSound } = useSettingsStore();
+  const stats = useStatsStore(
+    useShallow((s) => ({
+      gamesPlayed: s.gamesPlayed,
+      bestScore: s.bestScore,
+      bestStreak: s.bestStreak,
+      totalCorrect: s.totalCorrect,
+      totalQuestions: s.totalQuestions,
+    }))
+  );
+  const { gamesPlayed, bestScore, bestStreak, totalCorrect, totalQuestions } = stats;
+  const likedSongsCount = useStatsStore((s) => s.likedSongs.length);
+  const soundEnabled = useSettingsStore((s) => s.soundEnabled);
+  const toggleSound = useSettingsStore((s) => s.toggleSound);
 
-  const handleStart = () => {
-    startGame(selectedCategory ?? undefined, mode, selectedDifficulty ?? undefined);
+  const handleStart = async () => {
+    await startGame(selectedCategory ?? undefined, mode, selectedDifficulty ?? undefined);
     router.push('/play');
   };
 
-  const handleDaily = () => {
-    startGame(undefined, 'daily');
+  const handleDaily = async () => {
+    await startGame(undefined, 'daily');
     router.push('/play');
   };
 
-  // Check if daily was already played today
-  const today = new Date().toISOString().slice(0, 10);
+  // Check if daily was already played today (today cached at mount)
+  const today = useMemo(() => new Date().toISOString().slice(0, 10), []);
   const dailyPlayed = useStatsStore((s) =>
     s.recentGames.some((g) => g.mode === 'daily' && g.date.startsWith(today))
   );
 
   const hasCustomization = selectedCategory !== null || selectedDifficulty !== null || mode !== 'classic';
 
-  const filteredQuestions = questions.filter(q => {
-    if (selectedCategory && q.category !== selectedCategory) return false;
-    if (selectedDifficulty && q.difficulty !== selectedDifficulty) return false;
-    return true;
-  });
-  const categoryCount = filteredQuestions.length;
+  // O(1) lookup from precomputed metadata — no need to load full questions.json
+  const categoryCount = useMemo(
+    () => countQuestions(selectedCategory, selectedDifficulty),
+    [selectedCategory, selectedDifficulty]
+  );
 
   return (
     <main className="flex-1 flex flex-col items-center px-6 py-8 max-w-lg mx-auto w-full">
@@ -325,7 +336,7 @@ export default function HomePage() {
         )}
 
         {/* Liked Songs */}
-        {likedSongs.length > 0 && (
+        {likedSongsCount > 0 && (
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -338,7 +349,7 @@ export default function HomePage() {
               <span className="text-xs text-text-muted">←</span>
               <div className="flex items-center gap-2">
                 <span className="text-sm font-medium text-text-secondary">
-                  {likedSongs.length} שירים שאהבתי
+                  {likedSongsCount} שירים שאהבתי
                 </span>
                 <span>💚</span>
               </div>
@@ -379,7 +390,7 @@ export default function HomePage() {
           transition={{ delay: 0.7 }}
           className="text-text-muted text-[11px] pt-2"
         >
-          🎯 {questions.length} שאלות · 6 קטגוריות · 3-5 דקות
+          🎯 {QUESTION_COUNT} שאלות · 6 קטגוריות · 3-5 דקות
         </motion.div>
       </div>
     </main>
