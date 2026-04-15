@@ -13,8 +13,10 @@ interface UseSongPreviewOptions {
 
 // Cache fetched preview URLs for the session
 const previewCache = new Map<number, string | null>();
-// Cache preloaded Audio elements
-const audioCache = new Map<number, HTMLAudioElement>();
+// Cache preloaded Audio elements, keyed by the preview URL itself so that
+// tracks without a deezerId don't collide, and so that a stale cached audio
+// is never returned when the URL has changed (e.g. Deezer → iTunes fallback).
+const audioCache = new Map<string, HTMLAudioElement>();
 
 async function fetchPreviewUrl(deezerId: number): Promise<string | null> {
   if (previewCache.has(deezerId)) {
@@ -36,20 +38,19 @@ async function fetchPreviewUrl(deezerId: number): Promise<string | null> {
 /** Prefetch preview URL and preload audio for a deezerId */
 export function prefetchPreview(deezerId: number | undefined) {
   if (!deezerId) return;
-  if (audioCache.has(deezerId)) return;
 
   fetchPreviewUrl(deezerId).then((url) => {
-    if (!url || audioCache.has(deezerId)) return;
+    if (!url || audioCache.has(url)) return;
     const audio = new Audio(url);
     audio.preload = 'auto';
     audio.loop = true;
     audio.volume = 0;
-    audioCache.set(deezerId, audio);
+    audioCache.set(url, audio);
   });
 }
 
-function getOrCreateAudio(deezerId: number, url: string): HTMLAudioElement {
-  const cached = audioCache.get(deezerId);
+function getOrCreateAudio(url: string): HTMLAudioElement {
+  const cached = audioCache.get(url);
   if (cached) {
     // Reset for reuse
     cached.currentTime = 0;
@@ -60,7 +61,7 @@ function getOrCreateAudio(deezerId: number, url: string): HTMLAudioElement {
   audio.loop = true;
   audio.volume = 0;
   audio.preload = 'auto';
-  audioCache.set(deezerId, audio);
+  audioCache.set(url, audio);
   return audio;
 }
 
@@ -176,8 +177,7 @@ export function useSongPreview({
 
     if (!previewUrl) return;
 
-    const cacheKey = deezerId ?? 0;
-    const audio = getOrCreateAudio(cacheKey, previewUrl);
+    const audio = getOrCreateAudio(previewUrl);
     audioRef.current = audio;
 
     return () => {
