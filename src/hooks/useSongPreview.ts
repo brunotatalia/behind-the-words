@@ -35,17 +35,23 @@ async function fetchPreviewUrl(deezerId: number): Promise<string | null> {
   }
 }
 
-/** Prefetch preview URL and preload audio for a deezerId */
-export function prefetchPreview(deezerId: number | undefined) {
+/** Preload an audio element for a preview URL so playback starts instantly */
+function preloadAudio(url: string) {
+  if (!url || audioCache.has(url)) return;
+  const audio = new Audio(url);
+  audio.preload = 'auto';
+  audio.loop = true;
+  audio.volume = 0;
+  audioCache.set(url, audio);
+}
+
+/** Prefetch preview URL and preload audio for a deezerId + optional iTunes fallback */
+export function prefetchPreview(deezerId: number | undefined, itunesPreviewUrl?: string) {
+  if (itunesPreviewUrl) preloadAudio(itunesPreviewUrl);
   if (!deezerId) return;
 
   fetchPreviewUrl(deezerId).then((url) => {
-    if (!url || audioCache.has(url)) return;
-    const audio = new Audio(url);
-    audio.preload = 'auto';
-    audio.loop = true;
-    audio.volume = 0;
-    audioCache.set(url, audio);
+    if (url) preloadAudio(url);
   });
 }
 

@@ -53,8 +53,8 @@ export default function PlayPage() {
   // Prefetch next question's song preview for instant playback
   const nextQuestion_q = questions[currentIndex + 1];
   useEffect(() => {
-    prefetchPreview(nextQuestion_q?.deezerId);
-  }, [nextQuestion_q?.deezerId]);
+    prefetchPreview(nextQuestion_q?.deezerId, nextQuestion_q?.itunesPreviewUrl);
+  }, [nextQuestion_q?.deezerId, nextQuestion_q?.itunesPreviewUrl]);
 
   const handleExpire = useCallback(() => {
     if (phase === 'playing' && !isLearnMode) {

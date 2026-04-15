@@ -7,41 +7,41 @@
  */
 import type { Category, Difficulty } from '@/types/question';
 
-export const QUESTION_COUNT = 276;
+export const QUESTION_COUNT = 217;
 
 export const COUNTS_BY_CATEGORY: Record<Category, number> = {
-  'biographical': 96,
-  'tone-disconnect': 40,
-  'misunderstood-romance': 35,
+  'biographical': 67,
+  'tone-disconnect': 32,
+  'misunderstood-romance': 30,
   'drug-references': 19,
-  'historical-political': 38,
-  'translation-barriers': 48,
+  'historical-political': 27,
+  'translation-barriers': 42,
 };
 
 export const COUNTS_BY_DIFFICULTY: Record<Difficulty, number> = {
-  'medium': 141,
-  'easy': 76,
-  'hard': 59,
+  'medium': 117,
+  'easy': 55,
+  'hard': 45,
 };
 
 const MATRIX: Record<string, number> = {
-  'biographical|medium': 50,
-  'tone-disconnect|easy': 12,
-  'misunderstood-romance|easy': 11,
+  'biographical|medium': 38,
+  'tone-disconnect|easy': 10,
+  'misunderstood-romance|easy': 9,
   'drug-references|medium': 13,
-  'historical-political|medium': 21,
-  'tone-disconnect|medium': 23,
+  'historical-political|medium': 17,
+  'tone-disconnect|medium': 17,
   'drug-references|hard': 5,
-  'biographical|hard': 25,
-  'translation-barriers|easy': 23,
-  'misunderstood-romance|medium': 18,
+  'biographical|hard': 16,
+  'translation-barriers|easy': 18,
+  'misunderstood-romance|medium': 16,
   'drug-references|easy': 1,
-  'translation-barriers|hard': 9,
-  'misunderstood-romance|hard': 6,
-  'historical-political|hard': 9,
-  'historical-political|easy': 8,
+  'translation-barriers|hard': 8,
+  'misunderstood-romance|hard': 5,
+  'historical-political|hard': 6,
+  'historical-political|easy': 4,
   'translation-barriers|medium': 16,
-  'biographical|easy': 21,
+  'biographical|easy': 13,
   'tone-disconnect|hard': 5,
 };
 
