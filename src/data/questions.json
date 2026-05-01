@@ -1369,8 +1369,22 @@
     "spotifyId": "61UuPxxYUvacEH6SHIK3sU",
     "deezerId": 4125582,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/20/1f/08201f6b-fd4f-c490-075d-95373c19e345/mzaf_16091929974478358042.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brown_Sugar_(Rolling_Stones_song)",
+        "title": "Brown Sugar (Rolling Stones song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-rolling-stones/brown-sugar",
+        "title": "Brown Sugar by The Rolling Stones — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא באפריל 1971 כסינגל הראשון מ-Sticky Fingers והגיע למקום 1 בארה\"ב ובקנדה. בראיון לרולינג סטון מ-1995 אמר ג'אגר: \"כיום הייתי מצנזר את עצמי. הייתי חושב — לא, אני לא יכול לכתוב ככה גלמית\". על ההסרה מסטליסט ב-2021 אמר קית' ריצ'רדס: \"אני מנסה להבין עם הנשים איפה בדיוק הבעיה. הן לא הבינו שזה שיר על זוועות העבדות?\"."
   },
   {
     "id": "q027",
@@ -1409,8 +1423,22 @@
     "spotifyId": "49wOjOkS4pBK3PQnPnNYjb",
     "deezerId": 952788,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/bb/65/35bb6532-1abe-59e4-9ced-8bee2742ea24/mzaf_15102830936602294569.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zombie_(The_Cranberries_song)",
+        "title": "Zombie (The Cranberries song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-cranberries/zombie",
+        "title": "Zombie by The Cranberries — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הפיגוע התרחש ב-20 במרץ 1993, כשמטעני נפץ של ה-IRA הוסתרו בפחי אשפה ברחוב מסחרי בוורינגטון. ג'ונתן בול נהרג במקום, וטים פארי נפטר בבית החולים 5 ימים מאוחר יותר מפצעי ראש. אוריורדן הדגישה: \"אני לא ה-IRA. כשבשיר נאמר 'זה לא אני, זו לא משפחתי' — זה מה שאני אומרת\". השיר הפך לאחד מסמלי השלום בין אירלנד לאנגליה."
   },
   {
     "id": "q028",
@@ -1449,8 +1477,22 @@
     "spotifyId": "6C4LXC9UFH1IKiHYOp0BiJ",
     "deezerId": 1579265,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/75/4e/41754e11-c147-7c7c-cb8e-ee6720d91480/mzaf_1773211570560276326.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sunday_Bloody_Sunday",
+        "title": "Sunday Bloody Sunday — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/u2/sunday-bloody-sunday",
+        "title": "Sunday Bloody Sunday by U2 — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "בונו פתח מסורת של הצהרת \"זה לא שיר מורד\" לפני ביצוע השיר ב-1983 בהופעה ב-Red Rocks בקולורדו, אחרי שהלהקה ספגה ביקורת מכל צדדי המגזר הפוליטי. המתופף לארי מאלן הוסיף: \"אנשים מתים כל יום מתוך מרירות ושנאה — ואנחנו אומרים למה?\". השיר יצא ב-21 במרץ 1983 באלבום War."
   },
   {
     "id": "q029",
@@ -1489,8 +1531,22 @@
     "spotifyId": "4Tjs8b6jL1s18sjURJtswp",
     "deezerId": 3788403772,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ce/48/5a/ce485ad1-6d6f-137f-e539-4a3a513368f0/mzaf_9605311812419410054.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lola_(song)",
+        "title": "Lola (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-kinks/lola",
+        "title": "Lola by The Kinks — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "ריי דייוויס סיפר שתי גרסאות שונות לאורך השנים — אחת על המנהל רוברט וייס שרקד עם אישה במועדון וגילה בסוף הערב שזה גבר עם זיפי זקן, ושנייה על חוויה שלו עצמו במועדון בפריז. ה-BBC אסר לראשונה את השיר בגלל אזכור \"Coca-Cola\" שהפר את מדיניות פרסום המוצרים — דייוויס נאלץ להקליט מחדש את המילים כ-\"cherry cola\". נושאי הזהות המגדרית עצמם לא היו הסיבה לאיסור."
   },
   {
     "id": "q030",
@@ -1528,8 +1584,22 @@
     "spotifyId": "4lO4RpFOp7nDnqJvTXeVTN",
     "deezerId": 3451646191,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/23/65/85236590-c3a4-b29a-e13f-62d4cca1abd2/mzaf_459162598162316216.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Afternoon_Delight",
+        "title": "Afternoon Delight — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/starland-vocal-band/afternoon-delight",
+        "title": "Afternoon Delight by Starland Vocal Band — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "ביל דנוף, הכותב, אמר ש\"לא רציתי לכתוב שיר סקס מוחלט, רק משהו כיפי שמרמז על סקס\". הרעיון נולד מתפריט מסעדת Clyde's of Georgetown שבה הופיע \"Afternoon Delight\" כמנת הפתיחה. הגיטרה הפדל-סטיל אחרי \"skyrockets in flight\" עוצבה במכוון לדמות זיקוקים — מטאפורה לאורגזמה. השיר הגיע למקום הראשון בבילבורד ב-10 ביולי 1976, בשיא חגיגות 200 שנה לארה\"ב."
   },
   {
     "id": "q031",
@@ -1568,8 +1638,22 @@
     "spotifyId": "3ZffCQKLFLUvYM59XKLbVm",
     "deezerId": 773430,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/5b/10/955b1049-c8ab-ddda-2353-2ec84ab04a10/mzaf_6914292074393017741.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_When_September_Ends",
+        "title": "Wake Me Up When September Ends — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/green-day/wake-me-up-when-september-ends",
+        "title": "Wake Me Up When September Ends by Green Day — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אביו של בילי ג'ו ארמסטרונג נפטר מסרטן ב-1 בספטמבר 1982, כשבילי היה בן 10. ביום הלוויה בילי ברח לחדרו ונעל את הדלת — וכשאמא שלו דפקה, הוא אמר לה \"תעירי אותי כשספטמבר ייגמר\". במשך שנים סירב לשיר על האירוע, אבל כתב את השיר ב-2004 לאלבום American Idiot. השיר זוכה לעיתים לפרשנויות חלופיות, כולל הצמדה לזיכרון פיגועי ה-11 בספטמבר."
   },
   {
     "id": "q032",
@@ -1607,8 +1691,22 @@
     "spotifyId": "1v7L65Lzy0j0vdpRjJewt1",
     "deezerId": 1109731,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/62/0a/a5/620aa56f-189e-708a-80f0-cebdada3872e/mzaf_7131619873177773332.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lose_Yourself",
+        "title": "Lose Yourself — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/eminem/lose-yourself",
+        "title": "Lose Yourself by Eminem — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אמינם כתב את השיר בדמות B-Rabbit, הדמות שגילם בסרט 8 Mile (2002). הוא היה הראפר הראשון בהיסטוריה שזכה באוסקר על שיר מקורי, אבל לא הגיע לטקס הפרסים — לואיס רסטו, שותפו להפקה, קיבל את הפרס במקומו. בנוסף, השיר עמד 12 שבועות במקום 1 בבילבורד — שיא לכל שיר אוסקר בכל הזמנים."
   },
   {
     "id": "q033",
@@ -1634,7 +1732,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "לנון עצמו אמר ש'Imagine' הוא 'מניפסט קומוניסטי עטוף בסוכר'. השיר קורא לדמיין עולם בלי דת ('אין גן עדן, אין גיהינום'), בלי מדינות ובלי רכוש פרטי. המנגינה הרכה מסווה מסר רדיקלי שהיה מעורר מחלוקת אילו הוצג ישירות.",
+    "explanation_he": "לנון עצמו אמר ש-'Imagine' הוא \"כמעט כמו המניפסט הקומוניסטי, אם כי אני לא ממש קומוניסט\". במקום אחר הסביר שהמסר הוא \"אנטי-דתי, אנטי-לאומי, אנטי-מסורתי, אנטי-קפיטליסטי — אבל בגלל שהוא מצופה בסוכר הוא מתקבל\". השיר קורא לדמיין עולם בלי דת, בלי מדינות ובלי רכוש פרטי. רק ב-2017 קיבלה יוקו אונו קרדיט רשמי על שותפות בכתיבה, אחרי שלנון אמר שחלק גדול מהמילים והרעיון הגיעו ממנה.",
     "songTitle": "Imagine",
     "artist": "John Lennon",
     "year": 1971,
@@ -1647,8 +1745,22 @@
     "spotifyId": "7pKfPomDEeI4TPT6EOYjn9",
     "deezerId": 7193834,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/4e/8c/7d4e8ced-a37b-fab9-c66a-f3b4d6f043cb/mzaf_1566428042492234227.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Imagine_(John_Lennon_song)",
+        "title": "Imagine (John Lennon song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/john-lennon/imagine",
+        "title": "Imagine by John Lennon — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הרעיון של \"imagine\" כפעולה דמיונית הגיע מספר השירה של יוקו אונו \"Grapefruit\" (1964), שכלל הוראות וציורים בסגנון מדיטטיבי. לנון הודה ב-1980 שהיה \"מקומשן ושוביניסטי קצת\" כשלא נתן לה קרדיט במקור. השיר נכתב במהלך שיא הפעילות האנטי-מלחמתית של בני הזוג — שנתיים אחרי \"Bed-In for Peace\"."
   },
   {
     "id": "q034",
@@ -1687,8 +1799,22 @@
     "spotifyId": "3Um9toULmYFGCpvaIPFw7l",
     "deezerId": 1133408852,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/f3/f4/08f3f452-b24f-e25b-92bc-15850f1bdc6a/mzaf_14002930736666872327.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/What%27s_Going_On_(Marvin_Gaye_song)",
+        "title": "What's Going On (Marvin Gaye song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/marvin-gaye/whats-going-on",
+        "title": "What's Going On by Marvin Gaye — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הרעיון המקורי הגיע מ-Renaldo \"Obie\" Benson מהלהקה Four Tops, שהיה עד לאלימות משטרתית במחאת People's Park בברקלי ב-1969. גיי הוסיף תכנים מהשיחות עם אחיו פרנקי שחזר משירות של 3 שנים בווייטנאם. השיר הושפע גם ממהומות ווטס ב-1965. ברי גורדי תיאר את השיר כ-\"הדבר הגרוע ביותר ששמעתי בחיי\" — אם כי לימים הכחיש שגיי איים לעזוב את חברת Motown אם לא ישוחרר."
   },
   {
     "id": "q035",
@@ -1727,8 +1853,22 @@
     "spotifyId": "2M9ro2krNb7nr7HSprkEgo",
     "deezerId": 2271563,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bb/93/7f/bb937f13-1300-567d-066f-f6100470abfc/mzaf_8116318070857768430.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fast_Car",
+        "title": "Fast Car — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/tracy-chapman/fast-car",
+        "title": "Fast Car by Tracy Chapman — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "צ'פמן עצמה הסבירה: \"זה לא ממש על מכונית. בעצם זה על קשר שלא עובד כי הוא מתחיל מהמקום הלא נכון\". בשיר, הדוברת נאלצת לעזוב את הלימודים כדי לטפל באביה האלכוהוליסט שלא עובד, ואז הסיפור חוזר על עצמו — בן זוגה שותה כמו אביה. גרסת הכיסוי של לוק קומבס מ-2023 הגיעה למקום 2 בבילבורד ול-1 במצעדי הקאנטרי."
   },
   {
     "id": "q036",
@@ -1754,7 +1894,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "השיר על מייג'ור טום שנותק מבקרת הקרקע ונעלם בחלל הוא מטאפורה לניתוק רגשי ובדידות. בואי כתב אותו בתקופה של שימוש בסמים ותחושת ניכור. בהמשך הקריירה, ב'Ashes to Ashes', חשף שמייג'ור טום הוא למעשה מכור לסמים.",
+    "explanation_he": "השיר על מייג'ור טום שנותק מבקרת הקרקע ונעלם בחלל הוא מטאפורה לניתוק רגשי ולבדידות. בואי כתב אותו ב-1969 בעקבות פרידה כואבת מהרקדנית הרמיון פרת'ינגייל ובהשפעת הסרט \"2001: אודיסיאה בחלל\" של קובריק. בהמשך הקריירה, ב-\"Ashes to Ashes\" (1980), חשף שמייג'ור טום נחשב למכור לסמים — \"משוכל בגובה השמיים, פוגע בשפל היסטורי\".",
     "songTitle": "Space Oddity",
     "artist": "David Bowie",
     "year": 1969,
@@ -1767,8 +1907,22 @@
     "spotifyId": "72Z17vmmeQKAg8bptWvpVG",
     "deezerId": 107465566,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/34/1d/8d341d3d-978d-8885-4807-ff12d02659ec/mzaf_17330704255932500816.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Space_Oddity",
+        "title": "Space Oddity — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/david-bowie/space-oddity",
+        "title": "Space Oddity by David Bowie — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר שוחרר ב-11 ביולי 1969, חמישה ימים לפני שיגור אפולו 11. ה-BBC השמיע אותו ברקע בעת שידור הנחיתה על הירח, אבל הפסיק לשדרו לאחר שזיהה את \"המילים האפלות\". בואי הבהיר ששאב השראה דווקא מהסרט של קובריק, לא ממסע החלל בפועל. תקופת ההתמכרות הקשה שלו לקוקאין הגיעה רק בשנות ה-70 ולא קשורה ישירות לכתיבת השיר."
   },
   {
     "id": "q037",
@@ -1794,7 +1948,7 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation_he": "למרות המנגינה השלווה, 'Waterfalls' מספר שלושה סיפורים טראגיים: בן שנהרג מאלימות רחוב, אישה שנדבקה באיידס, וסוחר סמים שנהרג. המילים 'אל תרדפו אחרי מפלי מים' מבקשות להימנע מפיתויים מסוכנים. השיר יצא בשיא מגפת האיידס ב-1995.",
+    "explanation_he": "למרות המנגינה השלווה, \"Waterfalls\" מספר שני סיפורים טראגיים: בן שמתפתה לעולם הסחר בסמים ונהרג מאלימות רחוב, ואיש שמקיים יחסי מין לא מוגנים ונדבק באיידס (\"שלוש האותיות שלקחו אותו למקום מנוחתו האחרון\"). המילים \"אל תרדפו אחרי מפלי מים\" מבקשות להימנע מפיתויים מסוכנים. השיר היה הראשון שזכה למקום ראשון בבילבורד והתייחס לאיידס.",
     "songTitle": "Waterfalls",
     "artist": "TLC",
     "year": 1995,
@@ -1807,8 +1961,22 @@
     "spotifyId": "6qspW4YKycviDFjHBOaqUY",
     "deezerId": 1043894,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/81/4e/e9814ecd-7282-e0cf-6a19-70ea78117382/mzaf_10928185948311762507.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Waterfalls_(TLC_song)",
+        "title": "Waterfalls (TLC song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/tlc/waterfalls",
+        "title": "Waterfalls by TLC — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-1995 בשיא מגפת האיידס, מאלבום CrazySexyCool. הוא נחשב לאחד השירים הראשונים בפופ המיינסטרים שעסק במפורש בנושא, וזכה למקום הראשון בבילבורד ל-7 שבועות. ההפקה של אורגניזד נויז ושיווק הקליפ — שמראה את שני הסיפורים במקביל — הפכו אותו לסמל תרבותי של שנות ה-90."
   },
   {
     "id": "q038",
@@ -1846,8 +2014,22 @@
     "spotifyId": "003vvx7Niy0yvhvHt4a68B",
     "deezerId": 953097,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/95/6e/b3956e14-35f0-937e-afb0-72774d3f613f/mzaf_8359343604382181711.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mr._Brightside",
+        "title": "Mr. Brightside — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-killers/mr-brightside",
+        "title": "Mr. Brightside by The Killers — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "ברנדון פלאוורס סיפר: \"ישנתי וידעתי שמשהו לא בסדר. הלכתי לבר Crown and Anchor בלאס וגאס, וחברתי הייתה שם עם בחור אחר\". פלאוורס וגיטריסט דייב קיונינג כתבו את הגרסה הראשונה ב-2001, וביצעו אותה לראשונה בערב מיקרופון פתוח בבית קפה בוגאס בינואר 2002. השיר יצא ב-2003 ובאלבום הבכורה Hot Fuss (2004), והפך לטראק המזוהה ביותר עם הלהקה."
   },
   {
     "id": "q039",
@@ -1873,7 +2055,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "למרות שנשמע כמו שיר רוק סטנדרטי, 'Black Hole Sun' מתאר עולם פרברי שמסתיר ריקנות וכאב מאחורי חיוכים מזויפים. כריס קורנל אמר שה'שמש השחורה' היא כוח שישאב את כל השקר - סוג של חזון אפוקליפטי של חשיפת האמת.",
+    "explanation_he": "למרות שנשמע כמו שיר רוק סטנדרטי, הקליפ של \"Black Hole Sun\" מציג שכונה פרברית עם דמויות בעלות חיוכים מעוותים שנבלעות בשמש שחורה — מטאפורה ויזואלית לריקבון שמסתתר מאחורי החזות המושלמת. כריס קורנל עצמו טען שהמילים הן יותר \"משחק במילים בשביל המילים\" ופחות מסר ספציפי, ושהשם נולד כשטעה לשמוע באולפן חדשות. הוא ציין שלמרות המנגינה המהפנטת, \"Black Hole Sun\" הוא בעצם שיר עצוב.",
     "songTitle": "Black Hole Sun",
     "artist": "Soundgarden",
     "year": 1994,
@@ -1885,8 +2067,22 @@
     "spotifyId": "2EoOZnxNgtmZaD8uUmz2nD",
     "deezerId": 78631539,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/7c/32/c37c32b4-b95d-1714-a205-4848458c0ba1/mzaf_7576631968114037271.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_Hole_Sun",
+        "title": "Black Hole Sun — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/soundgarden/black-hole-sun",
+        "title": "Black Hole Sun by Soundgarden — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "קורנל סיפר שכתב את המילים ראשון ואז הלחין סביבן: \"כתבתי את זה בראש שלי... העברתי הרבה זמן עם המנגינות\". הוא השווה את האפקט ל-\"Pink Floyd של תקופת סיד באראט, שיש שכבה שמחה מעל משהו אפל\". הקליפ של האוורד גרינהל זכה ב-MTV VMA לסרטון מטאל של השנה (1994)."
   },
   {
     "id": "q040",
@@ -1912,7 +2108,7 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation_he": "תום יורק כתב את 'Creep' על אישה שראה במסיבה ולא העז לגשת אליה כי חש שהוא לא ראוי. המילים 'אני מוזר, אני מנוול, מה אני עושה פה?' ביטאו שנאה עצמית כה עמוקה שיורק שנא את השיר עצמו ובמשך שנים סירב לנגן אותו בהופעות.",
+    "explanation_he": "תום יורק כתב את \"Creep\" על אישה זרה שראה בתקופת הקולג' שלו באוקספורד וגרר אחריה במשך תקופה. המילים \"אני מוזר, אני מנוול, מה אני עושה פה?\" ביטאו שנאה עצמית כה עמוקה שהלהקה זנחה לחלוטין את ביצוע השיר ב-1998 (אחרי 5 שנות הופעות שבהן \"חיינו את אותן 4.5 דקות שוב ושוב\", כפי שתיאר אד או'בריאן), והחזירה אותו רק מ-2001 ובאופן ספורדי.",
     "songTitle": "Creep",
     "artist": "Radiohead",
     "year": 1992,
@@ -1924,8 +2120,22 @@
     "spotifyId": "70LcF31zb1H0PyJoS1Sx1r",
     "deezerId": 138547415,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8d/e0/bb/8de0bb10-0593-83cc-4d2c-4e9f6ea9b575/mzaf_16440589638018943894.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Creep_(Radiohead_song)",
+        "title": "Creep (Radiohead song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/radiohead/creep",
+        "title": "Creep by Radiohead — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הביצוע הראשון אחרי הזניחה היה ב-2001, אחרי תקלה בקלידים שאילצה אותם לבצע אותו בהופעה ביתית. השיר לא הופיע ב-Pablo Honey כשיר מוביל — הוא יצא כסינגל ב-1992 וכשל בתחילה, אבל זכה לתחייה ב-1993 וקיבל בסופו של דבר את מקום 7 בבילבורד."
   },
   {
     "id": "q041",
@@ -1951,7 +2161,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "רוב האנשים מכירים את 'Hallelujah' כשיר רוחני, אך כהן כתב על אמונה שבורה, תשוקה מינית ('היא קשרה אותך לכיסא, שברה את כס המלכות שלך, גזרה את שערך') ועל ה'הללויה' כצעקה של אדם שנפל מקרבת אלוהים. כהן כתב 80 טיוטות לפני שסיים.",
+    "explanation_he": "רוב האנשים מכירים את \"Hallelujah\" כשיר רוחני, אך כהן כתב על אמונה שבורה ותשוקה מינית. השיר משלב התייחסויות מקראיות לדוד ובת-שבע (\"ראית אותה רוחצת על הגג, יופייה ואור הירח הפילוך\") ולשמשון ודלילה (\"היא קשרה אותך לכיסא, שברה את כס המלכות שלך, גזרה את שערך\"). ה-\"הללויה\" היא צעקה של אדם שנפל מקרבת אלוהים. כהן כתב כ-80 גרסאות לבית לפני שבחר ב-6 לגרסה הסופית.",
     "songTitle": "Hallelujah",
     "artist": "Leonard Cohen",
     "year": 1984,
@@ -1964,8 +2174,22 @@
     "spotifyId": "7yzbimr8WVyAtBX3Eg6UL9",
     "deezerId": 15218949,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/95/03/4d95037f-5f75-2821-473e-9b4d621a54c8/mzaf_7276002928210446764.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hallelujah_(Leonard_Cohen_song)",
+        "title": "Hallelujah (Leonard Cohen song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/leonard-cohen/hallelujah",
+        "title": "Hallelujah by Leonard Cohen — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "יש דיווחים חלוקים: חלק מהמקורות אומרים 80 בתים, אחרים מדברים על 150-180. כהן עצמו אמר: \"אם הייתי יודע מאיפה השירים מגיעים, הייתי הולך לשם יותר\". השיר יצא לראשונה ב-1984 באלבום Various Positions שחברת Columbia סירבה להוציא בארה\"ב — הוא הפך לאיקוני רק אחרי גרסת הכיסוי של ג'ף באקלי ב-1994."
   },
   {
     "id": "q042",
@@ -1991,7 +2215,7 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation_he": "כריס מרטין כתב את 'Yellow' בהשראת הכוכבים שראה בלילה. למרות שנשמע רומנטי, המילים 'אשפוך דם בשבילך, אתן עצמות בשבילך' מתארות מסירות שגובלת באובססיה הרסנית. מרטין הודה שהשיר מתאר אהבה שמגיעה למקום לא בריא.",
+    "explanation_he": "כריס מרטין כתב את \"Yellow\" בהשראת הכוכבים שראה מחוץ לאולפן בלילה (לפי המלצת המפיק קן נלסון). למרות שנשמע כמו שיר אהבה רומנטי, המילים \"אשפוך דם בשבילך, אתן עצמות בשבילך\" מתארות מסירות אינטנסיבית עד-קיצונית. מרטין הסביר שהשיר עוסק ב-\"מסירות לאדם — לכתוב לו שיר, לשחות בים בשבילו\", ואמר שלא היה לו אדם ספציפי בראש — זה יכול לתאר אפילו אהבה אחווית.",
     "songTitle": "Yellow",
     "artist": "Coldplay",
     "year": 2000,
@@ -2003,8 +2227,22 @@
     "spotifyId": "3AJwUDP919kvQ9QcozQPxg",
     "deezerId": 3128096,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/f3/1a/66f31a76-a6ed-cb4c-f353-23310a7ae9a8/mzaf_10593596652344378873.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Yellow_(Coldplay_song)",
+        "title": "Yellow (Coldplay song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/coldplay/yellow",
+        "title": "Yellow by Coldplay — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הצבע \"צהוב\" עצמו לא נבחר במשמעות סמלית — מרטין אמר ש-\"זה פשוט כי המילה נשמעה טוב, היא פשוט התאימה\". השם הסופי הגיע ממדריך ה-Yellow Pages שהיה ליד באולפן. השיר יצא ב-26 ביוני 2000 כסינגל השני מאלבום הבכורה Parachutes והפך לפריצת הדרך הגדולה של Coldplay."
   },
   {
     "id": "q043",
@@ -2030,7 +2268,7 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation_he": "למרות הקצב הקליט, 'bad guy' הוא שיר אירוני שבו אייליש מציגה את עצמה כ'הרעה' בזוגיות - אבל בסוף חושפת שהגבר הוא ה'רע באמת'. השיר עוסק בדינמיקת כוח מעוותת ובתפקידים מגדריים. הטוויסט בסוף השיר, שבו הקצב משתנה, מסמל את הפיכת היוצרות.",
+    "explanation_he": "למרות הקצב הקליט, \"bad guy\" הוא שיר אירוני שבו אייליש לועגת לתופעה שבה אנשים מציגים את עצמם כ-\"שוברי כללים\". היא אמרה: \"אם את כל הזמן אומרת אני רעה, אני שוברת כללים — את לא באמת\". אייליש עצמה לוקחת את התפקיד של ה-\"בחור הרע\" שבדרך כלל שמור לגברים, ולועגת לאובך תפקידי המגדר — בפזמון היא בעצם מתעמתת עם הבן זוג שמשחק קשוח בעוד שהיא היא \"הרעה האמיתית\". הטוויסט בקצב בסוף השיר מסמל את הפיכת היוצרות.",
     "songTitle": "bad guy",
     "artist": "Billie Eilish",
     "year": 2019,
@@ -2042,8 +2280,22 @@
     "spotifyId": "2Fxmhks0bxGSBdJ92vM42m",
     "deezerId": 655095912,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/87/1f/c3871f7e-3260-d615-1c66-5fdca2c3a48f/mzaf_10721331211699880949.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bad_Guy_(Billie_Eilish_song)",
+        "title": "Bad Guy (Billie Eilish song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/billie-eilish/bad-guy",
+        "title": "Bad Guy by Billie Eilish — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-29 במרץ 2019 מאלבום הבכורה \"When We All Fall Asleep, Where Do We Go?\". המבנה המוזיקלי לא רגיל: הקצב מתחיל ב-135 BPM ויורד ל-120 BPM בסוף. בגראמי 2020 השיר זכה בכל ארבעת הפרסים הגדולים יחד עם בילי אייליש שזכתה באמן השנה ובסולן הנשי הטוב — היא הייתה הראשונה שעשתה זאת מאז קריסטופר קרוס ב-1981."
   },
   {
     "id": "q044",
@@ -2069,7 +2321,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "למרות הצליל הרטרו העליז, 'Blinding Lights' מתאר נהיגה מסוכנת בלילה תחת השפעת סמים בחיפוש אחר אקסית. ה'אורות המסנוורים' הם גם אורות לאס וגאס וגם השפעת הסמים. The Weeknd דיבר בגלוי על כך שהשיר מתאר את החלק האפל של חיי הלילה שלו.",
+    "explanation_he": "למרות הצליל הרטרו העליז, \"Blinding Lights\" מתאר נהיגה תחת השפעת אלכוהול בלילה לכיוון אקסית — מתוך בדידות עזה. The Weeknd הסביר: \"אתה רוצה לראות מישהו בלילה, אתה שיכור, ואתה נוהג לכיוון האדם הזה ופשוט מסונוור על ידי האורות, אבל שום דבר לא יכול לעצור אותך\". הוא הוסיף: \"אני לא רוצה לקדם נהיגה שיכורה, אבל זה הצד האפל\". השיר רומז על לאס וגאס (\"Sin City\") ועל מעגל הלילה האפל שלו עצמו.",
     "songTitle": "Blinding Lights",
     "artist": "The Weeknd",
     "year": 2019,
@@ -2082,8 +2334,22 @@
     "spotifyId": "0VjIjW4GlUZAMYd2vXMi3b",
     "deezerId": 908604612,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/b4/8f/17b48f9a-0b93-6bb8-fe1d-3a16623c2cfb/mzaf_9560252727299052414.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Blinding_Lights",
+        "title": "Blinding Lights — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-weeknd/blinding-lights",
+        "title": "Blinding Lights by The Weeknd — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא בנובמבר 2019 מאלבום After Hours, ועוצב בסגנון synth-wave של שנות ה-80 בהשראת המשחק Grand Theft Auto: Vice City. הוא שבר את שיא בילבורד הוט 100 ככל הזמנים — 90 שבועות בעשירייה הראשונה ובמקום 1 ל-4 שבועות. ב-2024 הופיע ב-Spotify כשיר המושמע ביותר אי פעם."
   },
   {
     "id": "q045",
@@ -2109,7 +2375,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "הוזייר כתב את 'Take Me to Church' כביקורת על הכנסייה הקתולית ודיכוי מיניות. ה'כנסייה' בשיר היא לא מקום פולחן אלא מטאפורה למיניות ואהבה. הקליפ, שמתאר רדיפה של זוג הומוסקסואלי ברוסיה, הפך את המסר לבלתי ניתן להתעלמות.",
+    "explanation_he": "הוזייר כתב את \"Take Me to Church\" כביקורת על הכנסייה הקתולית ועל דיכוי המיניות. הוא אמר: \"גדלתי באירלנד, הכנסייה תמיד שם — הצביעות, הפחדנות הפוליטית\". ה-\"כנסייה\" בשיר היא לא מקום פולחן אלא מטאפורה למיניות ולאהבה. הקליפ מציג את רדיפתו של זוג הומוסקסואלי, ובהשראת הפרסקציה של להט\"ב ברוסיה (אם כי הסרטון עצמו צולם באירלנד).",
     "songTitle": "Take Me to Church",
     "artist": "Hozier",
     "year": 2013,
@@ -2122,8 +2388,22 @@
     "spotifyId": "3dYD57lRAUcMHufyqn9GcI",
     "deezerId": 84791735,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/95/fe/fb95fea4-aab2-151d-7e2d-a3b2740de243/mzaf_5007348610386911589.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Take_Me_to_Church_(Hozier_song)",
+        "title": "Take Me to Church (Hozier song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/hozier/take-me-to-church",
+        "title": "Take Me to Church by Hozier — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הוזייר הדגיש שהשיר אינו \"התקפה על אמונה\" אלא ביקורת על \"מוסד שמערער את האנושות\". הוא תיאר אותו כ-\"שיר של איבוד דת\". הקליפ של ברנדן קנטי הופק בקורק, אירלנד, בתקציב של 1,500 אירו בלבד, אבל השפיע באופן עולמי. השיר הגיע למקום 2 בבילבורד ולשיא של 6 בבריטניה."
   },
   {
     "id": "q046",
