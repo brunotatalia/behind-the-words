@@ -7,6 +7,7 @@ import { questions } from '@/data/questions';
 import { useStatsStore } from '@/store/statsStore';
 import { useSettingsStore } from '@/store/settingsStore';
 import { useSongPreview } from '@/hooks/useSongPreview';
+import { ExtendedInfo } from '@/components/game/ExtendedInfo';
 import type { Question } from '@/types/question';
 
 // Shuffle questions for a fresh explore experience
@@ -133,6 +134,7 @@ function ExploreCard({
           <p className="text-text-primary text-lg leading-relaxed px-2">
             {question.explanation_he}
           </p>
+          <ExtendedInfo question={question} />
         </div>
 
         {/* Action buttons */}

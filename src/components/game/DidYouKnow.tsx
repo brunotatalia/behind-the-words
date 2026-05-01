@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import type { Question } from '@/types/question';
 import { useStatsStore } from '@/store/statsStore';
+import { ExtendedInfo } from './ExtendedInfo';
 
 interface DidYouKnowProps {
   question: Question;
@@ -102,6 +103,8 @@ export function DidYouKnow({ question, onContinue, isLast }: DidYouKnowProps) {
         <p className="text-text-primary text-base leading-relaxed text-center">
           {question.explanation_he}
         </p>
+
+        <ExtendedInfo question={question} />
 
         {/* Spotify Link */}
         {question.spotifyId && (

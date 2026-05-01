@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Heebo, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const heebo = Heebo({
@@ -50,6 +51,7 @@ export default function RootLayout({
     <html lang="he" dir="rtl" className={`${heebo.variable} ${inter.variable}`}>
       <body className="min-h-dvh flex flex-col antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   );
