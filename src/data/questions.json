@@ -301,8 +301,22 @@
     "spotifyId": "2PpruBYCo4H7WOBJ7Q2EwM",
     "deezerId": 628266,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/98/c0/ce98c0e5-afa5-f746-032a-fa56ad057762/mzaf_8802440392972724196.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hey_Ya!",
+        "title": "Hey Ya! — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/outkast/hey-ya",
+        "title": "Hey Ya! by OutKast — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר עמד 9 שבועות במקום הראשון בבילבורד (דצמבר 2003 – פברואר 2004), והפך לשיר הראשון ב-iTunes שעבר את רף מיליון ההורדות. הביטוי \"shake it like a Polaroid picture\" הקפיץ זמנית את חברת Polaroid שהייתה בפשיטת רגל, באמצעות הופעות חסות של OutKast. השיר זכה בגראמי וב-VMA, ונכלל במקום ה-10 ברשימת 500 השירים הגדולים בכל הזמנים של רולינג סטון (2021)."
   },
   {
     "id": "q007",
@@ -340,8 +354,22 @@
     "spotifyId": "42et6fnHCw1HIPSrdPprMl",
     "deezerId": 366916761,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/66/4f/d5/664fd561-0029-9716-332f-f803d5c62c88/mzaf_11204203960647499555.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Semi-Charmed_Life",
+        "title": "Semi-Charmed Life — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/third-eye-blind/semi-charmed-life",
+        "title": "Semi-Charmed Life by Third Eye Blind — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "סטפן ג'נקינס כתב את השיר אחרי שראה חברים משתמשים בקריסטל מת' בהופעה של Primus. הוא תיאר אותו כ\"שיר על להתפרק\" ואמר שרצה שהריף \"ייצור את ההרגשה הבהירה והמבריקה של ספיד\". גרסת הרדיו הצנזרה את המילה \"crystal meth\" באמצעות backmasking, מה שאיפשר השמעה רחבה למרות התוכן. השיר הגיע למקום 4 בבילבורד והפך לאחד הלהיטים הגדולים של 1997."
   },
   {
     "id": "q008",
@@ -380,8 +408,22 @@
     "spotifyId": "3kzC0NDNlnP9qvRr9dGZhF",
     "deezerId": 13791935,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/0c/d4/a90cd425-05e6-dd71-9e44-d8e17663b694/mzaf_9627485631151085620.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Polly_(Nirvana_song)",
+        "title": "Polly (Nirvana song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/nirvana/polly",
+        "title": "Polly by Nirvana — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "החוטף היה ג'רלד פרנד, והקורבן ברחה לאחר שהערימה עליו בתחנת דלק וקפצה ממשאיתו, מה שמשך תשומת לב סובבים. תוספת היצירתית של קוביין הייתה לכתוב את הקורבן כמשתפת פעולה לכאורה כדי לגרום לחוטף להוריד את ערנותו. ב-1992 קוביין הביע זעזוע כשנודע לו על אונס שבו התוקפים שרו את מילות \"Polly\" — \"אנשים בלי-תועלת מהשפיכה והבייצים האלה\"."
   },
   {
     "id": "q009",
@@ -420,8 +462,22 @@
     "spotifyId": "1kgdslQYmeTR4thk9whoRw",
     "deezerId": 1933842237,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/a0/e2/08/a0e208ff-8461-a92a-214c-1522f4a14668/mzaf_8284815284984037236.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tears_in_Heaven",
+        "title": "Tears in Heaven — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/eric-clapton/tears-in-heaven",
+        "title": "Tears in Heaven by Eric Clapton — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר נכתב בשיתוף עם הפזמונאי וויל ג'נינגס עבור פסקול הסרט Rush (1992). קלפטון היסס לגבי שחרור פומבי, אבל הבמאית לילי זאנוק שכנעה אותו ש\"זה אולי יעזור למישהו\". השיר זכה ב-3 פרסי גראמי ב-1993 (שיר השנה, הקלטת השנה, ביצוע פופ גברי), והגיע למקום 2 בבילבורד."
   },
   {
     "id": "q010",
@@ -460,8 +516,22 @@
     "spotifyId": "2IJftBfq7pJ43tfnOR0RB3",
     "deezerId": 3786035302,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d2/95/43/d2954325-fa82-f1b3-9817-9b16bfa1f4ca/mzaf_9429265561094763517.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/99_Luftballons",
+        "title": "99 Luftballons — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/nena/99-luftballons",
+        "title": "99 Luftballons by Nena — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הרעיון נולד ביוני 1982 כשגיטריסט הלהקה קרלו קרגס ראה בלונים מתעופפים בהופעה של רולינג סטונס בברלין המערבית, וחשב מה יקרה אם יחצו את חומת ברלין למזרח. הגרסה הגרמנית הגיעה למקום 2 בבילבורד בארה\"ב; הגרסה האנגלית \"99 Red Balloons\" הגיעה למקום 1 בבריטניה ובקנדה ב-1984. ננה עצמה הדגישה שהשיר עוסק במודעות לפעולותינו וקריאה לשלום, יותר מאשר במסר פוליטי ישיר."
   },
   {
     "id": "q011",
@@ -487,7 +557,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "השיר 'Macarena' מספר על בחורה בשם מקרנה שמנצלת את ההזדמנות שחברהּ מתגייס לצבא כדי לבגוד בו עם שני חברים שלו. הריקוד העליז גורם לכולם להתעלם מהעובדה שהמילים מספרות סיפור לא מוסרי במיוחד.",
+    "explanation_he": "השיר 'Macarena' מספר על בחורה בשם מקרנה שמנצלת את ההזדמנות שחבר שלה ויטורינו מתגייס לצבא כדי לבלות עם גברים אחרים. הריקוד העליז גורם לכולם להתעלם מהעובדה שהמילים מספרות סיפור של בגידה.",
     "songTitle": "Macarena",
     "artist": "Los del Río",
     "year": 1993,
@@ -499,8 +569,22 @@
     "spotifyId": "6mhw2fEPH4fMF0wolNm96e",
     "deezerId": 994491,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e8/56/fe/e856fefa-4f3c-af1b-e139-d24f9a4393d4/mzaf_14984303703611477855.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Macarena_(song)",
+        "title": "Macarena (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/los-del-rio/macarena",
+        "title": "Macarena by Los del Río — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר נכתב על ידי לוס דל ריו (Antonio Romero Monge ו-Rafael Ruiz Perdigones) ב-1993, אחרי ש-Monge ראה רקדנית בוונצואלה. השם \"מקרנה\" נבחר לכבוד בתו של מונחה. הריקס של Bayside Boys שיצא ב-1995 עמד 14 שבועות במקום הראשון בבילבורד ב-1996, ומכר מעל 14 מיליון עותקים בעולם. נוסחת ה\"גוף-ועליצות\" הזו עצמה זכתה לביצוע במהלך הוועידה הדמוקרטית של 1996."
   },
   {
     "id": "q012",
@@ -539,8 +623,22 @@
     "spotifyId": "4VrWlk8IQxevMvERoX08iC",
     "deezerId": 79587580,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/de/66/f0de661c-299a-b7ae-80d9-4f35f79875b1/mzaf_10598240417031133475.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chandelier_(song)",
+        "title": "Chandelier (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/sia/chandelier",
+        "title": "Chandelier by Sia — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "סיה (שכיום מפוכחת) כתבה את השיר מנסיון עברה האישי עם אלכוהוליזם, וכתגובה לשירי \"מסיבת בנות\" אחרים בפופ. בתחילה כתבה אותו לריהאנה או לביונסה, אך החליטה להקליט בעצמה. הקליפ המפורסם עם הרקדנית מאדי זיגלר בת ה-11 שוחרר במאי 2014. השיר הגיע למקום 8 בבילבורד וקיבל 4 מועמדויות לגראמי."
   },
   {
     "id": "q013",
@@ -578,8 +676,22 @@
     "spotifyId": "3UmaczJpikHgJFyBTAJVoz",
     "deezerId": 1109730,
     "itunesPreviewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video122/v4/5b/1c/f1/5b1cf1f9-ce71-888b-ecd7-1b84261d36f7/mzvf_188122443604353665.1920w.h264lc.U.p.m4v",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stan_(song)",
+        "title": "Stan (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/eminem/stan",
+        "title": "Stan by Eminem — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "במקור נופל סטן עם חברתו ההרה לתוך מבחן הנהר אחרי נסיעה שיכורה — ואמינם בשיר עצמו עונה לו במכתב, אבל מבין באיחור שהסיפור החדשותי שהוא שמע הוא של סטן עצמו. השיר דוגם את \"Thank You\" של דיידו, ונכלל ברשימת 500 השירים הגדולים של רולינג סטון. המונח \"stan\" נכנס למילון אוקספורד ב-2017 ולמילון מריאם-וובסטר ב-2019, ומשמש כיום כפועל ושם עצם לתיאור מעריץ אובססיבי."
   },
   {
     "id": "q014",
@@ -605,7 +717,7 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation_he": "ג'ון לנון טען שהשם מבוסס על ציור של בנו ג'וליאן שצייר חברה מבית הספר בשם לוסי. אך הצירוף המקרי של ראשי התיבות L-S-D, יחד עם הדימויים הפסיכדליים בשיר, הפכו אותו לשנוי במחלוקת ואף גרמו לאיסור השמעתו ב-BBC.",
+    "explanation_he": "ג'ון לנון טען שהשם מבוסס על ציור של בנו ג'וליאן שצייר חברה מבית הספר בשם לוסי וודן (שאכן הייתה אמיתית, נפטרה ב-2009). אך הצירוף המקרי של ראשי התיבות L-S-D, יחד עם הדימויים הפסיכדליים בשיר, הפכו אותו לשנוי במחלוקת. לנון עצמו הכחיש לאורך השנים כל התייחסות מכוונת לסם ואמר שדמיון הפנטזיה הגיע מ'אליס בארץ הפלאות'.",
     "songTitle": "Lucy in the Sky with Diamonds",
     "artist": "The Beatles",
     "year": 1967,
@@ -617,8 +729,22 @@
     "spotifyId": "25yQPHgC35WNnnOUqFhgVR",
     "deezerId": 116348674,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6c/55/aa/6c55aa44-6367-2754-b3f1-5c90e4262671/mzaf_6473854721327122952.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lucy_in_the_Sky_with_Diamonds",
+        "title": "Lucy in the Sky with Diamonds — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-beatles/lucy-in-the-sky-with-diamonds",
+        "title": "Lucy in the Sky with Diamonds by The Beatles — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הסיפור על איסור שידור ב-BBC הוא מיתוס נפוץ אך שנוי במחלוקת — לפי החוקרים אלן קלייסון וספנסר לי, ה-BBC מעולם לא אסר רשמית את השיר, ושידר אותו לראשונה ב-20 במאי 1967. השיר היחיד מאלבום Sgt. Pepper שאכן נאסר על ידי ה-BBC היה \"A Day in the Life\". גרסת הכיסוי של אלטון ג'ון מ-1974 (עם השתתפות לנון) הגיעה למקום 1 בארה\"ב."
   },
   {
     "id": "q015",
@@ -656,8 +782,22 @@
     "spotifyId": "1H7gMYGykdtwZOV6s1N0by",
     "deezerId": 116348254,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/00/39/260039f3-51bb-c479-16b7-8412199ccbc2/mzaf_2459513772630634554.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Norwegian_Wood_(This_Bird_Has_Flown)",
+        "title": "Norwegian Wood (This Bird Has Flown) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-beatles/norwegian-wood-this-bird-has-flown",
+        "title": "Norwegian Wood by The Beatles — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "לנון הודה במפורש: \"ניסיתי לכתוב על רומן מבלי לתת לאשתי לדעת שיש לי כזה — נזהר ופרנואיד כי לא רציתי שסין תדע שמשהו קורה מחוץ לבית\". פול מקרטני אישר שהשם \"Norwegian Wood\" מתייחס לסוג של ציפוי קיר אורן זול שהיה אופנתי בלונדון, ושהבחירה הייתה לעגנית. הסיום \"I lit a fire\" נשאר עמום בכוונה — לפי מקרטני, הוא עשוי להתייחס לחימום ליד אש או לשרוף את הדירה כנקמה."
   },
   {
     "id": "q016",
@@ -695,8 +835,22 @@
     "spotifyId": "4S1VYqwfkLit9mKVY3MXoo",
     "deezerId": 698274,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/f4/b2/daf4b26a-83da-1e34-bbba-546e253798c7/mzaf_14148949332076372597.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Forever_Young_(Alphaville_song)",
+        "title": "Forever Young (Alphaville song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/alphaville/forever-young",
+        "title": "Forever Young by Alphaville — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "מקור הלהקה האלקטרונית הגרמנית, השיר שוחרר בספטמבר 1984 ועוסק בחרדה הקיומית של חיים בצל איום גרעיני — \"אתה הולך להפיל את הפצצה או לא?\". במקור הבית השלישי נכתב עם תחושה \"פאשיסטית\" שהמפיקים דרשו מהזמר מריאן גולד לשנות. השיר עבר תחייה ב-2024 כשנעשה ויראלי בטיקטוק, צבר מעל 1.1 מיליארד השמעות בספוטיפיי, והגיע ל-10 שבועות במקום 1 בבילבורד."
   },
   {
     "id": "q017",
@@ -722,7 +876,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "השיר מפרט תרחישי קטסטרופה בקצב מסחרר ומסתיים ב'ואני מרגיש מצוין'. מייקל סטייפ אמר שהשיר הוא על עומס מידע ותחושת חוסר אונים מול אסונות שאי אפשר לשלוט בהם - אבל הפזמון האירוני גורם לכולם לשיר איתו בשמחה.",
+    "explanation_he": "השיר מפרט תרחישי קטסטרופה בקצב מסחרר ומסתיים ב'ואני מרגיש מצוין'. מייקל סטייפ אמר שזה 'אוסף של זרם תודעה' — מילים שהגיעו אליו ממקורות שונים: חלומות, צפייה בטלוויזיה, וחיי היומיום. הניגוד בין הזרם הקטסטרופלי למילה האירונית של 'מרגיש מצוין' הוא חלק מהאפקט.",
     "songTitle": "It's the End of the World as We Know It (And I Feel Fine)",
     "artist": "R.E.M.",
     "year": 1987,
@@ -734,12 +888,26 @@
     "spotifyId": "2oSpQ7QtIKTNFfA08Cy0ku",
     "deezerId": 3154051,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/c3/b0/ebc3b094-e446-3cfc-d205-78cdc1482f5b/mzaf_4096271226057163295.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/It%27s_the_End_of_the_World_as_We_Know_It_(And_I_Feel_Fine)",
+        "title": "It's the End of the World as We Know It (And I Feel Fine) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://americansongwriter.com/r-e-m-frontman-michael-stipe-clears-up-confusion-around-iconic-hit-its-the-end-of-the-world-as-we-know-it-and-i-feel-fine/",
+        "title": "R.E.M. Frontman Michael Stipe Clears Up Confusion Around Iconic Hit — American Songwriter",
+        "type": "article",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "חלק מהמילים נולדו מחלום של סטייפ שבו הוא היחיד במסיבת יום הולדת של לסטר באנגס שאינו עם ראשי תיבות L.B. — שם הופיעו לני ברוס, ליאוניד ברז'נב, לאונרד ברנשטיין. השיר הושפע מ-\"Subterranean Homesick Blues\" של בוב דילן בסגנון השירה המהיר. בספטמבר 2025 סטייפ סוף סוף חשף ברשתות החברתיות את המילים הנכונות שהמעריצים שמעו לא נכון במשך 38 שנה."
   },
   {
     "id": "q018",
-    "question_he": "איזה שיר פופ ענק של שנות ה-80 עוסק למעשה בזנות?",
+    "question_he": "איזה שיר פופ ענק של שנות ה-70 עוסק למעשה בזנות?",
     "category": "translation-barriers",
     "difficulty": "hard",
     "options": [
@@ -773,8 +941,22 @@
     "spotifyId": "3EYOJ48Et32uATr9ZmLnAo",
     "deezerId": 2525877,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/b6/d4/35b6d4ce-e387-03e9-c5f1-0085ad2c5ca3/mzaf_5629035456227674866.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roxanne_(The_Police_song)",
+        "title": "Roxanne (The Police song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-police/roxanne",
+        "title": "Roxanne by The Police — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "סטינג כתב את השיר באוקטובר 1977 כשהפוליס שהו במלון עלוב בפריז ליד רובע האורות האדומים, אחרי שראה זונות לראשונה בחייו. השיר שוחרר ב-7 באפריל 1978 אך נכשל מסחרית בתחילה. רק שידור של תחנת רדיו באוסטין, טקסס, ב-1979 חולל פריצת דרך — והוא הגיע למקום 12 בבריטניה ולמקום 32 בארה\"ב במאי 1979."
   },
   {
     "id": "q019",
@@ -813,8 +995,22 @@
     "spotifyId": "3z8h0TU7ReDPLIbEnYhWZb",
     "deezerId": 9997018,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/11/52/8f1152a9-fd5f-0021-f546-b97579c22ec3/mzaf_3962258993076347789.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
+        "title": "Bohemian Rhapsody — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/queen/bohemian-rhapsody",
+        "title": "Bohemian Rhapsody by Queen — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "מרקורי סירב לאורך כל חייו לפרש את השיר ואמר ש\"אנשים צריכים פשוט להאזין ולהחליט בעצמם\". בריאן מיי הודה שמרקורי \"כתב את עצמו לתוך השיר\" וכלל בו את המאבקים האישיים שלו — אך הלהקה הסכימה לשמור על פרטיות המשמעות. אחרי מותו של מרקורי, אהובו ג'ים האטון אמר שהשיר היה \"וידוי של מרקורי על היותו הומוסקסואל\". מרקורי כתב אותו דווקא בתקופת מפנה אישי — אחרי שבע שנים עם מרי אוסטין, כשהתחיל בקשר הראשון שלו עם גבר."
   },
   {
     "id": "q020",
@@ -840,7 +1036,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "מארק הופוס מ-Blink-182 כתב את 'Adam's Song' בתקופה קשה של דיכאון וחיי טורינג מפרכים. השיר, שנקרא על שם מכתב אמיתי של מתבגר שהתאבד, מתאר בדידות ומחשבות חשוכות אך מסתיים בתקווה - 'לעולם לא חשבתי שאהיה כל כך לבד'.",
+    "explanation_he": "מארק הופוס מ-Blink-182 כתב את השיר אחרי שקרא מכתב התאבדות אמיתי של מתבגר, בתקופה קשה של דיכאון וטורים מפרכים שבהם הרגיש בודד בעוד שאר חברי הלהקה חזרו הביתה לבני זוג. השיר מתאר בדידות ומחשבות חשוכות אך מסתיים בתקווה — 'מחר מחזיק ימים טובים יותר'. השם 'אדם' עצמו, לפי טראביס בארקר, נלקח דווקא מסקיצה של הסדרה הקומית Mr. Show.",
     "songTitle": "Adam's Song",
     "artist": "Blink-182",
     "year": 1999,
@@ -852,8 +1048,22 @@
     "spotifyId": "6xpDh0dXrkVp0Po1qrHUd8",
     "deezerId": 127354209,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/18/32/7b1832d9-82b1-f17e-71f9-86a264641c46/mzaf_14630271465184938324.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Adam%27s_Song",
+        "title": "Adam's Song — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/blink-182/adams-song",
+        "title": "Adam's Song by Blink-182 — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר מהאלבום Enema of the State (1999) ספג ביקורת בעקבות התאבדות של ניצולת מטבח קולומביין שהאזינה לו על loop. חברי הלהקה הדגישו שזה \"שיר של תקווה\", לא קריאה להתאבדות. השיר מסתיים ב\"crescendo\" של פסנתר עם תחושת התעוררות חיובית."
   },
   {
     "id": "q021",
@@ -891,8 +1101,22 @@
     "spotifyId": "6GtX0jaNL8IjVQfrDBx81z",
     "deezerId": 62791738,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/80/df/d680dfac-7aec-6736-aba9-8592efd92cb1/mzaf_1021967676870236577.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bullet_with_Butterfly_Wings",
+        "title": "Bullet with Butterfly Wings — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/smashing-pumpkins/bullet-with-butterfly-wings",
+        "title": "Bullet with Butterfly Wings by Smashing Pumpkins — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר עוסק בכאב שבא עם להיות כוכב רוק — בילי קורגן ביטא תסכול מהמאבק לשמור על שליטה אומנותית אחרי הצלחה מסחרית. הוא סיפר שכתב את השורה המפורסמת \"rat in a cage\" ספונטנית: \"פשוט ישבתי, משועמם, הרמתי את הגיטרה והתחלתי לשיר\". בכוונה דחף את המילים \"כמעט לפרודיה\" כתגובה לתדמית הקודרת שהתקשורת הצמידה לו. השיר נכלל באלבום הכפול \"Mellon Collie and the Infinite Sadness\" (אוקטובר 1995)."
   },
   {
     "id": "q022",
@@ -931,8 +1155,22 @@
     "spotifyId": "3d9DChrdc6BOeFsbrZ3Is0",
     "deezerId": 785176,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bc/9f/89/bc9f892f-a55b-493f-d11d-097a7fc3c194/mzaf_5067400398413485421.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Under_the_Bridge",
+        "title": "Under the Bridge — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/red-hot-chili-peppers/under-the-bridge",
+        "title": "Under the Bridge by Red Hot Chili Peppers — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אנתוני קידיס כתב את השורה הראשונה \"לפעמים אני מרגיש שאין לי שותף\" כשהיה בנהיגה, מרגיש מחוץ לחבורה כי ג'ון פרושיאנטה ופלי התקרבו זה לזה. הוא היה גם בהרהור על מותו של חברו הילל סלובאק מהתמכרות. הגשר שעליו הוא שר אכן קיים בלוס אנג'לס במרכז העיר, אבל קידיס שמר את המיקום המדויק בסוד. המפיק ריק רובין מצא את השיר במחברת של קידיס ולחץ עליו לפתח אותו."
   },
   {
     "id": "q023",
@@ -958,7 +1196,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "השיר נכתב על ידי ג'ון קרטר קאש, אשתו של ג'וני, כשנפלה באהבתו למרות שידעה על בעיות ההתמכרות שלו. 'טבעת האש' מתארת תחושת אהבה בלתי נשלטת שצורבת כמו אש - אהבה שגם מחממת וגם הורסת.",
+    "explanation_he": "השיר נכתב על ידי ג'ון קרטר (לימים אשתו של ג'וני קאש) יחד עם מרל קילגור ב-1962, בתקופה שבה ג'ון התאהבה בג'וני קאש למרות שהיו שניהם נשואים לאחרים. 'טבעת האש' היא מטאפורה לאהבה משתלטת, צורבת ובלתי-נשלטת — ג'ון אמרה: 'אין דרך להיות בגיהינום הזה, אין דרך לכבות להבה ששורפת ושורפת ושורפת'. הגרסה של ג'וני קאש משנת 1963 הפכה לאיקונית.",
     "songTitle": "Ring of Fire",
     "artist": "Johnny Cash",
     "year": 1963,
@@ -971,8 +1209,22 @@
     "spotifyId": "5rDkA2TFOImbiVenmnE9r4",
     "deezerId": 856630,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/12/68/2c126894-fd6b-b37c-d556-6d91bd8c0875/mzaf_17832761364720403968.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ring_of_Fire_(song)",
+        "title": "Ring of Fire (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/johnny-cash/ring-of-fire",
+        "title": "Ring of Fire by Johnny Cash — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הגרסה המקורית הוקלטה בשנת 1962 על ידי אניטה קרטר, אחותה של ג'ון. ג'וני קאש הקליט את גרסתו ב-1963 והוסיף את התרועות הטרומפט המיאצקיות שהפכו לסמל. ג'ון וג'וני התחתנו רק ב-1968. ביתה של ג'ון, רוזאן קאש, הדגישה שהשיר מייצג \"את כוח הטרנספורמציה של אהבה\" יותר מסיפור ביוגרפי ספציפי."
   },
   {
     "id": "q024",
@@ -1010,8 +1262,22 @@
     "spotifyId": "0nnwn7LWHCAu09jfuH1xTA",
     "deezerId": 2680857,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/23/dd/c223dd87-c1d5-4838-0a11-f89865e31b20/mzaf_12653935645450435845.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Slide_(Goo_Goo_Dolls_song)",
+        "title": "Slide (Goo Goo Dolls song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://americansongwriter.com/the-oft-misinterpreted-meaning-behind-the-goo-goo-dolls-slide-speaks-volumes-today/",
+        "title": "The Oft-Misinterpreted Meaning Behind \"Slide\" — American Songwriter",
+        "type": "article",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "בהופעה ב-2002 ב-VH1 Storytellers ג'ון רז'זניק הסביר שהשיר עוסק בנערה מתבגרת מסביבה קתולית קפדנית שנכנסת להריון, ויחד עם חברה הם דנים באם להתחתן או לעשות הפלה — \"האם אתה רוצה להתחתן או לברוח\". בראיון ב-2018 הוא הוסיף שזה מבוסס על ילדותו בבאפלו ועל \"תרבות נוקשה עם הרבה דרישות\". על המילה \"slide\" עצמה הוא אמר שזה היה \"משהו אקראי שצץ בראש\"."
   },
   {
     "id": "q025",
@@ -1049,8 +1315,22 @@
     "spotifyId": "7707eDBpR4qtNFoQ6nQyeR",
     "deezerId": 3154047,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e7/9c/9b/e79c9bd8-7eaa-e4ac-11d7-98060666b7db/mzaf_11189951174358206227.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_One_I_Love_(R.E.M._song)",
+        "title": "The One I Love (R.E.M. song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-01"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/rem/the-one-i-love",
+        "title": "The One I Love by R.E.M. — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-01"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "מייקל סטייפ אמר על השיר: \"הוא ממש אלים ונוראי. חשבתי שזה יותר מדי. ברוטלי מדי\". המילים \"פרופ פשוט להעסיק את זמני\" מתארות שימוש באדם אחר כמטרה רגשית. על המאזינים שמתעקשים לשמוע בו שיר אהבה הוא אמר ב-2016: \"אנשים לא הבינו, אז זה בסדר. עכשיו זה שיר אהבה, אז זה בסדר\"."
   },
   {
     "id": "q026",
