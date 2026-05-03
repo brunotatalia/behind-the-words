@@ -2429,7 +2429,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "למרות שנשמע כשיר חגיגי, 'Firework' נכתב בהשראת הרומן 'על הדרך' של קרואק ופונה לאנשים שמרגישים חסרי ערך. פרי אמרה שהשיר מיועד לכל מי שעבר טראומה - התעללות, דחייה, דיכאון - ומנסה למצוא מחדש את הניצוץ הפנימי.",
+    "explanation_he": "'Firework' של קייטי פרי הוא שיר על מציאת ערך עצמי וניצוץ פנימי. פרי סיפרה שההשראה הגיעה מהרומן 'On the Road' של ג'ק קרואק — בקטע על אנשים ש\"בוערים, בוערים, בוערים, כמו זיקוקים צהובים מופלאים שמתפוצצים כעכבישים על פני הכוכבים\". המסר הוא קריאה לכל מי שמרגיש לא בולט למצוא בעצמו את האור.",
     "songTitle": "Firework",
     "artist": "Katy Perry",
     "year": 2010,
@@ -2441,8 +2441,22 @@
     "spotifyId": "1mXuMM6zjPgjL4asbBsgnt",
     "deezerId": 17135111,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/27/3b/ab273b22-1eb1-dd49-5332-5ef70c35683b/mzaf_4912325324633099647.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Firework_(song)",
+        "title": "Firework (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/katy-perry/firework",
+        "title": "Firework by Katy Perry — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-26 באוקטובר 2010 מהאלבום \"Teenage Dream\" והפך לסינגל מספר 1 השלישי של פרי מהאלבום. פרי הסבירה שזהו \"המנון לא-מקלקלי\" עם \"מסר נפלא\" — קריאה לאנשים למצוא את האומץ \"להיות הם עצמם\". הקליפ זכה ב-MTV VMA לסרטון השנה (2011) וצולם בעיר בודפשט."
   },
   {
     "id": "q047",
@@ -2480,8 +2494,22 @@
     "spotifyId": "4w1lzcaoZ1IC2K5TwjalRP",
     "deezerId": 983832,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3a/5e/e6/3a5ee615-b992-cba4-c351-419d2c6d1578/mzaf_9680671375190882732.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A_Thousand_Miles",
+        "title": "A Thousand Miles — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/vanessa-carlton/a-thousand-miles",
+        "title": "A Thousand Miles by Vanessa Carlton — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "קרלטון כתבה את השיר על תלמיד מ-Juilliard שהיה לה כלפיו רגשות בזמן שלמדה ב-School of American Ballet. היא אמרה: \"מעולם לא דיברתי איתו. הייתי מאוד ביישנית\". ההרגשה שלה הייתה שיש לה סיכוי גדול יותר \"ליפול למעלה\" מאשר ליצור מערכת יחסים — מכאן השורה המפורסמת. השיר הגיע למקום 5 בבילבורד ב-2002."
   },
   {
     "id": "q048",
@@ -2520,8 +2548,22 @@
     "deezerId": 1044791832,
     "spotifyId": "4Oun2ylbjFKMPTiaSbbCih",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/f8/9a/d9f89aa1-e94e-cfb8-78ee-8416f31fc8cf/mzaf_6235565286408681473.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/WAP_(song)",
+        "title": "WAP (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/cardi-b/wap",
+        "title": "WAP by Cardi B — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר עורר בהלה מוסרית שדווקא תרמה לפופולריותו — בהופעה בגראמי 2021 ה-FCC קיבלה למעלה מ-1,000 תלונות. פוליטיקאים רפובליקנים גינו: ג'יימס ברדלי אמר שהוא \"רוצה לשפוך מי קודש לאוזניים\", דיאנה לוריין אמרה שהוא \"החזיר את כל המגדר הנשי 100 שנים אחורה\". הרבה מבקרים הללו אותו כ\"מסר חיובי-מיני\" וכ\"חגיגה של סוכנות מינית של נשים שחורות\". 93 מיליון השמעות בשבוע הראשון, וב-NPR הוכתר \"השיר הטוב של 2020\"."
   },
   {
     "id": "q049",
@@ -2547,7 +2589,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "למרות הצליל הפופי המדבק, 'Can't Feel My Face' הוא שיר על התמכרות לקוקאין. 'היא' בשיר היא לא אישה אלא הסם עצמו - 'אני לא מרגיש את הפנים שלי כשאני איתה' מתאר את ההרדמה מהסם. The Weeknd הסביר שכתב שיר אהבה לסמים.",
+    "explanation_he": "למרות הצליל הפופי המדבק, רבים מפרשים את 'Can't Feel My Face' כשיר על התמכרות לקוקאין — \"היא\" בשיר היא לא אישה אלא הסם. המשפט \"אני לא מרגיש את הפנים שלי כשאני איתה\" מתאר את ההרדמה מהסם. בשיר מאוחר יותר, \"Reminder\", The Weeknd שר במפורש \"פנים מאובנים מתוך שקית קוק\", מה שמחזק את הפרשנות. רשמית, האמן מתאר את השיר כ\"רומן לוהט עם אישה שהוא יודע שהיא לא טובה לו\".",
     "songTitle": "Can't Feel My Face",
     "artist": "The Weeknd",
     "year": 2015,
@@ -2560,8 +2602,22 @@
     "spotifyId": "22VdIZQfgXJea34mQxlt81",
     "deezerId": 106506516,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/4d/65/e04d6546-d5ae-28bf-51fa-e4e54d737c2f/mzaf_17329746342766146939.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Can%27t_Feel_My_Face",
+        "title": "Can't Feel My Face — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-weeknd/cant-feel-my-face",
+        "title": "Can't Feel My Face by The Weeknd — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ביוני 2015 מהאלבום \"Beauty Behind the Madness\" ועלה למקום 1 בבילבורד. הוא הופק על ידי מקס מרטין שמומחה לפופ סקנדינבי, מה שיצר את הסתירה בין הצליל הקליל למשמעות האפלה. כשבלה חדיד, חברתו דאז של The Weeknd, נשאלה אם השיר עליה היא ענתה: \"יש הרבה דברים שעוברים לו בראש, אז אני לא יודעת אם זה עליי\"."
   },
   {
     "id": "q050",
@@ -2599,8 +2655,22 @@
     "spotifyId": "1nVoLxz8C0uGgMKfywy0vf",
     "deezerId": 964664,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/98/8a/04/988a04c9-1d04-ca9c-4013-a01031d48ea1/mzaf_17323683423871797285.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Independence_Day_(Martina_McBride_song)",
+        "title": "Independence Day (Martina McBride song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/martina-mcbride/independence-day",
+        "title": "Independence Day by Martina McBride — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הכותבת גרצ'ן פיטרס כתבה את השיר במכוון מנקודת מבט של ילדה בת 8, ואמרה: \"ניסיתי למצוא דרך אחרת לצאת מזה\" — אך בחרה בסוף הטראגי כי לא הצליחה. השיר נחשב לאבן דרך במודעות לאלימות במשפחה, ופיטרס הביעה אי-נוחות מהשימוש בו לעיתים בהקשרים פטריוטיים — \"הוא על הישרדות וחירות מהתעללות, לא על המנון לאומי\"."
   },
   {
     "id": "q052",
@@ -2626,7 +2696,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "למרות שנשמע כשיר פרידה רגיל, גוטייה חושף שני צדדים של הסיפור. הגבר מרגיש נפגע, אך כשקימברה מצטרפת בבית השני, היא חושפת שהוא היה מניפולטיבי ושלט בה. השיר מראה איך כל צד בפרידה מרגיש שהוא הקורבן.",
+    "explanation_he": "'Somebody That I Used to Know' חושף שני צדדים של אותו סיפור פרידה. גוטייה שר ראשון על הכאב והדחייה שחווה, אך כשקימברה מצטרפת בבית השני היא הופכת את המבט — חושפת שהיא הרגישה מנותקת רגשית למרות נוכחותו (\"אמרתי לעצמי שאתה הנכון לי, אבל הרגשתי כל כך בודדה איתך\"). השיר מראה איך כל צד בפרידה מרגיש שהוא הקורבן, בלי שאחד מהם בהכרח צודק.",
     "songTitle": "Somebody That I Used to Know",
     "artist": "Gotye ft. Kimbra",
     "year": 2011,
@@ -2638,8 +2708,22 @@
     "deezerId": 14993990,
     "spotifyId": "1qDrWA6lyx8cLECdZE7TV7",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/9c/55/f99c553e-7be1-91dc-b55e-3da1aad29bba/mzaf_5038171343466446420.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Somebody_That_I_Used_to_Know",
+        "title": "Somebody That I Used to Know — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/gotye/somebody-that-i-used-to-know",
+        "title": "Somebody That I Used to Know by Gotye — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "גוטייה (וולי דה בקר) סיפר שכתב תחילה רק את החלק שלו, אבל הבין ש\"לא היה לאן ללכת עם הדמות\" וצריך עוד קול. הוסיף את החלק הנשי בסשן השלישי, מה שיצר את האפקט של \"כל צד אומר את שלו\". השיר עמד 8 שבועות במקום 1 בבילבורד וזכה בגראמי לשיר השנה ולהקלטת השנה (2013)."
   },
   {
     "id": "q053",
@@ -2677,8 +2761,22 @@
     "spotifyId": "0I3q5fE6wg7LIfHGngUTnV",
     "deezerId": 963042,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/45/55/23455539-43ad-4dd9-fe29-90f7679ce91c/mzaf_13420063406834686541.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ms._Jackson",
+        "title": "Ms. Jackson — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/outkast/ms-jackson",
+        "title": "Ms. Jackson by OutKast — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אנדרה 3000 כיוון את השיר ספציפית לאמא של אריקה בדו (קולין רייט), אם אריקה ואמהּ של בנם סבן. הוא אמר: \"כנראה שלעולם לא הייתי בא ואומר לאמא של אריקה 'אני מצטער על מה שקרה'\", אז עשה זאת בשיר. אריקה בדו עצמה אמרה שזה \"הכאיב לה בהתחלה\" אבל העריכה את הכנות. הפתיחה מקדישה את השיר ל\"baby's mamas' mamas\"."
   },
   {
     "id": "q054",
@@ -2716,8 +2814,22 @@
     "spotifyId": "0bB0aRsAB2CTYRCeoMOFHU",
     "deezerId": 3872261161,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/6c/ba/c46cba4a-7b51-68e9-3f51-7a0d989376df/mzaf_10922524826765059840.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Physical_(Olivia_Newton-John_song)",
+        "title": "Physical (Olivia Newton-John song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/olivia-newton-john/physical",
+        "title": "Physical by Olivia Newton-John — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "ניוטון-ג'ון עצמה הביעה ספקות לגבי השיר בגלל הרמיזות. שורות כמו \"אין יותר מה לדבר אלא אם זה אופקי\" ו\"תן לי לשמוע את הגוף שלך מדבר\" גרמו לתחנות רדיו לאסור את השיר. הקליפ עצמו עם הסצנות של מקלחת ושינוי גוף נחשב לפרובוקטיבי בזמנו. השיר עמד 10 שבועות במקום 1 בבילבורד והפך לאחד הלהיטים הגדולים של 1981."
   },
   {
     "id": "q055",
@@ -2756,8 +2868,22 @@
     "spotifyId": "47596JGo5zmiOBTmaclsPt",
     "deezerId": 13791931,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/a2/f6/fca2f601-ace6-1dc2-147e-30b75d84f8dc/mzaf_6185719562680140601.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/In_Bloom",
+        "title": "In Bloom — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/nirvana/in-bloom",
+        "title": "In Bloom by Nirvana — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "קוביין כתב את השיר במכוון בצורה שתגרום לאותם מעריצים שלא מבינים את המסר לשיר אותו בקול רם — אירוניה כפולה. השורה \"אוהב לירות מהרובה שלו\" היא דקירה סאטירית במאצ'ואיזם שקוביין תיעב. הוא אמר שהיה מתוסכל מ\"אנשים שלוקחים אותנו ברצינות\" וביקש שהקליפ יראה את הצד ההומוריסטי שלהם. השיר נכלל באלבום Nevermind (1991), אבל יצא כסינגל רק בנובמבר 1992."
   },
   {
     "id": "q056",
@@ -2795,8 +2921,22 @@
     "spotifyId": "4iozhXt27eMl39W5z7R8H6",
     "deezerId": 690106,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/35/71/a2/3571a2f9-c83e-9fe8-5027-630f2cb8e01e/mzaf_11371393194993490448.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Little_Red_Corvette",
+        "title": "Little Red Corvette — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/prince/little-red-corvette",
+        "title": "Little Red Corvette by Prince — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "המכונית האדומה הקטנה היא מטאפורה לאישה ולמפגש מיני. שורות כמו \"כיס מלא בסוסים, טרויאנים, חלקם משומשים\" רומזות לקונדומים ולמאהבים קודמים — וה\"ג'וקיים\" הם הגברים שכבר רכבו על \"המכונית\". פרינס בחר במטאפורות מוסוות בכוונה אחרי שירים יותר גלויים כמו \"Head\" ו\"Dirty Mind\" שהפחידו את הרדיו. השיר הוקלט במאי 1982 ושוחרר בפברואר 1983."
   },
   {
     "id": "q057",
@@ -2835,12 +2975,26 @@
     "spotifyId": "27tX58NOpv1YKQ0abW7EPy",
     "deezerId": 1173969,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8a/36/e3/8a36e3f9-0b25-b76f-6f6e-8b46fff06b51/mzaf_6136342401198040180.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hurt_(Nine_Inch_Nails_song)",
+        "title": "Hurt (Nine Inch Nails song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/nine-inch-nails/hurt",
+        "title": "Hurt by Nine Inch Nails — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "קאש הקליט את הכיסוי בפברואר 2003 כשהיה בן 71 עם בעיות בריאות חמורות, ונפטר 7 חודשים לאחר מכן (12 בספטמבר 2003). רזנור אמר אחרי שראה את הקליפ: \"פשוט איבדתי את החברה שלי, כי השיר הזה כבר לא שלי\" — והוסיף שהוא הרגיש \"כמו חיבוק חם\". הכיסוי של קאש זכה לשבחי ביקורת ולמועמדויות לגראמי, וכיום נחשב לאיקוני יותר מהמקור של NIN."
   },
   {
     "id": "q058",
-    "question_he": "איזה שיר מפורסם של שנות ה-80 שכולם שרים בשמחה עוסק למעשה בסחר בזנות?",
+    "question_he": "איזה שיר מפורסם של שנות ה-80 שכולם שרים בשמחה עוסק למעשה בקשר אסור בין מורה לתלמידה?",
     "category": "translation-barriers",
     "difficulty": "hard",
     "options": [
@@ -2874,8 +3028,22 @@
     "spotifyId": "5veJDT0MLsLbhYsx42GXUD",
     "deezerId": 665711142,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3d/0f/05/3d0f0576-ba19-6b0a-090c-aa3ee8f4b154/mzaf_11408465138728181186.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Don%27t_Stand_So_Close_to_Me",
+        "title": "Don't Stand So Close to Me — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/the-police/dont-stand-so-close-to-me",
+        "title": "Don't Stand So Close to Me by The Police — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "סטינג עצמו עבד כמורה לפני שהפך למוזיקאי (לתלמידי כיתות ז'-י'), אבל שינה את גרסתו לאורך השנים. ב-1981 רמז על אלמנט אוטוביוגרפי: \"עברתי התנסות הוראה ובחורות בנות 15 חיבבו אותי\". ב-1993 הוא תיאר אותו אחרת: \"היינו פצצות בלונדיניות באותה תקופה... אז הרעיון היה — בואו נכתוב סיפור לוליטה\". בסופו של דבר הוא הכחיש שהשיר אוטוביוגרפי. הקישור ל\"לוליטה\" של נבוקוב מופיע במפורש בשיר (\"בדיוק כמו האיש הזקן בספר ההוא של נבוקוב\")."
   },
   {
     "id": "q059",
@@ -2914,8 +3082,22 @@
     "spotifyId": "1L94M3KIu7QluZe63g64rv",
     "deezerId": 7675130,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/7c/11/0d7c11fc-73be-6f7d-b2de-21cb6f574cce/mzaf_3405677429321103917.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alive_(Pearl_Jam_song)",
+        "title": "Alive (Pearl Jam song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/pearl-jam/alive",
+        "title": "Alive by Pearl Jam — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אביו הביולוגי האמיתי של ודר, אדוארד סברסון השלישי, נפטר מטרשת נפוצה ב-1981 לפני שהבן יכול היה ליצור איתו קשר אמיתי — הם נפגשו \"שלוש או ארבע פעמים\" כמכרים משפחתיים בלי שודר ידע על הקשר. בהופעות, הקהל שינה את משמעות השיר — \"הם הסירו את הקללה\" כשהם שרו \"אני עדיין חי\" בחגיגה. השיר יצא ב-7 ביולי 1991, 51 ימים לפני אלבום Ten."
   },
   {
     "id": "q060",
@@ -2954,8 +3136,22 @@
     "spotifyId": "0b9oOr2ZgvyQu88wzixux9",
     "deezerId": 496157642,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/2b/21/ff2b218d-2f71-b948-6b6f-b7d62826f946/mzaf_12069981255385738878.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/This_Is_America_(song)",
+        "title": "This Is America (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/childish-gambino/this-is-america",
+        "title": "This Is America by Childish Gambino — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הקליפ של היירו מורי משווה את הריקודים השמחים של גלובר לרגעים של אלימות — היורה לאנשים שצומחת מתוך הריקוד הוויראלי. השיר עובר בין שני \"עולמות סאונד\" — קוראל שמח בעדלידוקסי לפני יריות, ואז טראפ אפל ופועם אחרי. ב-NPR מנגנים: \"הסתירות בין נסיון להרוויח כסף, והיותך גבר שחור באמריקה\". הקליפ צבר 980 מיליון צפיות עד מרץ 2026."
   },
   {
     "id": "q061",
@@ -2981,7 +3177,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "אלטון ג'ון וברני טאופין כתבו את 'Rocket Man' על הבדידות של מוזיקאי מצליח שנמצא כל הזמן בדרכים, רחוק מהמשפחה. האסטרונאוט הוא מטאפורה לזמר שמנותק מהחיים הנורמליים. המילים 'אני לא האיש שחושבים שאני' מתארות את הפער בין הדמות הציבורית לאדם האמיתי.",
+    "explanation_he": "'Rocket Man' מבוסס על סיפור קצר של ריי ברדבורי משנת 1951 (מתוך אסופת \"האיש המאויר\") על אסטרונאוט שעבודתו כולאת אותו רחוק מבני משפחתו. ברני טאופין שאב את הרעיון בנהיגה ליד בית הוריו, וגם הודה בהשראה משיר קודם של Pearls Before Swine על אותו סיפור — \"כל הכותבים הם גנבים גדולים\". האסטרונאוט בשיר הוא דמות פשוטה שעובדה הפכה ל\"רגילה\" — לא גיבור — והוא חי עם הניתוק והכמיהה למשפחה.",
     "songTitle": "Rocket Man",
     "artist": "Elton John",
     "year": 1972,
@@ -2994,8 +3190,22 @@
     "spotifyId": "3gdewACMIVMEWVbyb8O9sY",
     "deezerId": 1144863,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/09/6d/8c096da7-10b6-422b-51b6-f1f97a66380d/mzaf_5290536375751623365.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rocket_Man_(song)",
+        "title": "Rocket Man (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/elton-john/rocket-man",
+        "title": "Rocket Man by Elton John — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "יש פרשנים שראו בשיר מטאפורה לבדידות של כוכבי רוק — \"סמל לכך שכוכבי רוק מנותקים מחבריהם, מהמשפחה ומהעולם האמיתי\" — אבל זה אינו מה שטאופין הצהיר במפורש. השיר יצא באפריל 1972 מהאלבום \"Honky Château\" והגיע למקום 2 בבריטניה ולמקום 6 בארה\"ב. הוא נחשב לאחד השירים הטובים ביותר של השניים."
   },
   {
     "id": "q062",
@@ -3033,8 +3243,22 @@
     "spotifyId": "4MsiLAu9vLksjyTx6WSVCn",
     "deezerId": 601248112,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/50/2e/4c502ee4-d63e-3f7c-11cc-61b2e0c92656/mzaf_4849324024240261165.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Royals_(song)",
+        "title": "Royals (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/lorde/royals",
+        "title": "Royals by Lorde — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "לורד (אלה ילי-אוקונור) כתבה את השיר ביולי 2012 בחופשה בית-ספרית בניו זילנד, כשהייתה בת 15-16. ההשראה השלילית הגיעה דווקא מאמני היפ-הופ שהיא הקשיבה להם — A$AP Rocky, דרייק, לאנה דל ריי, ניקי מינאז', קאניה ווסט וג'יי-זי — שהיא ביקרה את \"ההתייחסויות שלהם לאלכוהול יקר ולמכוניות שלא ייצגו את המציאות שלי\". השיר זכה בגראמי לשיר השנה (2014) — לורד הפכה לאמנית הצעירה ביותר שזכתה בקטגוריה."
   },
   {
     "id": "q063",
@@ -3072,8 +3296,22 @@
     "spotifyId": "2kkvB3RNRzwjFdGhaUA0tz",
     "deezerId": 1175612,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/e8/01/94e80130-1c56-d474-d742-d5925eb76725/mzaf_4915490710680006786.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Layla",
+        "title": "Layla — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/derek-and-the-dominos/layla",
+        "title": "Layla by Derek and the Dominos — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "קלפטון התאהב בפאטי בויד באמצע שנות ה-60 כשהיה חבר קרוב של ג'ורג' האריסון. השיר נכתב בעקבות סיפורו של \"שכבי ומג'נון\" — סיפור פרסי קלאסי על אהבה אסורה — שחבר נתן לקלפטון לקרוא. בסופו של דבר בויד התגרשה מהאריסון ב-1977 ונישאה לקלפטון ב-1979 בהופעה בטוקסון, אריזונה. האריסון לא היה מריר וכן הגיע למסיבת החתונה. השניים התגרשו ב-1989."
   },
   {
     "id": "q064",
@@ -3099,7 +3337,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "למרות שנשמע כשיר מסיבות על שתייה, 'Swimming Pools' הוא למעשה ביקורת על תרבות האלכוהול בקהילה השחורה. קנדריק מתאר את הלחץ החברתי לשתות ואת ההיסטוריה המשפחתית של אלכוהוליזם. 'בריכות השחייה' הן מטאפורה לכמויות האלכוהול שאנשים שותים.",
+    "explanation_he": "למרות שנשמע כשיר מסיבות על שתייה, 'Swimming Pools (Drank)' של קנדריק לאמר הוא בעצם הרהור אישי על אלכוהול ולחץ חברתי. בבית הראשון הוא נזכר בסבא שלו ששתה ובמותו, ובסיבות שהובילו אותו עצמו לשתייה. \"בריכות השחייה\" הן מטאפורה לכמויות אדירות של אלכוהול — בסמפל אדם שיכור אומר שהוא צריך \"בריכת שחייה מלאה במשקה ולקפוץ לתוכה\".",
     "songTitle": "Swimming Pools (Drank)",
     "artist": "Kendrick Lamar",
     "year": 2012,
@@ -3112,8 +3350,22 @@
     "spotifyId": "6REbwUNlppTfcnV4d4ZoZi",
     "deezerId": 52735971,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/8b/69/6c8b6925-647d-db57-2846-8cff9d02d565/mzaf_3261562986439060143.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Swimming_Pools_(Drank)",
+        "title": "Swimming Pools (Drank) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/kendrick-lamar/swimming-pools-drank",
+        "title": "Swimming Pools (Drank) by Kendrick Lamar — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-31 ביולי 2012 כסינגל מהאלבום \"good kid, m.A.A.d city\" שיצא מאוחר יותר באותה שנה. הוא הגיע למקום 17 בבילבורד והפך לאחד מהשירים המזוהים ביותר של לאמר. ההפקה של T-Minus בנויה כך שהאזנה שטחית מתפרשת כשיר חגיגי, בעוד שהקשבה למילים חושפת שיחה פנימית בין שלוש דמויות בתוך הראש של לאמר על האם להמשיך לשתות."
   },
   {
     "id": "q065",
@@ -3152,8 +3404,22 @@
     "spotifyId": "07GvNcU1WdyZJq3XxP0kZa",
     "deezerId": 63480990,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/37/68/d1376853-ec1e-cce0-4ac9-2e98fc9d9c51/mzaf_7672022765745493173.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Go_Your_Own_Way",
+        "title": "Go Your Own Way — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/fleetwood-mac/go-your-own-way",
+        "title": "Go Your Own Way by Fleetwood Mac — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "בקינגהאם וניקס היו זוג ב-Fleetwood Mac, ובמקביל לאלבום Rumours גם ק'יסטין וג'ון מק-וי התגרשו ומיק פליטווד היה במשבר נישואים — כל הלהקה הייתה במשבר זוגיות בו-זמנית. ניקס שנאה את השורה \"packing up, shacking up's all you wanna do\" ואמרה: \"כל פעם שהמילים האלה היו מגיעות על הבמה, רציתי לרצוח אותו\". האלבום Rumours יצא ב-1977 והפך לאחד מהאלבומים הנמכרים ביותר בכל הזמנים."
   },
   {
     "id": "q066",
@@ -3191,8 +3457,22 @@
     "spotifyId": "7FwBtcecmlpc1sLySPXeGE",
     "deezerId": 15586246,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3c/a8/0a/3ca80ac1-92fe-8d9f-e97c-469bdb4f19f9/mzaf_2843471731886662529.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dancing_in_the_Dark_(Bruce_Springsteen_song)",
+        "title": "Dancing in the Dark (Bruce Springsteen song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/bruce-springsteen/dancing-in-the-dark",
+        "title": "Dancing in the Dark by Bruce Springsteen — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "המפיק ג'ון לנדאו לחץ על ספרינגסטין שהאלבום צריך להיט. ספרינגסטין הגיב סרקסטית: \"תראה, כתבתי 70 שירים. אם אתה רוצה עוד אחד, תכתוב אותו\". הוא בכל זאת ישב באותו לילה וכתב את השיר. הקליפ המפורסם הוא הופעה חיה בסיינט פול ובו מופיעה לראשונה קורטני קוקס, אז שחקנית בלתי-מוכרת."
   },
   {
     "id": "q067",
@@ -3230,8 +3510,22 @@
     "spotifyId": "7wuJGgpTNzbUyn26IOY6rj",
     "deezerId": 532349,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a5/94/8c/a5948c77-000c-e25b-8133-a36103ded80e/mzaf_14404435220764766921.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Total_Eclipse_of_the_Heart",
+        "title": "Total Eclipse of the Heart — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/bonnie-tyler/total-eclipse-of-the-heart",
+        "title": "Total Eclipse of the Heart by Bonnie Tyler — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "סטיינמן הסביר: \"הכל על החושך, על כוח החושך ומקום האהבה בחושך... אם מישהו מקשיב למילים, הן ממש כמו שורות ערפדים\". המחזמר Nosferatu שעבורו נכתב במקור השיר מעולם לא יצא לדרך. סטיינמן עצמו ביצע את השיר ב-1989 בגרסה משלו, ואחר כך מייט ליאוף הקליט אותו ב-1996. גרסת בוני טיילר זכתה במקום 1 בבילבורד ל-4 שבועות ב-1983."
   },
   {
     "id": "q068",
@@ -3269,8 +3563,22 @@
     "spotifyId": "2v7ywbUzCgcVohHaKUcacV",
     "deezerId": 664507,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/a7/fd/75a7fdca-e495-5f01-27e6-9074e174b069/mzaf_9692377667973254377.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Like_a_Prayer_(song)",
+        "title": "Like a Prayer (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/madonna/like-a-prayer",
+        "title": "Like a Prayer by Madonna — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הבמאית מרי למברט תיארה את הוויז'ן שלה: \"אקסטזה, במיוחד מינית, וכיצד היא קשורה לאקסטזה דתית\". פפסי שיחררה פרסומת עם השיר ביום אחד והייתה צריכה לבטל אותה למחרת אחרי הזעקה הציבורית — אבל היא נתנה למדונה לשמור את ה-5 מיליון דולר שלה כדי \"להיפטר מהוויכוח\". מדונה הגיבה: \"אומנות צריכה להיות שנויה במחלוקת, וזהו\"."
   },
   {
     "id": "q069",
@@ -3308,8 +3616,22 @@
     "spotifyId": "3gsCAGsWr6pUm1Vy7CPPob",
     "deezerId": 14615242,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/c6/4b/d7c64b5d-d71e-d000-8abe-f70ab32a8c7d/mzaf_14605437328118899073.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Killing_Me_Softly_with_His_Song",
+        "title": "Killing Me Softly with His Song — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/roberta-flack/killing-me-softly-with-his-song",
+        "title": "Killing Me Softly with His Song by Roberta Flack — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "לורי ליברמן ראתה את דון מקלין בנובמבר 1971 במועדון Troubadour בווסט הוליווד, וההשראה הספציפית הגיעה דווקא מהשיר שלו \"Empty Chairs\" (לא מ-American Pie). היא כתבה הערות על מפית במהלך ההופעה, ואחר כך שיתפה אותן עם נורמן גימבל וצ'רלס פוקס שכתבו את השיר. גרסתה שלה מ-1972 לא הצליחה — רוברטה פלאק שמעה את השיר במטוס וביצעה אותו ב-1973, וזכתה במקום 1 בבילבורד. הפיוג'יס החזירו אותו לשיא ב-1996."
   },
   {
     "id": "q070",
@@ -3335,7 +3657,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "'הגשם הסגול' הוא מטאפורה לסוף העולם - גשם של דם מעורב בשמיים כחולים. פרינס תיאר את השיר כתפילה אחרונה לפני האפוקליפסה, בקשת סליחה על כל החטאים. ההשראה הגיעה מפחדי המלחמה הקרה ואיום גרעיני בשנות ה-80.",
+    "explanation_he": "'הגשם הסגול' הוא מטאפורה לסוף העולם משולב באהבה ובאמונה. פרינס הסביר: \"כשיש דם בשמיים — אדום + כחול = סגול. הגשם הסגול קשור לסוף העולם ולהיות עם זה שאתה אוהב, ולתת לאמונה שלך/אלוהים להוביל אותך דרך הגשם הסגול\". בהקשר של הסרט, הוא תפילה רוחנית ובקשת הדרכה — לא ביקורת פוליטית.",
     "songTitle": "Purple Rain",
     "artist": "Prince",
     "year": 1984,
@@ -3347,8 +3669,22 @@
     "spotifyId": "1uvyZBs4IZYRebHIB1747m",
     "deezerId": 374283061,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/70/9b/4a709b41-3c29-626a-ca69-44aa907f4705/mzaf_14388295257133509788.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Purple_Rain_(song)",
+        "title": "Purple Rain (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/prince/purple-rain",
+        "title": "Purple Rain by Prince — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר נכתב לסרט בעל אותו השם (1984), שזכה באוסקר על פסקול. כל בית בשיר קשור למערכת יחסים מאתגרת אחרת של דמותו של פרינס בסרט. הקלטת ההופעה החיה שבסופו של דבר נכללה באלבום נעשתה בקלאב First Avenue במיניאפוליס בלילה אחד באוגוסט 1983. השיר הגיע למקום 2 בבילבורד."
   },
   {
     "id": "q071",
@@ -3386,8 +3722,22 @@
     "spotifyId": "7snQQk1zcKl8gZ92AnueZW",
     "deezerId": 518458172,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/fd/73/bcfd7312-9f1e-a1b0-524b-cbda6e0c1050/mzaf_248640128027576869.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sweet_Child_o%27_Mine",
+        "title": "Sweet Child o' Mine — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/guns-n-roses/sweet-child-o-mine",
+        "title": "Sweet Child o' Mine by Guns N' Roses — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אקסל רוז כתב את המילים על חברתו דאז ארין אברלי (בתו של דון אברלי מהדואו האברלי בראדרס). סלאש סיפר שהוא ניגן את הריף ה\"קרקסי\" כתרגיל \"תוך שהוא עושה פרצופים לסטיבן אדלר\" המתופף — \"תוך שעה תרגיל הגיטרה שלי הפך למשהו אחר\". הריף נחשב לאחד הריפים האיקוניים ביותר בהיסטוריה של הרוק. השיר הוקלט ב-1987 והגיע למקום 1 בבילבורד באוגוסט 1988."
   },
   {
     "id": "q073",
@@ -3425,8 +3775,22 @@
     "spotifyId": "1PtQJZVZIdWIYdARpZRDFO",
     "deezerId": 2173954687,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e5/ba/20/e5ba201c-8940-86d1-0541-520079b6c916/mzaf_13026886145802029834.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Running_Up_That_Hill",
+        "title": "Running Up That Hill — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/kate-bush/running-up-that-hill",
+        "title": "Running Up That Hill by Kate Bush — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "EMI חששו שהכותרת המקורית \"A Deal with God\" תפגע בשידור ברדיו — לכן הוחלף ל\"Running Up That Hill (A Deal with God)\". בוש הסבירה שהשיר עוסק \"באי-יכולת של גברים ונשים להבין זה את זה — דמיינתי שעל ידי 'עסקה עם אלוהים' הם יוכלו להחליף מקומות ולהגיע להבנה גדולה יותר\". התחייה ב-Stranger Things 4 (מאי 2022) הביאה את השיר למקום 1 ב-8 מדינות, השני של בוש בבריטניה (44 שנים אחרי הראשון), ולמעל מיליארד השמעות בספוטיפיי עד יוני 2023."
   },
   {
     "id": "q074",
@@ -3464,8 +3828,22 @@
     "spotifyId": "3S2R0EVwBSAVMd5UMgKTL0",
     "deezerId": 555639,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/8c/cb/588ccb9a-ab79-4a38-43b5-d4c24ea42859/mzaf_2083607504726567992.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thriller_(song)",
+        "title": "Thriller (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/michael-jackson/thriller",
+        "title": "Thriller by Michael Jackson — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "וינסנט פרייס סיפר ב-Tonight Show של ג'וני קרסון שהוא נדרש לבחור בין אחוזים מהמכירות לבין סכום קבוע של 20,000 דולר — והוא בחר בסכום הקבוע. אחר כך הודה ש\"יכולתי להרוויח מיליונים\". הקליפ של ג'ון לנדיס (במאי An American Werewolf in London) באורך 14 דקות הפך לעצמו לתופעה תרבותית. רוד טמפרטון, שהיה כותב לחברת Heatwave, הציע במקור את השם \"Starlight\" — מייקל ג'קסון התעקש על \"Thriller\"."
   },
   {
     "id": "q075",
@@ -3503,8 +3881,22 @@
     "spotifyId": "70C4NyhjD5OZUMzvWZ3njJ",
     "deezerId": 14333215,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/e4/51/8ee451b3-a74e-25fa-be4e-09ce04a39df0/mzaf_13595078232063121698.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Piano_Man_(song)",
+        "title": "Piano Man (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/billy-joel/piano-man",
+        "title": "Piano Man by Billy Joel — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "בילי ג'ואל ניגן ב-Executive Room ברובע ווילשייר בלוס אנג'לס בין 1972 ל-1973 תחת השם \"ביל מרטין\" (שמו המלא הוא ויליאם מרטין ג'ואל). הוא היה צריך לעבוד אבל \"לא היה יכול להשתמש בשם הרגיל שלו\". כל הדמויות בשיר — ג'ון הברמן, פול, דייווי — מבוססות על אנשים אמיתיים מהבר. השיר הוקלט בספטמבר 1973 ויצא כסינגל בפברואר 1974."
   },
   {
     "id": "q076",
@@ -3542,8 +3934,22 @@
     "spotifyId": "0vg4WnUWvze6pBOJDTq99k",
     "deezerId": 2659940,
     "itunesPreviewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video115/v4/71/6b/dc/716bdc1f-0944-ed2e-59a8-01dd3dda9515/mzvf_2793457273929473180.640x352.h264lc.U.p.m4v",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/You%27re_Beautiful_(James_Blunt_song)",
+        "title": "You're Beautiful (James Blunt song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/james-blunt/youre-beautiful",
+        "title": "You're Beautiful by James Blunt — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "בלאנט סיפר במלוא הגלוי: \"השיר הוא לא מה שאנשים חושבים שהוא. הוא על בחור שמסומם לחלוטין, עוקב אחרי החברה של מישהו אחר — וצריך להיכלא בכלא. אבל אנשים חושבים 'אה, הוא רומנטיקן מתוק'. אם זה מה שאתם חושבים שזה רומנטיקה, אני חושב שאתם די מוזרים\". השיר יצא ב-2004 מהאלבום \"Back to Bedlam\" והגיע למקום 1 בבריטניה ובארה\"ב."
   },
   {
     "id": "q077",
@@ -3581,8 +3987,22 @@
     "spotifyId": "3hqsBLMAqJqrhr434Z7WlA",
     "deezerId": 1500559792,
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/f8/da/73f8da25-2fb6-0eeb-aebe-f8b933142ae3/mzaf_154936895641216767.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Puff,_the_Magic_Dragon",
+        "title": "Puff, the Magic Dragon — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/peter-paul-and-mary/puff-the-magic-dragon",
+        "title": "Puff, the Magic Dragon by Peter, Paul and Mary — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "מאמר ב-Newsweek מ-1964 הציע את הפרשנות הסמית - \"Puff\" = עישון מריחואנה, \"Dragon\" = \"draggin'\" (לקחת שאיפה), \"Jackie Paper\" = ניירות גלגול. השיר נאסר בסינגפור ובהונג קונג בגלל החשד. פיטר יארו הכחיש לאורך כל השנים: \"לא יכולתי לכתוב שיר עם לני על דרקון שיש לו תת-טקסט של גראס בכלל\" — וטען שלא ידע מה זו מריחואנה ב-1958 כשנכתב השיר המקורי. השיר הופיע בהופעות של Captain Kangaroo כשיר ילדים קלאסי."
   },
   {
     "id": "q078",
