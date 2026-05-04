@@ -5630,8 +5630,22 @@
     "deezerId": 309174,
     "spotifyId": "6xepovPqjvrkEw9Y5AMmTm",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ad/a5/02/ada502d4-2194-cf93-929d-3476c65da9c7/mzaf_4614071820202447108.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lambada_(song)",
+        "title": "Lambada (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Llorando_se_fue",
+        "title": "Llorando se fue — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "קאומה זוקפת קרדיט ל\"שיקו דה אוליבירה\" המומצא במקום למחברים האמיתיים — Los Kjarkas הבוליביאניים ש-רישמו את היצירה ב-1981 במכון התרבות הבוליביאני (IBC). אחרי מספר תביעות (החל מ-1990) הם זכו בזכויות היוצרים. השיר המקורי הוא בעצמו עיבוד למוזיקה אנדינית מסורתית בסגנון \"סיאוי\" — מה שהפך את הסיפור למורכב יותר מ\"שיר בוליביאני שגנבו\"."
   },
   {
     "id": "q306",
@@ -5669,8 +5683,16 @@
     "deezerId": 484274992,
     "spotifyId": "53AafWSzYsiJKnAtJTUB5f",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/ee/10/63ee10b8-a898-de42-4bef-cfe8d9767333/mzaf_5964530050257628344.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Tortura",
+        "title": "La Tortura — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": false,
+    "extendedInfo_he": "השיר יצא ב-2005 כדואט בין שאקירה לאלחנדרו סאנז מאלבום \"Fijación Oral, Vol. 1\". הוא הפך לאחד השירים הספרדיים המצליחים בתולדות בילבורד והגיע למקום 23 בהוט 100 — דבר נדיר ביותר לשיר בספרדית באותה תקופה. נדרש מקור שני לאימות מלא."
   },
   {
     "id": "q308",
@@ -5708,8 +5730,16 @@
     "deezerId": 476739462,
     "spotifyId": "6UEfyhyfhYQsyipxOd95Ie",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d2/5f/4e/d25f4e31-cbc1-80e4-dcd9-eaf9b7b0349c/mzaf_5639645271460041648.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Ketchup_Song",
+        "title": "The Ketchup Song — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": false,
+    "extendedInfo_he": "השיר יצא ב-2002 והפך ללהיט קיץ עולמי. הקליפ עם הריקוד הקליל הפך לוויראלי בלי תלות במשמעות המילים. אימות הקשר ל-\"Rapper's Delight\" עדיין נדרש ממקור שני."
   },
   {
     "id": "q309",
@@ -5747,8 +5777,22 @@
     "deezerId": 97714558,
     "spotifyId": "0gatssZ0J7pMAlvFCGZZGH",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/52/1e/0d521e49-37a0-1c8b-fa55-8fb45327be55/mzaf_17182552118831304591.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Como_la_Flor",
+        "title": "Como la Flor — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Selena",
+        "title": "Selena (singer) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ביוני 1992 כסינגל השני מאלבום \"Entre a Mi Mundo\" ונכנס למקום 36 ב-Hot Latin Songs. סלנה קוונטינייה (אז בת 23) נורתה למוות ב-31 במרץ 1995 על ידי יולנדה סלדיוואר — מי שהקימה את מועדון המעריצים שלה ב-1991, ולאחר מכן ניהלה את חנויות ה-Boutiques שלה. השיר הפך לסמל המורשת הטחאנו של סלנה ולסמל מוקדם של חיים שנקטעו."
   },
   {
     "id": "q310",
@@ -5786,8 +5830,22 @@
     "deezerId": 64848628,
     "spotifyId": "65H6t1WQBim6q93yM8fEwn",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/7f/29/7c7f293a-bab2-7741-50a9-6639895bea26/mzaf_18419148381556148823.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Obsesi%C3%B3n_(Aventura_song)",
+        "title": "Obsesión (Aventura song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/aventura/obsesion",
+        "title": "Obsesión by Aventura — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הלהקה אוונטורה — שמורכבת מצעירים דומיניקנים-אמריקאים מהברונקס — הפכה את הבצ'אטה (סגנון מסורתי דומיניקני) ללהיט פופ עולמי. השיר אומר במפורש \"זו לא אהבה, זו אובססיה\" — אבל הקצב הקליל גרם להפוך אותו לקלאסיקה של חתונות. השיר עמד 16 שבועות במקום 1 ב-Hot Latin Songs ב-2002."
   },
   {
     "id": "q311",
@@ -5825,8 +5883,22 @@
     "deezerId": 3860022,
     "spotifyId": "6nMzaWZFYKXo2O6OqbfBnO",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/12/f6/3612f6b9-fa85-afbd-ab98-adc590e54003/mzaf_17434439961205848425.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Bamba_(song)",
+        "title": "La Bamba (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ritchie_Valens",
+        "title": "Ritchie Valens — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "משפחת ולנזואלה דיברה רק אנגלית בבית, וריצ'י ידע מעט מאוד ספרדית — הוא למד את המילים פונטית כדי להקליט את \"La Bamba\". השיר הוא קלאסיקה של \"סון חרוצ'ו\" מוורה קרוז שבמקסיקו. ולנס נהרג בגיל 17 בהתרסקות מטוס באיווה ב-3 בפברואר 1959, יחד עם באדי הולי ו-Big Bopper — האירוע שדון מקלין הנציח כ\"היום שבו המוזיקה מתה\" ב\"American Pie\"."
   },
   {
     "id": "q312",
@@ -5864,8 +5936,22 @@
     "deezerId": 71590745,
     "spotifyId": "51R2M1JgyFfRS3e6v5wCt3",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/54/ed/ef54ed93-66d0-a9dd-4702-fb50b4c33022/mzaf_10063871963872945354.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Clandestino_(Manu_Chao_song)",
+        "title": "Clandestino (Manu Chao song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Manu_Chao",
+        "title": "Manu Chao — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הוריו של מאנו צ'או היגרו מספרד לפריז כדי להימלט מדיקטטורת פרנקו — סבו נידון למוות. אביו היה הכותב והעיתונאי רמון צ'או. השיר עצמו עוסק בכלל המהגרים: \"כתבתי אותו על הגבול בין אירופה לאלה שמגיעים ממדינות עניות יותר\". האלבום \"Clandestino\" יצא ב-1998, הסינגל יצא ב-2000."
   },
   {
     "id": "q313",
@@ -5891,7 +5977,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "אלביס קרספו כתב את \"סואבמנטה\" (בעדינות) בזמן שעבר תקופת גירושים קשה. למרות שהשיר נשמע כמו שיר אהבה רומנטי ומרסק רחבות ריקודים, הוא נכתב מתוך געגוע לאהבה שאיבד. השיר הפך ללהיט מרסל המספר אחד ב-1998.",
+    "explanation_he": "אלביס קרספו הקליט את \"Suavemente\" (בעדינות) ב-1998, והשיר הפך ללהיט מרנגה עולמי שעמד במקום 1 ב-Hot Latin Songs מ-16 במאי 1998. הוא היה הזמר המרנגה הראשון מאז חואן לואיס גוורה ב-1992 שהגיע למקום 1. השיר הפך לקלאסיקה של חתונות לטיניות.",
     "songTitle": "Suavemente",
     "artist": "Elvis Crespo",
     "year": 1998,
@@ -5903,8 +5989,22 @@
     "deezerId": 10066281,
     "spotifyId": "7JIjUx3GsL0upxmNJacmtz",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/42/f4/b4/42f4b497-cbfb-a982-788d-69294bd119ef/mzaf_4406960368277173940.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Suavemente_(song)",
+        "title": "Suavemente (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Elvis_Crespo",
+        "title": "Elvis Crespo — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "המרנגה היא סגנון ריקוד מסורתי דומיניקני, ו\"Suavemente\" עזר להפוך אותו ללהיט מיינסטרים בארה\"ב. אלביס קרספו, ילדי בפורטו ריקו, הצליח להחזיר את המרנגה לרדיו אחרי שנים שבהן הסלסה דחקה אותה. הקליפ הצבעוני בו הוא רוקד עם זמרים אחרים נחשב לאיקוני."
   },
   {
     "id": "q314",
@@ -5942,8 +6042,22 @@
     "deezerId": 14948701,
     "spotifyId": "0rCxlp7KdpW1JR8uG6Uno0",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/79/d1/1379d1f5-0c47-8df7-7e21-ef6225854d2d/mzaf_3711008858921440324.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Danza_Kuduro",
+        "title": "Danza Kuduro — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kuduro",
+        "title": "Kuduro — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "קודורו הוא סגנון מוזיקה וריקוד שנולד בלואנדה, אנגולה, בסוף שנות ה-80, ופופולרי בקרב קהילות אנגוליות בפרברי ליסבון (בעיקר אמדורה ו-קלוז). השם מתייחס לתנועה שבה הרקדנים נראים עם \"ישבן קשה\" (Cu Duro בפורטוגזית), כסגנון ריקוד אגרסיבי וטעון. השיר עצמו, באלבום \"Lucenzo\" של 2010, מערבב ספרדית מפי דון אומר עם פורטוגזית אירופית מפי לוצ'נזו."
   },
   {
     "id": "q315",
@@ -5969,7 +6083,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "\"אויה קומו וה\" נכתב על ידי טיטו פואנטה ב-1963 כיצירת ג'אז לטיני, אך הפך למפורסם כשקרלוס סנטנה עיבד אותו לגרסת רוק ב-1970. טיטו פואנטה, בן להורים פורטוריקנים מהארלם, היה חלוץ בשילוב מוזיקה אפרו-קובנית עם ג'אז אמריקאי.",
+    "explanation_he": "\"אויה קומו וה\" (תקשיב איך) נכתב על ידי טיטו פואנטה ב-1962/1963 בסגנון cha-cha-chá (לא ג'אז לטיני כפי שלעיתים מצוטט). הוא הופיע באלבום \"El Rey Bravo\". קרלוס סנטנה הקליט את גרסת הרוק הפסיכדלית שלו ב-1970 והוציא אותה ב-1971 — הגרסה ההיא הפכה אותו ללהיט עולמי ולקלאסיקה של \"Latin Rock\".",
     "songTitle": "Oye Como Va",
     "artist": "Tito Puente",
     "year": 1963,
@@ -5981,8 +6095,22 @@
     "deezerId": 687128822,
     "spotifyId": "73uEbChpBB29ttwVnwuNVE",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/76/41/8b/76418b3f-a9b8-aed4-58d9-da2967013b91/mzaf_5743986082338537048.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oye_Como_Va",
+        "title": "Oye Como Va — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/santana/oye-como-va",
+        "title": "Oye Como Va by Santana — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "טיטו פואנטה (1923-2000), שגדל בהארלם הספרדי בניו יורק להורים פורטוריקניים, נחשב ל-\"מלך הטימבאלס\" — תוף עומד אופייני למוזיקה הקובנית. כשסנטנה הוציא את גרסתו, פואנטה תחילה כעס שלא ביקשו רשות, אבל אחר כך אמר שהיא \"הביאה את המוזיקה הלטינית לעולם\" וגם הביאה לו תמלוגים נכבדים שאפשרו לו פנסיה נוחה."
   },
   {
     "id": "q316",
@@ -6008,7 +6136,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "\"במבולאו\" של ג'יפסי קינגס נשמע כמו חגיגה פלמנקו, אך המילים מתארות חיי אי-ודאות: \"בוקר אני קם ורואה שמה שהיה לי כבר לא שלי\". הלהקה, שמורכבת מבני משפחות רומניות (צוענים) מדרום צרפת, שרה על חוויית הנדודים האמיתית שלהם.",
+    "explanation_he": "\"במבולאו\" של ג'יפסי קינגס נשמע כמו חגיגה פלמנקו, אך המילים מתארות חיי אי-ודאות. חברי הלהקה — הגדלים בארל ומונפלייה בדרום צרפת — הם בני משפחות גיטאנו (רומאניים ספרדיים) שברחו מספרד בזמן מלחמת האזרחים בשנות ה-30. הם ממשיכים את מסורת הפלמנקו של אבותיהם בז'אנר עכשווי.",
     "songTitle": "Bamboleo",
     "artist": "Gipsy Kings",
     "year": 1987,
@@ -6020,8 +6148,22 @@
     "deezerId": 958647812,
     "spotifyId": "3iB8eciGU9vZkaDYkz7Ir9",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/52/71/91/52719161-ef32-2393-1ab1-e7a7c3e1404a/mzaf_12802945822100252578.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gipsy_Kings",
+        "title": "Gipsy Kings — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bamboleo_(song)",
+        "title": "Bamboleo (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אלבום הבכורה של ג'יפסי קינגס מ-1987 (1989 בארה\"ב) כלל את \"Bamboléo\", \"Djobi Djoba\" ו-\"Un Amor\", ועמד 40 שבועות במצעדי ארה\"ב — הישג נדיר לאלבום בספרדית. הם הפכו את הפלמנקו לז'אנר מיינסטרים עולמי. בני המשפחות Reyes ו-Baliardo הם הגרעין של הלהקה."
   },
   {
     "id": "q317",
@@ -6059,8 +6201,22 @@
     "deezerId": 5422294,
     "spotifyId": "0o9Vr0BGIQPh32staLHcuU",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/34/5f/a7345f47-c6ac-f631-abbd-7d67e75020ac/mzaf_6200086704705038712.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bidi_Bidi_Bom_Bom",
+        "title": "Bidi Bidi Bom Bom — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Selena",
+        "title": "Selena (singer) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "הצלילים \"בידי בידי בום בום\" הם אונומטופאה — חיקוי של דפיקות לב מהירות. סלנה, שנולדה ב-1971 ב-Lake Jackson, טקסס, גדלה בבית דובר אנגלית בלבד — אביה לימד אותה ספרדית פונטית כדי שתוכל לשיר מוזיקה טחאנו (סגנון מקסיקני-אמריקאי). השיר יצא ב-31 ביולי 1994 מהאלבום \"Amor Prohibido\"."
   },
   {
     "id": "q318",
@@ -6098,8 +6254,22 @@
     "deezerId": 1016626,
     "spotifyId": "3FdHgoJbH3DXNtGLh56pFu",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/fd/7d/9a/fd7d9ac3-3f0a-658b-6122-02ea6ee7e44f/mzaf_3620077145422038459.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Conga_(song)",
+        "title": "Conga (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gloria_Estefan",
+        "title": "Gloria Estefan — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "משפחת פאחארדו של גלוריה ברחה מקובה אחרי המהפכה הקובנית והתיישבה במיאמי ב-1959 — אביה אפילו השתתף בכישלון פלישת מפרץ החזירים ב-1961. השיר הגיע למקום 10 בבילבורד הוט 100 ב-1985 — הראשון מתוך ארבעה להיטים שגלוריה והלהקה Miami Sound Machine הגיעו עמם לעשירייה הראשונה. גלוריה גרה עד היום באיי הכוכבים במיאמי ביץ'."
   },
   {
     "id": "q319",
@@ -6125,7 +6295,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "\"היא רוקדת לבד\" של Eslabon Armado ו-Peso Pluma הפך ללהיט הקוריידוס טומבאדוס הגדול של 2023. ז'אנר הקוריידוס טומבאדוס מקסיקני ידוע בהכלת רמזים לסמים וחיי רחוב. פסו פלומה עצמו קיבל איומי מוות מקרטלי סמים בגלל התוכן של שיריו.",
+    "explanation_he": "\"היא רוקדת לבד\" של Eslabon Armado ו-Peso Pluma הפך ב-2023 לשיר הראשון אי פעם בז'אנר \"regional Mexican / sierreño\" שהגיע לעשירייה הראשונה ב-Billboard Hot 100. הסגנון הזה — קרוב לקוריידוס טומבאדוס — ידוע לעיתים בהכלת רמזים לסחר בסמים ולחיי קרטל. פסו פלומה אכן קיבל איומי מוות מקרטל ז'אליסקו וביטל הופעה בטיחואנה ב-14 באוקטובר 2023 בעקבות באנרים מאיימים.",
     "songTitle": "Ella Baila Sola",
     "artist": "Eslabon Armado & Peso Pluma",
     "year": 2023,
@@ -6137,8 +6307,22 @@
     "deezerId": 2193681047,
     "spotifyId": "3dnP0JxCgygwQH9Gm7q7nb",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/2a/20/8d2a20dd-7391-afd1-c543-009c87414265/mzaf_10873691963030604339.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ella_Baila_Sola_(song)",
+        "title": "Ella Baila Sola (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Peso_Pluma",
+        "title": "Peso Pluma — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר עצמו — שמתאר שני צעירים במסיבה שרואים אישה שרוקדת לבד — לא מכיל רמזים לסמים, אבל הז'אנר עצמו ושירים אחרים של פסו פלומה שמתייחסים ל\"אל צ'אפו\" גוזמן ולקרטל סינלואה הם שגרמו לאיומים. ב-2023 פסו פלומה הפך לאמן הלטיני האזורי הראשון אי פעם להגיע למקום 1 בבילבורד 200."
   },
   {
     "id": "q320",
@@ -6176,8 +6360,22 @@
     "deezerId": 765849012,
     "spotifyId": "6PSKhwo0mVcOdjUOhVJd5p",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/d4/8f/11d48fd8-5132-8f1e-4675-d0bfecc0e900/mzaf_14165922165158894828.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bailando_(Enrique_Iglesias_song)",
+        "title": "Bailando (Enrique Iglesias song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/enrique-iglesias/bailando",
+        "title": "Bailando by Enrique Iglesias — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-11 באפריל 2014 בשתי גרסאות עיקריות — ספרדית עם הקובנים Descemer Bueno ו-Gente de Zona, ואנגלית עם שון פול הג'מייקני. הגרסה הספרדית עמדה 41 שבועות במקום 1 ב-Hot Latin Songs — שיא בכל הזמנים. השיר הפך לאחד השירים המזוהים ביותר עם תקופת הגל הלטיני השני בארה\"ב (בין דספסיטו לבייאמוס)."
   },
   {
     "id": "q321",
@@ -6215,12 +6413,26 @@
     "deezerId": 14496771,
     "spotifyId": "0wQCKR9OFjYu5Kzrk7WivJ",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/11/8a/b5/118ab52d-7f9c-6821-3222-334583347ee7/mzaf_7063687902650814927.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coraz%C3%B3n_Part%C3%ADo",
+        "title": "Corazón Partío — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/alejandro-sanz/corazon-partio",
+        "title": "Corazón Partío by Alejandro Sanz — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-3 בנובמבר 1997 מהאלבום \"Más\", שהפך לאלבום הספרדי הנמכר ביותר בכל הזמנים בספרד. השיר עיצב מחדש את סאונד הפופ הספרדי בשילוב פלמנקו וג'אז — ופתח את הקריירה הבינלאומית של אלחנדרו סאנז. הוא נחשב ל\"היט שגרם למהפכה\" — הצליח להפוך לשיר הספרדי המצליח של שנות ה-90."
   },
   {
     "id": "q324",
-    "question_he": "איזה שיר ערבי-צרפתי של חאלד נשמע כמו שיר אהבה רומנטי, אך למעשה נכתב על ידי גוראן ברגוביץ' כביקורת על מצבן של נשים במגרב?",
+    "question_he": "איזה שיר ערבי-צרפתי של חאלד נשמע כמו שיר אהבה רומנטי, אך נכתב על ידי הזמר הצרפתי ז'אן-ז'אק גולדמן ועוסק בגבר שמנסה לפתות אישה בהבטחות יקרות והיא דוחה אותו?",
     "category": "misunderstood-romance",
     "difficulty": "medium",
     "options": [
@@ -6242,7 +6454,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "\"עאישה\" של חאלד מ-1996 נכתב על ידי ז'אן-ז'אק גולדמן, והוא מספר על גבר שמתחנן בפני אישה לצאת מהבית ולחיות בחופשיות. השיר למעשה מדבר על שחרור נשים מוסלמיות ממסורות מגבילות, אך רוב המאזינים מתייחסים אליו כסתם שיר אהבה.",
+    "explanation_he": "\"עאישה\" של חאלד מ-1996 נכתב על ידי ז'אן-ז'אק גולדמן (לא גוראן ברגוביץ' כפי שלעיתים מיוחס). השיר מספר על גבר שמתחנן בפני אישה בשם עאישה ומציע לה פנינים, תכשיטים ושירים — והיא דוחה את כל ההצעות. רבים פירשו זאת כסיפור על שחרור נשים ערביות מציפיות חברתיות, אבל הנרטיב הספציפי הוא של אישה עצמאית שדוחה את הפיתוי החומרי של הגבר.",
     "songTitle": "Aïcha",
     "artist": "Khaled",
     "year": 1996,
@@ -6254,8 +6466,22 @@
     "deezerId": 921886,
     "spotifyId": "0iUfdffYMExkR6S3kD3mMx",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/0e/48/b90e48c3-e9b9-5d96-3adb-37126ec008ae/mzaf_5950818682804789981.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A%C3%AFcha_(song)",
+        "title": "Aïcha (song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/khaled/aicha",
+        "title": "Aïcha by Khaled — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-1996 והפך להיט עולמי. גולדמן (אחד הכותבים הצרפתים החשובים) כתב את הגרסה הצרפתית, וחאלד הוסיף ושינה את המילים בערבית באלתור. השיר זכה ב-Victoires de la Musique לשיר הצרפתי הטוב של 1997. הקליפ עם חאלד שר ברחובות פריז הפך לאיקוני, ושילובו בהמנון של תרבות \"ראי-פופ\" הצרפתית של שנות ה-90."
   },
   {
     "id": "q325",
@@ -6281,7 +6507,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "\"נור אל-עין\" (אור העיניים) של עמרו דיאב מ-1996 זכה בפרס World Music Award כאלבום הנמכר ביותר במזרח התיכון ואפריקה. השיר שילב ביטים מערביים עם מוזיקה ערבית מסורתית ושבר מחסומים תרבותיים, והפך את עמרו דיאב ל\"אב הפופ הערבי\".",
+    "explanation_he": "\"נור אל-עין\" (אור העיניים) של עמרו דיאב מ-1996 זכה בפרס World Music Award כאלבום הנמכר ביותר במזרח התיכון לשנת 1996. השיר שילב ביטים מערביים עם מוזיקה ערבית מסורתית ושבר מחסומים תרבותיים. עמרו דיאב כונה \"אבי המוזיקה הים-תיכונית\" (לא בהכרח \"אבי הפופ הערבי\") על השילוב הזה.",
     "songTitle": "Nour El Ain",
     "artist": "Amr Diab",
     "year": 1996,
@@ -6293,8 +6519,22 @@
     "deezerId": 80714152,
     "spotifyId": "3ZTuYuaV1fhdNnuIBuzTYy",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music4/v4/8f/f1/e2/8ff1e223-7225-2e17-a722-3769420333f5/mzaf_6728027340569423150.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nour_El_Ain",
+        "title": "Nour El Ain — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Amr_Diab",
+        "title": "Amr Diab — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "דיאב הוא אחד מאמני הפופ הערביים המצליחים בכל הזמנים — מעל 100 מיליון אלבומים נמכרו. הוא גם השפיע על אסתטיקת קליפים ערבית מודרנית עם הקליפ של \"Nour El Ain\" שצולם בנופים אגדיים. השיר זכה לכיסויים בעשרות שפות, כולל הינדי לבוליווד."
   },
   {
     "id": "q326",
@@ -6332,8 +6572,22 @@
     "deezerId": 2120967,
     "spotifyId": "7ogJ1jO41fzk8iwlyxNZoK",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/95/83/53/9583532a-a0db-29fc-2619-3cdcd0f9a51f/mzaf_16943089232297999310.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ya_Rayah",
+        "title": "Ya Rayah — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rachid_Taha",
+        "title": "Rachid Taha — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "המקור של \"יא ראיח\" נכתב ובוצע ב-1973 על ידי דחמאן אל-חראשי, אגדת הצ'עבי האלג'יראי. רשיד טאהא ביצע את גרסתו ב-1993 באלבומו הראשון, והוציא אותה כסינגל ב-1997. הוא הגיע למקום 11 במצעדים הצרפתיים. השיר זכה לכיסויים בעשרות שפות וגרסאות ושימש כסמל לדור שלם של מהגרים מגרבים שחוו גזענות וגעגוע באירופה."
   },
   {
     "id": "q328",
@@ -6371,8 +6625,16 @@
     "deezerId": 3171731,
     "spotifyId": "2n45sK6aEas1Wwnt4Obj7z",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/da/51/f0da517a-b325-7247-0fe3-39e6d1068db1/mzaf_17624085414557841987.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ah_W_Noss",
+        "title": "Ah W Noss — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": false,
+    "extendedInfo_he": "האלבום של ננסי עג'רם מ-2004 הכיל שירים על נושאי אהבה ויחסים, ועזר להפוך אותה לאחת מאמניות הפופ הערביות הצעירות החשובות ביותר. נדרש מקור שני לאימות מלא של פרשנות המילים הספציפית של \"Ah W Noss\"."
   },
   {
     "id": "q329",
@@ -6410,8 +6672,22 @@
     "deezerId": 515038072,
     "spotifyId": "6ZOSOeJi0C6FAOUVn1YD6Q",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/b7/e3/61b7e380-dbcc-3d1b-36ca-4f87ef5b1579/mzaf_8848593936655186247.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Khaled_(musician)",
+        "title": "Khaled (musician) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cheb_Hasni",
+        "title": "Cheb Hasni — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "\"דידי\" של חאלד מ-1992 הפך אותו לסופרסטאר בין-לאומי וחדר לאירופה, אסיה ואפריקה. בשנות ה-90 קבוצות אסלאמיסטיות באלג'יריה איימו על זמרי הראי — שב חסני נרצח ב-29 בספטמבר 1994 בגיל 26 מחוץ לבית הוריו באוראן. אלימות נוספת כללה את ירייתו של המפיק רשיד באבא-אחמד ב-1995. חאלד עזב לצרפת מתישהו אחרי הקלטת אלבום \"Kutché\" ב-1988 (הסיבה המדויקת לעזיבה לא תועדה במלואה)."
   },
   {
     "id": "q332",
@@ -6437,7 +6713,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "\"בטוואנס ביק\" (מתגעגעת אליך) של וורדה אל-ג'זאירייה מ-1979 הוא יצירת מופת שהולחנה על ידי בלאל חמדי. וורדה, שנולדה בפריז להורים אלג'יראים-לבנונים, הורחקה מאלג'יריה בגלל קשריה עם מצרים, והשיר מבטא געגוע אמיתי למולדת שלא יכלה לחזור אליה.",
+    "explanation_he": "\"בטוואנס ביק\" של וורדה אל-ג'זאירייה — שנולדה בפריז להורים אלג'יראי-לבנונים ב-1939 — הוא יצירת מופת ערבית קלאסית. לפי ויקיפדיה, השיר הולחן על ידי המלחין המצרי סלאח א-שרנובי, ולא על ידי בלאל חמדי כפי שלעיתים מצוטט בטעות. וורדה הוקירה כל חייה הן לאלג'יריה הן למצריים — הוזמנה להופיע ביום העצמאות האלג'יראי ב-1972, קיבלה את עיטור אל-אתיר וזכתה ללוויה ממלכתית באלג'יריה.",
     "songTitle": "Batwanes Beek",
     "artist": "Warda",
     "year": 1979,
@@ -6449,8 +6725,16 @@
     "deezerId": 80713888,
     "spotifyId": "2A4xTe1uOdRKKJUyilAqrF",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/bc/9a/21bc9ae7-1989-f5a9-5ee6-1b45836f5ae4/mzaf_12251766341002498056.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Warda_Al-Jazairia",
+        "title": "Warda Al-Jazairia — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": false,
+    "extendedInfo_he": "וורדה הייתה נשואה למלחין המצרי בלאל חמדי בין השנים שאחרי 1972 ועד 1990 — מה שיכול להסביר את הבלבול הנפוץ לגביו ככותב השיר. בלאל חמדי כן הלחין שירים אחרים שלה, אבל לא את \"בטוואנס ביק\". השיר נחשב לאחד הביצועים הקלאסיים של ז'אנר הטרב הערבי."
   },
   {
     "id": "q337",
@@ -6488,8 +6772,22 @@
     "deezerId": 2508513,
     "spotifyId": "1mU2HQ7eS6KTvbXYUVfyFO",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/eb/ea/2aebea2b-a97d-b526-d836-d90493d42ce2/mzaf_9798606437684365377.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rachid_Taha",
+        "title": "Rachid Taha — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Rock_the_Casbah",
+        "title": "Rock the Casbah — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "רשיד טאהא ביצע גרסה ערבית-אלקטרונית ל-\"Rock The Casbah\" של The Clash. השיר המקורי משנת 1982 עסק באיסור על מוזיקת רוק באיראן של חומייני. בגרסה של טאהא — שהוא עצמו מהגר אלג'יראי בצרפת — השיר קיבל ממד נוסף של מחאה על חיי המהגרים בפרברי צרפת. טאהא דווקא היה חבר אישי של ג'ו סטראמר מ-The Clash."
   },
   {
     "id": "q339",
@@ -6527,8 +6825,22 @@
     "deezerId": 2296855,
     "spotifyId": "6IRA4KOVbtiGiTdYoEThJN",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/53/42/72534263-0e07-1a69-b2c9-2d063f4ab78b/mzaf_1056794001234050917.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ne_me_quitte_pas",
+        "title": "Ne me quitte pas — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/jacques-brel/ne-me-quitte-pas",
+        "title": "Ne me quitte pas by Jacques Brel — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "ז'אק ברל אמר בראיון מ-1966 שהשיר הוא \"המנון לפחדנות של גברים\" — לא שיר אהבה. הוא ביקש להראות עד כמה גבר מוכן להשפיל את עצמו (להבטיח להפוך ל\"צל של הצל שלך\", להפוך ל\"כלב לכלב שלך\"). השיר נכתב במקור ב-1959 אחרי שאהובתו האישית של ברל, סוזאן גבריאלו, נטשה אותו אחרי שהוא הכריח אותה לעבור הפלה. למרות הכוונה הביקורתית של ברל, השיר התקבל כשיר אהבה וכוסה על ידי כ-200 אמנים — כולל אדית פיאף, ניק קייב ושינא איסטון."
   },
   {
     "id": "q340",
@@ -6566,8 +6878,22 @@
     "deezerId": 69879250,
     "spotifyId": "34dx8DACTJsc3rsJdaEIQw",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/d4/f0/0ad4f0e3-14a3-fd75-336d-090e51395b32/mzaf_4164454337765475442.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Papaoutai",
+        "title": "Papaoutai — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/stromae/papaoutai",
+        "title": "Papaoutai by Stromae — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "שם השיר הוא הצמדה פונטית של \"Papa, où t'es?\" — \"אבא, איפה אתה?\" בצרפתית של בלגיה. אביו של סטרומאה היה ארכיטקט ממוצא טוצי שנשאר ברואנדה, ולכן ברוב חיי בנו פשוט לא היה נוכח. הוא נרצח ברצח העם ברואנדה ב-1994 — סטרומאה היה אז בן 9 (לא 5 כפי שלעיתים מצוטט). הקליפ של ססיל פאיגנרט עם הבובה של \"אבא הפלסטיק\" הפך לאיקוני."
   },
   {
     "id": "q341",
@@ -6605,8 +6931,22 @@
     "deezerId": 119874134,
     "spotifyId": "5P0tWr5JZqDoi5wq2OalFH",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/1d/e1/4c1de171-d19d-321d-6424-e1555fbcbdba/mzaf_7506657558500264053.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Je_t%27aime..._moi_non_plus",
+        "title": "Je t'aime... moi non plus — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/serge-gainsbourg/je-t-aime-moi-non-plus",
+        "title": "Je t'aime... moi non plus by Serge Gainsbourg — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר נכתב במקור ב-1967 עבור בריג'יט בארדו, אהובתו של גנסבור באותה תקופה. בארדו ביקשה ממנו לא לפרסם את ההקלטה אחרי שזה גרם למשבר עם בעלה גונתר זאקס. גנסבור הסכים — וב-1968 הוא הקליט את הגרסה החדשה עם ג'יין בירקין. בירקין סיפרה: \"נסחפתי קצת עם הנשימות הכבדות — כל כך, שאמרו לי להירגע\". השיר נאסר ברדיו בספרד, שוודיה, ברזיל, בריטניה ואיטליה (שם המנכ\"ל של חברת התקליטים אפילו נכלא בעוון פגיעה במוסר הציבורי)."
   },
   {
     "id": "q345",
@@ -6632,7 +6972,7 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation_he": "המילה 'bohème' בצרפתית מקורה בשם צ'כי לאזור בוהמיה, שממנו הגיעו צוענים רבים לצרפת. עם הזמן המילה הפכה לתיאור של חיי אמנות חופשיים. אזנבור כתב את השיר על ימי נעוריו כצייר עני במונמארטר, תקופה שאליה כמה למרות העוני.",
+    "explanation_he": "\"לה בוהם\" של שארל אזנבור מ-1965 הוא געגוע נוסטלגי לנעוריו של הצייר העני במונמארטר — תקופה שהוא תיאר כ\"פרידה מהימים האחרונים של הבוהמה של מונמארטר\". המילה \"bohème\" בצרפתית התפתחה במאה ה-19 בגלל אמונה (שגויה) שהצוענים שהגיעו לצרפת מקורם ב-Bohemia (חלק ממה שהיא היום הרפובליקה הצ'כית). עם הזמן המילה הפכה לתיאור של חיי אמנות חופשיים — ואיבדה את הקשר לצוענים האמיתיים.",
     "songTitle": "La Bohème",
     "artist": "Charles Aznavour",
     "year": 1965,
@@ -6644,8 +6984,22 @@
     "deezerId": 3413187,
     "spotifyId": "1WvvmEowf7hiz5EnyAwtTj",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/57/ca/2357cad1-c818-4ccc-2eb4-e09aab948083/mzaf_13264193577484048104.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Boh%C3%A8me_(Charles_Aznavour_song)",
+        "title": "La Bohème (Charles Aznavour song) — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bohemianism",
+        "title": "Bohemianism — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "אזנבור (1924-2018), שנולד באיסטנבול להורים ארמנים, נחשב לאחד מאמני השאנסון הצרפתי הגדולים בכל הזמנים. השיר נכלל באלבום \"Charles Aznavour 65\" וזכה לכיסויים בעשרות שפות. הוא נחשב לאחד הסמלים של הזיכרון הקולקטיבי של פריז של תחילת המאה ה-20."
   },
   {
     "id": "q346",
@@ -6683,8 +7037,22 @@
     "deezerId": 12216125,
     "spotifyId": "4sf4Lq52b2iCoAgpge7a9g",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/42/2a/1f/422a1f3f-a192-380d-3765-4fa8d304c2f9/mzaf_3929069402390491804.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/%C3%87a_plane_pour_moi",
+        "title": "Ça plane pour moi — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/plastic-bertrand/ca-plane-pour-moi",
+        "title": "Ça plane pour moi by Plastic Bertrand — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-1977 (חלקם מצטטים 1978) והפך לאחד השירים הפאנקיים הצרפתיים המוכרים בעולם. המילים אכן הן ערבוב אבסורדי: חתולים שותי ויסקי, מלך ספה, ילדה שמכניסה את עצמה לאמבטיה רותחת. המפיק לו ד-פרייק אמר: \"המילים הן רצף של דברים לא קוהרנטיים, שמישהו שמסומם נראה לראות... זה לא אומר כלום\". בית משפט בבריסל ב-2006 פסק שברטרנד אכן שר את השיר, למרות שב-2010 הוא כמעט הודה אחרת לפני שהתנער מהאמירה."
   },
   {
     "id": "q349",
@@ -6710,7 +7078,7 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation_he": "השיר שזכה באירוויזיון 1965 נשמע תמים לחלוטין - 'בובת שעווה, בובת סובין'. אבל גנסבור טמן בו רמזים מיניים שגאל הצעירה לא הבינה. כשהבינה מאוחר יותר את המשמעות הכפולה, היא סירבה לשיר שירים של גנסבור במשך שנים ארוכות.",
+    "explanation_he": "\"בובת שעווה, בובת סובין\" שזכה באירוויזיון 1965 (עבור לוקסמבורג) נכתב על ידי סרז' גנסבור עבור פרנס גאל בת ה-17. השיר עצמו נשמע תמים. הבעיה הגדולה הגיעה דווקא בשנה שאחר כך — ב\"Les Sucettes\" של גנסבור (1966) — שגאל לא הבינה שהמילים על \"סוכריות עם טעם אניס\" מכילות רמזים פורנוגרפיים גלויים לסקס אורלי. כשהבינה — היא הרגישה \"מוכפשת ובגודה על ידי המבוגרים סביבה\" וסירבה לשיר שירי גנסבור במשך שנים.",
     "songTitle": "Poupée de cire, poupée de son",
     "artist": "France Gall",
     "year": 1965,
@@ -6722,8 +7090,22 @@
     "deezerId": 639971642,
     "spotifyId": "5kLCC1MMxOACV632KrSAS3",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/1e/ce/491ecef0-ed2e-e3f9-8f22-3352e54d0f14/mzaf_11939243972489138180.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Poup%C3%A9e_de_cire,_poup%C3%A9e_de_son",
+        "title": "Poupée de cire, poupée de son — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/France_Gall",
+        "title": "France Gall — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "גאל ייצגה את לוקסמבורג בתחרות ב-נאפולי וזכתה ב-32 נקודות, מקום ראשון מבין 18 משתתפים. השיר עצמו (\"בובת שעווה\" כביטוי לזמרת שמושרת ועושה מה שאומרים לה) נחשב לראשונים בתחרות שכלל אלמנטים של ביקורת עצמית. בעקבות הזכייה, גאל הפכה ליילדת הזמר של צרפת — אבל גם לקורבן של גנסבור שהשתמש בה כמכשיר."
   },
   {
     "id": "q350",
@@ -6761,8 +7143,22 @@
     "deezerId": 1149271,
     "spotifyId": "4VvTGipG8YaF09z0kfGqaD",
     "itunesPreviewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f9/ff/ae/f9ffae36-d213-1edb-6049-43a63a4626be/mzaf_5481524121642551581.plus.aac.p.m4a",
-    "sources": [],
-    "verified": false
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paroles,_paroles",
+        "title": "Paroles, paroles — Wikipedia",
+        "type": "wikipedia",
+        "accessed": "2026-05-03"
+      },
+      {
+        "url": "https://www.songfacts.com/facts/dalida/paroles-paroles",
+        "title": "Paroles, paroles by Dalida — Songfacts",
+        "type": "songfacts",
+        "accessed": "2026-05-03"
+      }
+    ],
+    "verified": true,
+    "extendedInfo_he": "השיר יצא ב-17 בינואר 1973 כדואט בין דלידה לבין השחקן אלן דלון. דלידה הקליטה את הקול שלה ראשונה, ואז דלון הגיע לאולפן, ביקש כיסא, כיבה את האורות, ובמבטו על דלידה בחושך נתן את \"תשובתו\" לפסקול. הטקסט מתאר גבר שמציע לאישה \"קרמלים, סוכריות ושוקולד\" יחד עם מבול של מחמאות — והיא דוחה אותם כ\"מילים, מילים\" — ריקות מתוכן. השיר היה במקור גרסה צרפתית של דואט איטלקי של מינה ואלברטו לופו מ-1972."
   },
   {
     "id": "q351",
