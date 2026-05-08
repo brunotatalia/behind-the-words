@@ -214,6 +214,9 @@ export default function PlayPage() {
           <StatementCard
             key={`${currentIndex}-${round.statement.text_he}`}
             statement={round.statement.text_he}
+            songTitle={currentQuestion.songTitle}
+            artist={currentQuestion.artist}
+            year={currentQuestion.year}
             isPlaying={isAudioPlaying}
           />
         </AnimatePresence>
