@@ -1,251 +1,256 @@
 'use client';
 
-import { useEffect, useCallback, useState } from 'react';
+import { useEffect, useState, useMemo, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { AnimatePresence, motion } from 'framer-motion';
-import { useGameStore } from '@/store/gameStore';
-import { useTimer } from '@/hooks/useTimer';
-import { TIME_LIMITS } from '@/lib/gameLogic';
-import { GameHeader } from '@/components/game/GameHeader';
-import { QuestionCard } from '@/components/game/QuestionCard';
-import { AnswerOption } from '@/components/game/AnswerOption';
-import { AnswerFeedback } from '@/components/game/AnswerFeedback';
+import { motion, AnimatePresence } from 'framer-motion';
+import type { Question, Statement } from '@/types/question';
+import { StatementCard } from '@/components/game/StatementCard';
+import { TrueFalseButtons } from '@/components/game/TrueFalseButtons';
 import { DidYouKnow } from '@/components/game/DidYouKnow';
-import { useSound } from '@/hooks/useSound';
 import { useSongPreview, prefetchPreview } from '@/hooks/useSongPreview';
+import { useSound } from '@/hooks/useSound';
+
+type Phase = 'loading' | 'playing' | 'answered' | 'explaining' | 'finished';
+
+interface RoundData {
+  question: Question;
+  statement: Statement;
+  isStatementTrue: boolean;
+}
+
+// Pick one statement at random for a question — equal odds true/false
+function pickRound(question: Question): RoundData | null {
+  const trues = question.trueStatements ?? [];
+  const falses = question.falseStatements ?? [];
+  if (trues.length === 0 && falses.length === 0) return null;
+
+  // 50/50 unless one side is empty
+  let useTrue: boolean;
+  if (trues.length === 0) useTrue = false;
+  else if (falses.length === 0) useTrue = true;
+  else useTrue = Math.random() < 0.5;
+
+  const pool = useTrue ? trues : falses;
+  const statement = pool[Math.floor(Math.random() * pool.length)];
+  return { question, statement, isStatementTrue: useTrue };
+}
 
 export default function PlayPage() {
   const router = useRouter();
-  const [showQuitConfirm, setShowQuitConfirm] = useState(false);
-  const [showAnswers, setShowAnswers] = useState(false);
-  const [readingPhase, setReadingPhase] = useState(false);
-  const {
-    phase,
-    questions,
-    currentIndex,
-    selectedAnswer,
-    isCorrect,
-    score,
-    streak,
-    answers,
-    mode,
-    selectAnswer,
-    proceedToExplanation,
-    nextQuestion,
-    resetGame,
-  } = useGameStore();
-
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [phase, setPhase] = useState<Phase>('loading');
+  const [round, setRound] = useState<RoundData | null>(null);
+  const [userAnswer, setUserAnswer] = useState<'true' | 'false' | null>(null);
+  const [score, setScore] = useState(0);
+  const [streak, setStreak] = useState(0);
   const playSound = useSound();
-  const isLearnMode = mode === 'learn';
-  const isPlaying = phase === 'playing';
-  const isDaily = mode === 'daily';
-  const currentQuestion = questions[currentIndex];
-  const timeLimit = currentQuestion ? TIME_LIMITS[currentQuestion.difficulty] : 15;
 
-  // Background song preview - plays during question, fades out on answer
+  // Load questions with statements (only those with statements available)
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      const { questions: all } = await import('@/data/questions');
+      const eligible = all.filter(
+        (q) =>
+          (q.trueStatements && q.trueStatements.length > 0) ||
+          (q.falseStatements && q.falseStatements.length > 0)
+      );
+      if (cancelled) return;
+      // Take all eligible, shuffled
+      const shuffled = [...eligible].sort(() => Math.random() - 0.5);
+      setQuestions(shuffled);
+      const first = shuffled[0];
+      if (first) {
+        setRound(pickRound(first));
+        setPhase('playing');
+      } else {
+        setPhase('finished');
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const currentQuestion = questions[currentIndex];
+
+  // Background music
   const { isAudioPlaying } = useSongPreview({
     deezerId: currentQuestion?.deezerId,
     itunesPreviewUrl: currentQuestion?.itunesPreviewUrl,
-    play: isPlaying,
-    volume: 0.25,
+    play: phase === 'playing' || phase === 'answered',
+    volume: phase === 'playing' ? 0.25 : 0.15,
   });
 
-  // Prefetch next question's song preview for instant playback
-  const nextQuestion_q = questions[currentIndex + 1];
+  // Prefetch next song
   useEffect(() => {
-    prefetchPreview(nextQuestion_q?.deezerId, nextQuestion_q?.itunesPreviewUrl);
-  }, [nextQuestion_q?.deezerId, nextQuestion_q?.itunesPreviewUrl]);
+    const next = questions[currentIndex + 1];
+    prefetchPreview(next?.deezerId, next?.itunesPreviewUrl);
+  }, [currentIndex, questions]);
 
-  const handleExpire = useCallback(() => {
-    if (phase === 'playing' && !isLearnMode) {
-      selectAnswer('__expired__', 0);
-    }
-  }, [phase, selectAnswer, isLearnMode]);
-
-  const { timeRemaining, start: startTimer, stop: stopTimer, reset: resetTimer } = useTimer({
-    duration: timeLimit,
-    onExpire: handleExpire,
-  });
-
-  // Redirect to home if no game started
-  useEffect(() => {
-    if (phase === 'idle' && questions.length === 0) {
-      router.replace('/');
-    }
-  }, [phase, questions.length, router]);
-
-  // Redirect to results when finished
-  useEffect(() => {
-    if (phase === 'finished') {
-      router.push('/results');
-    }
-  }, [phase, router]);
-
-  // Calculate reading delay based on question length (3-5 seconds)
-  const getReadingDelay = (question: typeof currentQuestion) => {
-    if (!question) return 3000;
-    const len = question.question_he.length;
-    if (len > 80) return 5000;
-    if (len > 50) return 4000;
-    return 3000;
-  };
-
-  // Reading phase: show question without answers, then reveal and start timer
-  useEffect(() => {
-    if (phase === 'playing' && currentQuestion && !isLearnMode) {
-      setShowAnswers(false);
-      setReadingPhase(true);
-      resetTimer(TIME_LIMITS[currentQuestion.difficulty]);
-
-      const readDelay = getReadingDelay(currentQuestion);
-      const timeout = setTimeout(() => {
-        setShowAnswers(true);
-        setReadingPhase(false);
-        startTimer();
-      }, readDelay);
-
-      return () => clearTimeout(timeout);
-    }
-    if (phase === 'playing' && isLearnMode) {
-      setShowAnswers(true);
-      setReadingPhase(false);
-    }
-    if (phase === 'answered') {
-      stopTimer();
-    }
-  }, [phase, currentIndex, currentQuestion, startTimer, stopTimer, resetTimer, isLearnMode]);
-
-  const lastAnswer = answers[answers.length - 1];
-
-  // Play sounds on phase transitions
-  useEffect(() => {
-    if (phase === 'answered' && lastAnswer) {
-      if (lastAnswer.isCorrect) {
-        if (streak >= 3) {
-          playSound('streak');
-        } else {
-          playSound('correct');
-        }
+  const handleAnswer = useCallback(
+    (answer: 'true' | 'false') => {
+      if (!round || phase !== 'playing') return;
+      const correct =
+        (answer === 'true' && round.isStatementTrue) ||
+        (answer === 'false' && !round.isStatementTrue);
+      setUserAnswer(answer);
+      setPhase('answered');
+      if (correct) {
+        playSound(streak >= 2 ? 'streak' : 'correct');
+        setScore((s) => s + 10 + streak * 2);
+        setStreak((s) => s + 1);
       } else {
         playSound('wrong');
+        setStreak(0);
       }
-    }
-    if (phase === 'finished') {
-      playSound('gameComplete');
-    }
-  }, [phase, currentIndex]);
+    },
+    [round, phase, streak, playSound]
+  );
 
-  // Timer warning sound at 3 seconds
-  useEffect(() => {
-    if (!isLearnMode && phase === 'playing' && timeRemaining <= 3 && timeRemaining > 0) {
-      playSound('timerWarning');
-    }
-  }, [Math.ceil(timeRemaining)]);
-
-  const handleSelectAnswer = (answerId: string) => {
-    if (phase !== 'playing') return;
-    playSound('click');
-    selectAnswer(answerId, isLearnMode ? timeLimit : timeRemaining);
-  };
-
-  const handleFeedbackContinue = () => {
-    proceedToExplanation();
+  const handleContinueToExplanation = () => {
+    setPhase('explaining');
   };
 
   const handleNextQuestion = () => {
-    nextQuestion();
+    const nextIdx = currentIndex + 1;
+    if (nextIdx >= questions.length) {
+      setPhase('finished');
+      return;
+    }
+    setCurrentIndex(nextIdx);
+    setRound(pickRound(questions[nextIdx]));
+    setUserAnswer(null);
+    setPhase('playing');
   };
 
-  if (!currentQuestion) {
-    return null;
+  // Compute button states
+  const buttonStates = useMemo(() => {
+    if (phase === 'playing' || phase === 'loading') {
+      return { trueState: 'default' as const, falseState: 'default' as const };
+    }
+    // phase === 'answered' or later
+    const correctSide = round?.isStatementTrue ? 'true' : 'false';
+    const userCorrect = userAnswer === correctSide;
+    return {
+      trueState:
+        userAnswer === 'true'
+          ? userCorrect
+            ? ('selected-correct' as const)
+            : ('selected-wrong' as const)
+          : correctSide === 'true' && !userCorrect
+            ? ('reveal-correct' as const)
+            : ('disabled' as const),
+      falseState:
+        userAnswer === 'false'
+          ? userCorrect
+            ? ('selected-correct' as const)
+            : ('selected-wrong' as const)
+          : correctSide === 'false' && !userCorrect
+            ? ('reveal-correct' as const)
+            : ('disabled' as const),
+    };
+  }, [phase, userAnswer, round]);
+
+  if (phase === 'loading') {
+    return (
+      <main className="flex-1 flex items-center justify-center min-h-dvh">
+        <div className="text-text-muted">טוען שאלות...</div>
+      </main>
+    );
   }
 
-  const getAnswerState = (optionId: string) => {
-    if (phase === 'playing') return 'default' as const;
-    if (phase !== 'answered' && phase !== 'explaining') return 'disabled' as const;
+  if (phase === 'finished' || !currentQuestion || !round) {
+    return (
+      <main className="flex-1 flex items-center justify-center min-h-dvh p-6">
+        <div className="text-center space-y-4 max-w-md">
+          <div className="text-5xl">🎉</div>
+          <h2 className="text-2xl font-bold">סיימת את כל השאלות!</h2>
+          <div className="text-text-secondary">ניקוד סופי: <span className="text-accent font-bold">{score}</span></div>
+          <button
+            onClick={() => router.push('/')}
+            className="px-6 py-3 rounded-xl bg-accent text-white font-bold hover:bg-accent-light transition-colors"
+          >
+            חזרה לדף הבית
+          </button>
+        </div>
+      </main>
+    );
+  }
 
-    if (optionId === selectedAnswer) {
-      return isCorrect ? 'selected-correct' as const : 'selected-wrong' as const;
-    }
-    if (optionId === currentQuestion.correctAnswer && !isCorrect) {
-      return 'reveal-correct' as const;
-    }
-    return 'disabled' as const;
-  };
+  const lastAnswerCorrect =
+    phase === 'answered' &&
+    ((userAnswer === 'true' && round.isStatementTrue) ||
+      (userAnswer === 'false' && !round.isStatementTrue));
 
   return (
     <main className="flex-1 flex flex-col min-h-dvh">
-      <GameHeader
-        currentIndex={currentIndex}
-        totalQuestions={questions.length}
-        score={score}
-        streak={streak}
-        timeRemaining={isLearnMode ? timeLimit : timeRemaining}
-        timeLimit={timeLimit}
-        isLearnMode={isLearnMode}
-        isReadingPhase={readingPhase}
-        onQuit={() => setShowQuitConfirm(true)}
-      />
+      {/* Header */}
+      <div className="px-4 py-3 flex items-center justify-between border-b border-surface-tertiary">
+        <button
+          onClick={() => router.push('/')}
+          className="text-text-muted hover:text-text-primary text-sm"
+        >
+          ✕
+        </button>
+        <div className="flex items-center gap-4 text-sm">
+          <div className="text-text-muted">
+            {currentIndex + 1}/{questions.length}
+          </div>
+          <div className="font-bold text-accent">{score}</div>
+          {streak > 0 && (
+            <div className="flex items-center gap-1 text-orange-400">
+              🔥 <span className="font-bold">{streak}</span>
+            </div>
+          )}
+        </div>
+        <div className="w-6" />
+      </div>
 
-      <div className="flex-1 flex flex-col justify-center p-4 max-w-lg mx-auto w-full space-y-6">
+      {/* Main content */}
+      <div className="flex-1 flex flex-col justify-center p-4 max-w-lg mx-auto w-full space-y-8">
         <AnimatePresence mode="wait">
-          <QuestionCard
-            key={currentQuestion.id}
-            question={currentQuestion}
-            questionNumber={currentIndex + 1}
+          <StatementCard
+            key={`${currentIndex}-${round.statement.text_he}`}
+            statement={round.statement.text_he}
             isPlaying={isAudioPlaying}
           />
         </AnimatePresence>
 
+        <TrueFalseButtons
+          state={buttonStates}
+          onSelect={handleAnswer}
+          disabled={phase !== 'playing'}
+        />
+
+        {/* Quick feedback after answer */}
         <AnimatePresence>
-          {showAnswers && (
+          {phase === 'answered' && (
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3 }}
-              className="space-y-3"
+              exit={{ opacity: 0 }}
+              className="text-center space-y-3"
             >
-              {currentQuestion.options.map((option, index) => (
-                <AnswerOption
-                  key={option.id}
-                  id={option.id}
-                  text={option.text_he}
-                  index={index}
-                  state={getAnswerState(option.id)}
-                  onSelect={() => handleSelectAnswer(option.id)}
-                  disabled={phase !== 'playing' || !showAnswers}
-                />
-              ))}
+              <div className={`text-2xl font-bold ${lastAnswerCorrect ? 'text-correct' : 'text-wrong'}`}>
+                {lastAnswerCorrect ? '🎯 צדקת!' : '❌ טעית'}
+              </div>
+              <div className="text-text-secondary text-sm">
+                הקביעה היא {round.isStatementTrue ? 'נכונה' : 'שגויה'}
+              </div>
+              <button
+                onClick={handleContinueToExplanation}
+                className="px-6 py-3 rounded-xl bg-accent text-white font-bold hover:bg-accent-light transition-colors"
+              >
+                גלה את הסיפור המלא ←
+              </button>
             </motion.div>
           )}
         </AnimatePresence>
-
-        {/* Reading phase indicator */}
-        {readingPhase && !isLearnMode && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="text-center py-4"
-          >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium">
-              <span className="animate-pulse">🎵</span>
-              <span>הקשיבו לשיר וקראו את השאלה...</span>
-            </div>
-          </motion.div>
-        )}
       </div>
 
-      <AnimatePresence>
-        {phase === 'answered' && lastAnswer && (
-          <AnswerFeedback
-            isCorrect={lastAnswer.isCorrect}
-            pointsEarned={lastAnswer.pointsEarned}
-            streak={streak}
-            onContinue={handleFeedbackContinue}
-          />
-        )}
-      </AnimatePresence>
-
+      {/* Reveal modal */}
       <AnimatePresence>
         {phase === 'explaining' && (
           <DidYouKnow
@@ -253,48 +258,6 @@ export default function PlayPage() {
             onContinue={handleNextQuestion}
             isLast={currentIndex === questions.length - 1}
           />
-        )}
-      </AnimatePresence>
-
-      {/* Quit Confirmation */}
-      <AnimatePresence>
-        {showQuitConfirm && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[60] flex items-center justify-center bg-black/70 backdrop-blur-sm px-6"
-          >
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.9, opacity: 0 }}
-              className="bg-surface-secondary rounded-2xl p-6 max-w-sm w-full space-y-4 text-center"
-            >
-              <div className="text-3xl">🚪</div>
-              <h3 className="text-xl font-bold">?לצאת מהמשחק</h3>
-              <p className="text-text-secondary text-sm">
-                ההתקדמות שלך לא תישמר
-              </p>
-              <div className="flex gap-3 pt-2">
-                <button
-                  onClick={() => setShowQuitConfirm(false)}
-                  className="flex-1 py-3 rounded-xl bg-surface-tertiary text-text-secondary font-medium hover:bg-surface-card transition-colors"
-                >
-                  המשך לשחק
-                </button>
-                <button
-                  onClick={() => {
-                    resetGame();
-                    router.push('/');
-                  }}
-                  className="flex-1 py-3 rounded-xl bg-wrong/20 text-wrong font-bold hover:bg-wrong/30 transition-colors"
-                >
-                  יציאה
-                </button>
-              </div>
-            </motion.div>
-          </motion.div>
         )}
       </AnimatePresence>
     </main>

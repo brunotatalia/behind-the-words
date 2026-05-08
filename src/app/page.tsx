@@ -59,6 +59,7 @@ export default function HomePage() {
   const toggleSound = useSettingsStore((s) => s.toggleSound);
 
   const handleStart = async () => {
+    // True/False mode loads its own questions; gameStore startGame kept for stats compatibility
     await startGame(selectedCategory ?? undefined, mode, selectedDifficulty ?? undefined);
     router.push('/play');
   };
@@ -323,19 +324,6 @@ export default function HomePage() {
             <span className="flex items-center justify-center gap-1.5">
               <span aria-hidden="true">🎧</span>
               גלה שירים
-            </span>
-          </button>
-          <button
-            onClick={() => router.push('/play2')}
-            aria-label="מצב נכון/לא נכון — חדש בבטא"
-            className="relative flex-1 px-3 py-2.5 rounded-xl border border-purple-500/40 bg-purple-500/10 hover:bg-purple-500/20 text-xs font-medium text-purple-300 transition-all duration-200"
-          >
-            <span className="flex items-center justify-center gap-1.5">
-              <span aria-hidden="true">🎯</span>
-              נכון/לא נכון
-            </span>
-            <span className="absolute -top-1 -left-1 px-1.5 py-0.5 rounded-md bg-purple-500 text-white text-[8px] font-bold">
-              חדש
             </span>
           </button>
           {likedSongsCount > 0 && (
