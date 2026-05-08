@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useShallow } from 'zustand/react/shallow';
 import { useGameStore } from '@/store/gameStore';
 import { categories } from '@/data/categories';
@@ -12,8 +12,33 @@ import type { GameMode } from '@/types/game';
 import { useStatsStore } from '@/store/statsStore';
 import { useSettingsStore } from '@/store/settingsStore';
 
+function Equalizer() {
+  const bars = [0, 1, 2, 3, 4, 5, 6];
+  return (
+    <div
+      aria-hidden="true"
+      className="flex items-end justify-center gap-1 h-10 mx-auto"
+    >
+      {bars.map((i) => (
+        <span
+          key={i}
+          className="w-1.5 h-full origin-bottom rounded-full bg-gradient-to-t from-accent/60 to-accent-light"
+          style={{
+            animation: `eq-bar ${1.1 + ((i * 31) % 7) * 0.12}s ease-in-out infinite`,
+            animationDelay: `${((i * 17) % 9) * 0.1}s`,
+          }}
+        />
+      ))}
+    </div>
+  );
+}
+
+const CTA_FOCUS_RING =
+  'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary';
+
 export default function HomePage() {
   const router = useRouter();
+  const shouldReduceMotion = useReducedMotion() ?? false;
   const startGame = useGameStore((s) => s.startGame);
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
   const [selectedDifficulty, setSelectedDifficulty] = useState<Difficulty | null>(null);
@@ -43,15 +68,14 @@ export default function HomePage() {
     router.push('/play');
   };
 
-  // Check if daily was already played today (today cached at mount)
   const today = useMemo(() => new Date().toISOString().slice(0, 10), []);
   const dailyPlayed = useStatsStore((s) =>
     s.recentGames.some((g) => g.mode === 'daily' && g.date.startsWith(today))
   );
 
-  const hasCustomization = selectedCategory !== null || selectedDifficulty !== null || mode !== 'classic';
+  const hasCustomization =
+    selectedCategory !== null || selectedDifficulty !== null || mode !== 'classic';
 
-  // O(1) lookup from precomputed metadata — no need to load full questions.json
   const categoryCount = useMemo(
     () => countQuestions(selectedCategory, selectedDifficulty),
     [selectedCategory, selectedDifficulty]
@@ -59,31 +83,23 @@ export default function HomePage() {
 
   return (
     <main className="flex-1 flex flex-col items-center px-6 py-8 max-w-lg mx-auto w-full">
-      {/* Background glow */}
-      <div className="fixed inset-0 pointer-events-none">
+      <div className="fixed inset-0 pointer-events-none" aria-hidden="true">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[400px] h-[400px] rounded-full bg-accent/5 blur-[100px]" />
       </div>
 
       <div className="relative z-10 text-center w-full space-y-5">
-        {/* Logo / Title */}
+        {/* Hero */}
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={shouldReduceMotion ? false : { opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="space-y-2"
+          className="space-y-3"
         >
-          <motion.div
-            initial={{ scale: 0, rotate: -180 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ type: 'spring', damping: 10, stiffness: 200, delay: 0.1 }}
-            className="text-5xl"
-          >
-            🎵
-          </motion.div>
+          <Equalizer />
           <motion.h1
-            initial={{ opacity: 0, scale: 0.8 }}
+            initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.4, delay: 0.2 }}
+            transition={{ duration: 0.4, delay: 0.15 }}
             className="text-4xl md:text-5xl font-bold text-white"
           >
             מאחורי{' '}
@@ -91,48 +107,58 @@ export default function HomePage() {
               המילים
             </span>
           </motion.h1>
-          <p className="text-text-secondary text-base">
+          <p className="text-text-primary/90 text-lg leading-relaxed">
             ?מה באמת מסתתר מאחורי השירים שאתם שומעים
           </p>
         </motion.div>
 
-        {/* Start Button — always visible above fold */}
+        {/* Primary CTA */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={shouldReduceMotion ? false : { opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, type: 'spring' }}
+          className="space-y-1.5"
         >
           <button
             onClick={handleStart}
             disabled={categoryCount < 4}
-            className="group relative w-full px-12 py-5 rounded-2xl bg-gradient-to-l from-accent to-accent-light text-white font-bold text-xl shadow-lg shadow-accent/25 hover:shadow-xl hover:shadow-accent/40 transition-all duration-300 active:scale-[0.97] disabled:opacity-50 disabled:cursor-not-allowed"
+            className={`group relative w-full px-12 py-5 rounded-2xl bg-gradient-to-br from-accent to-accent-light text-white font-bold text-xl shadow-lg shadow-accent/25 hover:shadow-xl hover:shadow-accent/40 transition-all duration-300 active:scale-[0.97] disabled:opacity-50 disabled:cursor-not-allowed ${CTA_FOCUS_RING}`}
           >
-            <span className="relative z-10">
-              {hasCustomization ? `${categoryCount} שאלות - !בואו נתחיל` : '!בואו נתחיל'}
-            </span>
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-l from-accent to-accent-light opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300" />
+            <span className="relative z-10">!בואו נתחיל</span>
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 rounded-2xl bg-gradient-to-br from-accent to-accent-light opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"
+            />
           </button>
+          {hasCustomization && (
+            <p className="text-xs text-text-muted">
+              {categoryCount} שאלות · התאמה אישית
+            </p>
+          )}
         </motion.div>
 
         {/* Customize toggle */}
         <motion.div
-          initial={{ opacity: 0 }}
+          initial={shouldReduceMotion ? false : { opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
         >
           <button
             onClick={() => setShowOptions(!showOptions)}
+            aria-expanded={showOptions}
+            aria-controls="home-options-panel"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm text-text-muted hover:text-text-secondary transition-colors"
           >
             <motion.span
               animate={{ rotate: showOptions ? 180 : 0 }}
               transition={{ duration: 0.2 }}
+              aria-hidden="true"
             >
               ▾
             </motion.span>
             {showOptions ? 'הסתר אפשרויות' : 'התאמה אישית'}
             {hasCustomization && (
-              <span className="w-2 h-2 rounded-full bg-accent" />
+              <span aria-hidden="true" className="w-2 h-2 rounded-full bg-accent" />
             )}
           </button>
         </motion.div>
@@ -141,6 +167,7 @@ export default function HomePage() {
         <AnimatePresence>
           {showOptions && (
             <motion.div
+              id="home-options-panel"
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
@@ -159,7 +186,7 @@ export default function HomePage() {
                         : 'border-surface-tertiary bg-surface-secondary text-accent-light/70 hover:border-accent/30'
                     }`}
                   >
-                    🎲 כל הקטגוריות
+                    <span aria-hidden="true">🎲</span> כל הקטגוריות
                   </button>
                   <div className="grid grid-cols-2 gap-2">
                     {categories.map((cat) => {
@@ -174,7 +201,7 @@ export default function HomePage() {
                               : 'border-surface-tertiary bg-surface-secondary text-text-secondary hover:border-accent/30'
                           }`}
                         >
-                          {cat.icon} {cat.label}
+                          <span aria-hidden="true">{cat.icon}</span> {cat.label}
                         </button>
                       );
                     })}
@@ -194,7 +221,7 @@ export default function HomePage() {
                             : 'text-text-muted hover:text-text-secondary'
                         }`}
                       >
-                        ⏱️ קלאסי
+                        <span aria-hidden="true">⏱️</span> קלאסי
                       </button>
                       <button
                         onClick={() => setMode('learn')}
@@ -204,7 +231,7 @@ export default function HomePage() {
                             : 'text-text-muted hover:text-text-secondary'
                         }`}
                       >
-                        📚 למידה
+                        <span aria-hidden="true">📚</span> למידה
                       </button>
                     </div>
                   </div>
@@ -215,8 +242,11 @@ export default function HomePage() {
                   <div className="flex justify-center">
                     <div className="inline-flex rounded-xl bg-surface-secondary p-1 gap-1">
                       {([null, 'easy', 'medium', 'hard'] as (Difficulty | null)[]).map((diff) => {
-                        const labels: Record<string, string> = { easy: '🟢 קל', medium: '🟡 בינוני', hard: '🔴 קשה' };
-                        const label = diff ? labels[diff] : '🎯 מיקס';
+                        const labels: Record<string, { icon: string; text: string }> = {
+                          easy: { icon: '🟢', text: 'קל' },
+                          medium: { icon: '🟡', text: 'בינוני' },
+                          hard: { icon: '🔴', text: 'קשה' },
+                        };
                         const isActive = selectedDifficulty === diff;
                         return (
                           <button
@@ -228,7 +258,8 @@ export default function HomePage() {
                                 : 'text-text-muted hover:text-text-secondary'
                             }`}
                           >
-                            {label}
+                            <span aria-hidden="true">{diff ? labels[diff].icon : '🎯'}</span>{' '}
+                            {diff ? labels[diff].text : 'מיקס'}
                           </button>
                         );
                       })}
@@ -240,9 +271,11 @@ export default function HomePage() {
                 <div className="flex justify-center">
                   <button
                     onClick={toggleSound}
+                    aria-pressed={soundEnabled}
                     className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-secondary text-text-muted hover:text-text-secondary text-xs transition-colors"
                   >
-                    {soundEnabled ? '🔊 צלילים מופעלים' : '🔇 צלילים כבויים'}
+                    <span aria-hidden="true">{soundEnabled ? '🔊' : '🔇'}</span>{' '}
+                    {soundEnabled ? 'צלילים מופעלים' : 'צלילים כבויים'}
                   </button>
                 </div>
               </div>
@@ -250,63 +283,79 @@ export default function HomePage() {
           )}
         </AnimatePresence>
 
-        {/* Daily Challenge */}
+        {/* Secondary actions chip row */}
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
+          initial={shouldReduceMotion ? false : { opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.45 }}
+          className="flex items-stretch gap-2"
         >
           <button
             onClick={handleDaily}
             disabled={dailyPlayed}
-            className={`w-full px-4 py-3 rounded-2xl border-2 transition-all duration-200 ${
+            aria-label={
               dailyPlayed
-                ? 'border-surface-tertiary bg-surface-secondary opacity-60'
-                : 'border-gold/30 bg-gold/5 hover:bg-gold/10 hover:border-gold/50'
+                ? 'האתגר היומי הושלם היום'
+                : 'אתגר יומי - אותן 10 שאלות לכל השחקנים היום'
+            }
+            className={`relative flex-1 px-3 py-2.5 rounded-xl border text-xs font-medium transition-all duration-200 ${
+              dailyPlayed
+                ? 'border-surface-tertiary bg-surface-secondary text-text-muted opacity-70 cursor-not-allowed'
+                : 'border-gold/30 bg-gold/5 hover:bg-gold/10 hover:border-gold/50 text-gold'
             }`}
           >
-            <div className="flex items-center justify-center gap-3">
-              <span className="text-xl">{dailyPlayed ? '✅' : '📅'}</span>
-              <div className="text-start">
-                <div className="font-bold text-gold text-sm">
-                  {dailyPlayed ? 'האתגר היומי הושלם!' : 'אתגר יומי'}
-                </div>
-                <div className="text-[11px] text-text-muted">
-                  {dailyPlayed ? 'חזרו מחר לאתגר חדש' : 'אותן 10 שאלות לכולם - מי יגיע לניקוד הגבוה ביותר?'}
-                </div>
-              </div>
-            </div>
+            <span className="flex items-center justify-center gap-1.5">
+              <span aria-hidden="true">{dailyPlayed ? '✅' : '📅'}</span>
+              אתגר יומי
+            </span>
+            {!dailyPlayed && (
+              <span
+                aria-hidden="true"
+                className="absolute top-1.5 left-1.5 w-1.5 h-1.5 rounded-full bg-gold animate-pulse"
+              />
+            )}
           </button>
-        </motion.div>
-
-        {/* Explore Mode */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.52 }}
-        >
           <button
             onClick={() => router.push('/explore')}
-            className="w-full px-4 py-3 rounded-2xl border-2 border-accent/20 bg-accent/5 hover:bg-accent/10 hover:border-accent/40 transition-all duration-200"
+            aria-label="גלה שירים — עובדות מפתיעות עם מוזיקה ברקע"
+            className="flex-1 px-3 py-2.5 rounded-xl border border-accent/20 bg-accent/5 hover:bg-accent/10 hover:border-accent/40 text-xs font-medium text-accent-light transition-all duration-200"
           >
-            <div className="flex items-center justify-center gap-3">
-              <span className="text-xl">🎧</span>
-              <div className="text-start">
-                <div className="font-bold text-accent-light text-sm">
-                  גלה שירים
-                </div>
-                <div className="text-[11px] text-text-muted">
-                  גללו בין עובדות מפתיעות על שירים מפורסמים עם מוזיקה ברקע
-                </div>
-              </div>
-            </div>
+            <span className="flex items-center justify-center gap-1.5">
+              <span aria-hidden="true">🎧</span>
+              גלה שירים
+            </span>
           </button>
+          <button
+            onClick={() => router.push('/play2')}
+            aria-label="מצב נכון/לא נכון — חדש בבטא"
+            className="relative flex-1 px-3 py-2.5 rounded-xl border border-purple-500/40 bg-purple-500/10 hover:bg-purple-500/20 text-xs font-medium text-purple-300 transition-all duration-200"
+          >
+            <span className="flex items-center justify-center gap-1.5">
+              <span aria-hidden="true">🎯</span>
+              נכון/לא נכון
+            </span>
+            <span className="absolute -top-1 -left-1 px-1.5 py-0.5 rounded-md bg-purple-500 text-white text-[8px] font-bold">
+              חדש
+            </span>
+          </button>
+          {likedSongsCount > 0 && (
+            <button
+              onClick={() => router.push('/liked')}
+              aria-label={`${likedSongsCount} שירים שאהבתי`}
+              className="flex-1 px-3 py-2.5 rounded-xl border border-surface-tertiary bg-surface-secondary hover:bg-surface-card text-xs font-medium text-text-secondary transition-all duration-200"
+            >
+              <span className="flex items-center justify-center gap-1.5">
+                <span aria-hidden="true">💚</span>
+                אהבתי · {likedSongsCount}
+              </span>
+            </button>
+          )}
         </motion.div>
 
         {/* Personal Stats */}
         {gamesPlayed > 0 && (
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
+            initial={shouldReduceMotion ? false : { opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.55 }}
             className="space-y-2"
@@ -315,52 +364,30 @@ export default function HomePage() {
             <div className="grid grid-cols-4 gap-2">
               <div className="bg-surface-secondary rounded-xl p-2.5 text-center">
                 <div className="text-lg font-bold text-accent-light">{gamesPlayed}</div>
-                <div className="text-[10px] text-text-muted">משחקים</div>
+                <div className="text-[11px] text-text-muted">משחקים</div>
               </div>
               <div className="bg-surface-secondary rounded-xl p-2.5 text-center">
                 <div className="text-lg font-bold text-correct">{bestScore}</div>
-                <div className="text-[10px] text-text-muted">שיא ניקוד</div>
+                <div className="text-[11px] text-text-muted">שיא ניקוד</div>
               </div>
               <div className="bg-surface-secondary rounded-xl p-2.5 text-center">
                 <div className="text-lg font-bold text-gold">{bestStreak}x</div>
-                <div className="text-[10px] text-text-muted">שיא רצף</div>
+                <div className="text-[11px] text-text-muted">שיא רצף</div>
               </div>
               <div className="bg-surface-secondary rounded-xl p-2.5 text-center">
                 <div className="text-lg font-bold text-accent-light">
                   {totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0}%
                 </div>
-                <div className="text-[10px] text-text-muted">דיוק</div>
+                <div className="text-[11px] text-text-muted">דיוק</div>
               </div>
             </div>
-          </motion.div>
-        )}
-
-        {/* Liked Songs */}
-        {likedSongsCount > 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.57 }}
-          >
-            <button
-              onClick={() => router.push('/liked')}
-              className="w-full px-4 py-2.5 rounded-xl bg-surface-secondary hover:bg-surface-card transition-colors flex items-center justify-between"
-            >
-              <span className="text-xs text-text-muted">←</span>
-              <div className="flex items-center gap-2">
-                <span className="text-sm font-medium text-text-secondary">
-                  {likedSongsCount} שירים שאהבתי
-                </span>
-                <span>💚</span>
-              </div>
-            </button>
           </motion.div>
         )}
 
         {/* How it works — first time only */}
         {gamesPlayed === 0 && (
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={shouldReduceMotion ? false : { opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
             className="space-y-3 pt-2"
@@ -368,16 +395,16 @@ export default function HomePage() {
             <h3 className="text-text-muted text-xs font-medium">?איך זה עובד</h3>
             <div className="grid grid-cols-3 gap-4 text-center">
               <div className="space-y-1.5">
-                <div className="text-2xl">❓</div>
-                <p className="text-[11px] text-text-muted leading-snug">קראו את השאלה על שיר מפורסם</p>
+                <div className="text-2xl" aria-hidden="true">❓</div>
+                <p className="text-xs text-text-muted leading-snug">קראו את השאלה על שיר מפורסם</p>
               </div>
               <div className="space-y-1.5">
-                <div className="text-2xl">🤔</div>
-                <p className="text-[11px] text-text-muted leading-snug">בחרו תשובה מתוך 4 אפשרויות</p>
+                <div className="text-2xl" aria-hidden="true">🤔</div>
+                <p className="text-xs text-text-muted leading-snug">בחרו תשובה מתוך 4 אפשרויות</p>
               </div>
               <div className="space-y-1.5">
-                <div className="text-2xl">💡</div>
-                <p className="text-[11px] text-text-muted leading-snug">גלו את הסיפור האמיתי מאחורי השיר</p>
+                <div className="text-2xl" aria-hidden="true">💡</div>
+                <p className="text-xs text-text-muted leading-snug">גלו את הסיפור האמיתי מאחורי השיר</p>
               </div>
             </div>
           </motion.div>
@@ -385,12 +412,12 @@ export default function HomePage() {
 
         {/* Footer info */}
         <motion.div
-          initial={{ opacity: 0 }}
+          initial={shouldReduceMotion ? false : { opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.7 }}
-          className="text-text-muted text-[11px] pt-2"
+          className="text-text-muted text-xs pt-2"
         >
-          🎯 {QUESTION_COUNT} שאלות · 6 קטגוריות · 3-5 דקות
+          <span aria-hidden="true">🎯</span> {QUESTION_COUNT} שאלות · 6 קטגוריות · 3-5 דקות
         </motion.div>
       </div>
     </main>

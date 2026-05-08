@@ -13,6 +13,11 @@ export interface AnswerOption {
   text_he: string;
 }
 
+export interface Statement {
+  text_he: string;
+  difficulty?: Difficulty;
+}
+
 export type SourceType =
   | 'wikipedia'
   | 'songfacts'
@@ -43,6 +48,8 @@ export interface Question {
   year: number;
   sources: Source[];
   verified: boolean;
+  trueStatements?: Statement[];
+  falseStatements?: Statement[];
   tags?: string[];
   lyricQuote?: string;
   spotifyId?: string;
