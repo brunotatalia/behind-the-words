@@ -1,52 +1,36 @@
 'use client';
 
-import { useEffect, useState, useMemo, useCallback } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import type { Question, Statement } from '@/types/question';
-import { StatementCard } from '@/components/game/StatementCard';
-import { TrueFalseButtons } from '@/components/game/TrueFalseButtons';
+import type { Question } from '@/types/question';
+import type { Round } from '@/types/round';
+import { buildRound } from '@/game/buildRound';
+import { TrueFalseRound } from '@/components/game/rounds/TrueFalseRound';
+import { TwoTruthsOneLieRound } from '@/components/game/rounds/TwoTruthsOneLieRound';
+import { AudioShrinkerRound } from '@/components/game/rounds/AudioShrinkerRound';
+import { YearLadderRound } from '@/components/game/rounds/YearLadderRound';
 import { DidYouKnow } from '@/components/game/DidYouKnow';
 import { useSongPreview, prefetchPreview } from '@/hooks/useSongPreview';
 import { useSound } from '@/hooks/useSound';
 
 type Phase = 'loading' | 'playing' | 'answered' | 'explaining' | 'finished';
 
-interface RoundData {
-  question: Question;
-  statement: Statement;
-  isStatementTrue: boolean;
-}
-
-// Pick one statement at random for a question — equal odds true/false
-function pickRound(question: Question): RoundData | null {
-  const trues = question.trueStatements ?? [];
-  const falses = question.falseStatements ?? [];
-  if (trues.length === 0 && falses.length === 0) return null;
-
-  // 50/50 unless one side is empty
-  let useTrue: boolean;
-  if (trues.length === 0) useTrue = false;
-  else if (falses.length === 0) useTrue = true;
-  else useTrue = Math.random() < 0.5;
-
-  const pool = useTrue ? trues : falses;
-  const statement = pool[Math.floor(Math.random() * pool.length)];
-  return { question, statement, isStatementTrue: useTrue };
-}
-
 export default function PlayPage() {
   const router = useRouter();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>('loading');
-  const [round, setRound] = useState<RoundData | null>(null);
-  const [userAnswer, setUserAnswer] = useState<'true' | 'false' | null>(null);
+  const [round, setRound] = useState<Round | null>(null);
+  const [lastResult, setLastResult] = useState<{
+    correct: boolean;
+    scoreDelta: number;
+  } | null>(null);
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const playSound = useSound();
 
-  // Load questions with statements (only those with statements available)
+  // Load eligible questions and pick the first round.
   useEffect(() => {
     let cancelled = false;
     (async () => {
@@ -57,12 +41,11 @@ export default function PlayPage() {
           (q.falseStatements && q.falseStatements.length > 0)
       );
       if (cancelled) return;
-      // Take all eligible, shuffled
       const shuffled = [...eligible].sort(() => Math.random() - 0.5);
       setQuestions(shuffled);
       const first = shuffled[0];
       if (first) {
-        setRound(pickRound(first));
+        setRound(buildRound(first, shuffled));
         setPhase('playing');
       } else {
         setPhase('finished');
@@ -75,83 +58,60 @@ export default function PlayPage() {
 
   const currentQuestion = questions[currentIndex];
 
-  // Background music
+  // BG audio is suppressed for AudioShrinker — that format owns its own audio.
+  const bgAudioEnabled = round?.format !== 'audio-shrinker';
+
   const { isAudioPlaying } = useSongPreview({
-    deezerId: currentQuestion?.deezerId,
-    itunesPreviewUrl: currentQuestion?.itunesPreviewUrl,
-    play: phase === 'playing' || phase === 'answered',
+    deezerId: bgAudioEnabled ? currentQuestion?.deezerId : undefined,
+    itunesPreviewUrl: bgAudioEnabled ? currentQuestion?.itunesPreviewUrl : undefined,
+    play: bgAudioEnabled && (phase === 'playing' || phase === 'answered'),
     volume: phase === 'playing' ? 0.25 : 0.15,
   });
 
-  // Prefetch next song
+  // Prefetch next song's audio for instant playback when round advances.
   useEffect(() => {
     const next = questions[currentIndex + 1];
     prefetchPreview(next?.deezerId, next?.itunesPreviewUrl);
   }, [currentIndex, questions]);
 
   const handleAnswer = useCallback(
-    (answer: 'true' | 'false') => {
-      if (!round || phase !== 'playing') return;
-      const correct =
-        (answer === 'true' && round.isStatementTrue) ||
-        (answer === 'false' && !round.isStatementTrue);
-      setUserAnswer(answer);
+    (result: { correct: boolean; scoreDelta: number }) => {
+      if (phase !== 'playing') return;
+      setLastResult(result);
       setPhase('answered');
-      if (correct) {
+      if (result.correct) {
         playSound(streak >= 2 ? 'streak' : 'correct');
-        setScore((s) => s + 10 + streak * 2);
+        setScore((s) => s + result.scoreDelta);
         setStreak((s) => s + 1);
       } else {
         playSound('wrong');
         setStreak(0);
       }
     },
-    [round, phase, streak, playSound]
+    [phase, streak, playSound]
   );
 
-  const handleContinueToExplanation = () => {
+  const handleContinueToExplanation = useCallback(() => {
     setPhase('explaining');
-  };
+  }, []);
 
-  const handleNextQuestion = () => {
+  const handleNextQuestion = useCallback(() => {
     const nextIdx = currentIndex + 1;
     if (nextIdx >= questions.length) {
       setPhase('finished');
       return;
     }
     setCurrentIndex(nextIdx);
-    setRound(pickRound(questions[nextIdx]));
-    setUserAnswer(null);
+    // Avoid serving the same format twice in a row when possible.
+    const nextRound = buildRound(questions[nextIdx], questions, {
+      exclude: round ? [round.format] : undefined,
+    });
+    setRound(nextRound);
+    setLastResult(null);
     setPhase('playing');
-  };
+  }, [currentIndex, questions, round]);
 
-  // Compute button states
-  const buttonStates = useMemo(() => {
-    if (phase === 'playing' || phase === 'loading') {
-      return { trueState: 'default' as const, falseState: 'default' as const };
-    }
-    // phase === 'answered' or later
-    const correctSide = round?.isStatementTrue ? 'true' : 'false';
-    const userCorrect = userAnswer === correctSide;
-    return {
-      trueState:
-        userAnswer === 'true'
-          ? userCorrect
-            ? ('selected-correct' as const)
-            : ('selected-wrong' as const)
-          : correctSide === 'true' && !userCorrect
-            ? ('reveal-correct' as const)
-            : ('disabled' as const),
-      falseState:
-        userAnswer === 'false'
-          ? userCorrect
-            ? ('selected-correct' as const)
-            : ('selected-wrong' as const)
-          : correctSide === 'false' && !userCorrect
-            ? ('reveal-correct' as const)
-            : ('disabled' as const),
-    };
-  }, [phase, userAnswer, round]);
+  // -------- early returns for loading / finished --------
 
   if (phase === 'loading') {
     return (
@@ -167,7 +127,9 @@ export default function PlayPage() {
         <div className="text-center space-y-4 max-w-md">
           <div className="text-5xl">🎉</div>
           <h2 className="text-2xl font-bold">סיימת את כל השאלות!</h2>
-          <div className="text-text-secondary">ניקוד סופי: <span className="text-accent font-bold">{score}</span></div>
+          <div className="text-text-secondary">
+            ניקוד סופי: <span className="text-accent font-bold">{score}</span>
+          </div>
           <button
             onClick={() => router.push('/')}
             className="px-6 py-3 rounded-xl bg-accent text-white font-bold hover:bg-accent-light transition-colors"
@@ -179,11 +141,6 @@ export default function PlayPage() {
     );
   }
 
-  const lastAnswerCorrect =
-    phase === 'answered' &&
-    ((userAnswer === 'true' && round.isStatementTrue) ||
-      (userAnswer === 'false' && !round.isStatementTrue));
-
   return (
     <main className="flex-1 flex flex-col min-h-dvh">
       {/* Header */}
@@ -191,6 +148,7 @@ export default function PlayPage() {
         <button
           onClick={() => router.push('/')}
           className="text-text-muted hover:text-text-primary text-sm"
+          aria-label="חזרה לדף הבית"
         >
           ✕
         </button>
@@ -209,38 +167,68 @@ export default function PlayPage() {
       </div>
 
       {/* Main content */}
-      <div className="flex-1 flex flex-col justify-center p-4 max-w-lg mx-auto w-full space-y-8">
+      <div className="flex-1 flex flex-col justify-center p-4 max-w-lg mx-auto w-full">
         <AnimatePresence mode="wait">
-          <StatementCard
-            key={`${currentIndex}-${round.statement.text_he}`}
-            statement={round.statement.text_he}
-            songTitle={currentQuestion.songTitle}
-            artist={currentQuestion.artist}
-            year={currentQuestion.year}
-            isPlaying={isAudioPlaying}
-          />
+          <motion.div
+            key={`${currentIndex}-${round.format}`}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.25 }}
+            className="space-y-6"
+          >
+            {/* Format dispatch */}
+            {round.format === 'tf' && (
+              <TrueFalseRound
+                round={round}
+                isAudioPlaying={isAudioPlaying}
+                streak={streak}
+                onAnswer={handleAnswer}
+              />
+            )}
+            {round.format === 'two-truths-one-lie' && (
+              <TwoTruthsOneLieRound
+                round={round}
+                isAudioPlaying={isAudioPlaying}
+                streak={streak}
+                onAnswer={handleAnswer}
+              />
+            )}
+            {round.format === 'audio-shrinker' && (
+              <AudioShrinkerRound
+                round={round}
+                streak={streak}
+                onAnswer={handleAnswer}
+              />
+            )}
+            {round.format === 'year-ladder' && (
+              <YearLadderRound
+                round={round}
+                isAudioPlaying={isAudioPlaying}
+                streak={streak}
+                onAnswer={handleAnswer}
+              />
+            )}
+          </motion.div>
         </AnimatePresence>
-
-        <TrueFalseButtons
-          state={buttonStates}
-          onSelect={handleAnswer}
-          disabled={phase !== 'playing'}
-        />
 
         {/* Quick feedback after answer */}
         <AnimatePresence>
-          {phase === 'answered' && (
+          {phase === 'answered' && lastResult && (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              className="text-center space-y-3"
+              className="text-center space-y-3 mt-6"
             >
-              <div className={`text-2xl font-bold ${lastAnswerCorrect ? 'text-correct' : 'text-wrong'}`}>
-                {lastAnswerCorrect ? '🎯 צדקת!' : '❌ טעית'}
-              </div>
-              <div className="text-text-secondary text-sm">
-                הקביעה היא {round.isStatementTrue ? 'נכונה' : 'שגויה'}
+              <div
+                className={`text-2xl font-bold ${
+                  lastResult.correct ? 'text-correct' : 'text-wrong'
+                }`}
+              >
+                {lastResult.correct
+                  ? `🎯 צדקת! +${lastResult.scoreDelta}`
+                  : '❌ טעית'}
               </div>
               <button
                 onClick={handleContinueToExplanation}
