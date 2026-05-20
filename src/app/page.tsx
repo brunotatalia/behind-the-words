@@ -11,6 +11,8 @@ import type { Category, Difficulty } from '@/types/question';
 import type { GameMode } from '@/types/game';
 import { useStatsStore } from '@/store/statsStore';
 import { useSettingsStore } from '@/store/settingsStore';
+import { journeys } from '@/data/journeys';
+import { JourneyCard } from '@/components/journey/JourneyCard';
 
 function Equalizer() {
   const bars = [0, 1, 2, 3, 4, 5, 6];
@@ -113,23 +115,37 @@ export default function HomePage() {
           </p>
         </motion.div>
 
-        {/* Primary CTA */}
+        {/* Journeys — the primary entry point in the new vision */}
         <motion.div
           initial={shouldReduceMotion ? false : { opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, type: 'spring' }}
+          transition={{ delay: 0.25 }}
+          className="space-y-3 text-right"
+        >
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-lg font-bold text-text-primary">המסעות</h2>
+            <span className="text-xs text-text-muted">5 סודות בכל אחד</span>
+          </div>
+          <div className="grid grid-cols-1 gap-3">
+            {journeys.map((j, i) => (
+              <JourneyCard key={j.slug} journey={j} index={i} />
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Endless mode — now secondary */}
+        <motion.div
+          initial={shouldReduceMotion ? false : { opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.35 }}
           className="space-y-1.5"
         >
           <button
             onClick={handleStart}
             disabled={categoryCount < 4}
-            className={`group relative w-full px-12 py-5 rounded-2xl bg-gradient-to-br from-accent to-accent-light text-white font-bold text-xl shadow-lg shadow-accent/25 hover:shadow-xl hover:shadow-accent/40 transition-all duration-300 active:scale-[0.97] disabled:opacity-50 disabled:cursor-not-allowed ${CTA_FOCUS_RING}`}
+            className={`group relative w-full px-12 py-4 rounded-2xl border-2 border-accent/40 bg-accent/5 text-accent font-bold text-base hover:bg-accent/15 hover:border-accent/60 transition-all duration-300 active:scale-[0.97] disabled:opacity-50 disabled:cursor-not-allowed ${CTA_FOCUS_RING}`}
           >
-            <span className="relative z-10">!בואו נתחיל</span>
-            <div
-              aria-hidden="true"
-              className="absolute inset-0 rounded-2xl bg-gradient-to-br from-accent to-accent-light opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300"
-            />
+            <span className="relative z-10">מצב חופשי · נגן עד שתעצור</span>
           </button>
           {hasCustomization && (
             <p className="text-xs text-text-muted">

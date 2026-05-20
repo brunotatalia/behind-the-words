@@ -165,17 +165,12 @@ export function AudioShrinkerRound({
 
   return (
     <div className="space-y-6">
-      <div className="text-center px-2">
-        <div className="text-xs text-text-muted uppercase tracking-wider mb-1">
-          זהה את השיר
-        </div>
-        <div className="text-sm md:text-base text-text-secondary">
-          {settled
-            ? 'הנה התשובה'
-            : `קליפ של ${currentClipSec} שני${currentClipSec === 1 ? 'ה' : 'ות'} · ${
-                round.clipStepsSec.length - step
-              } ניסיון${round.clipStepsSec.length - step === 1 ? '' : 'ות'} שנשארו`}
-        </div>
+      <div className="text-center px-2 text-xs md:text-sm text-text-muted">
+        {settled
+          ? 'הנה התשובה'
+          : `קליפ של ${currentClipSec} שני${currentClipSec === 1 ? 'ה' : 'ות'} · ${
+              round.clipStepsSec.length - step
+            } ניסיון${round.clipStepsSec.length - step === 1 ? '' : 'ות'} שנשארו`}
       </div>
 
       <div className="flex justify-center">

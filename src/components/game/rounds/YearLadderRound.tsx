@@ -83,10 +83,7 @@ export function YearLadderRound({
       />
 
       <div className="text-center px-2">
-        <div className="text-xs text-text-muted uppercase tracking-wider mb-3">
-          באיזו שנה זה היה?
-        </div>
-        <p className="text-lg md:text-xl font-bold leading-relaxed text-text-primary">
+        <p className="text-xl md:text-2xl font-bold leading-relaxed text-text-primary">
           {round.maskedStatement}
         </p>
       </div>

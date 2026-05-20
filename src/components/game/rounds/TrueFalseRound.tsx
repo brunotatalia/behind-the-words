@@ -98,10 +98,7 @@ export function TrueFalseRound({
         transition={{ duration: 0.3 }}
         className="px-2"
       >
-        <div className="text-xs text-text-muted uppercase tracking-wider mb-3 text-center">
-          האם הקביעה נכונה?
-        </div>
-        <p className="text-lg md:text-xl font-bold leading-relaxed text-text-primary text-center">
+        <p className="text-xl md:text-2xl font-bold leading-relaxed text-text-primary text-center">
           {round.statement.text_he}
         </p>
       </motion.div>

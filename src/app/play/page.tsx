@@ -10,6 +10,7 @@ import { TrueFalseRound } from '@/components/game/rounds/TrueFalseRound';
 import { TwoTruthsOneLieRound } from '@/components/game/rounds/TwoTruthsOneLieRound';
 import { AudioShrinkerRound } from '@/components/game/rounds/AudioShrinkerRound';
 import { YearLadderRound } from '@/components/game/rounds/YearLadderRound';
+import { LensHeader } from '@/components/game/rounds/LensHeader';
 import { DidYouKnow } from '@/components/game/DidYouKnow';
 import { useSongPreview, prefetchPreview } from '@/hooks/useSongPreview';
 import { useSound } from '@/hooks/useSound';
@@ -175,8 +176,9 @@ export default function PlayPage() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.25 }}
-            className="space-y-6"
+            className="space-y-5"
           >
+            <LensHeader format={round.format} />
             {/* Format dispatch */}
             {round.format === 'tf' && (
               <TrueFalseRound

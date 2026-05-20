@@ -65,15 +65,6 @@ export function TwoTruthsOneLieRound({
         isPlaying={isAudioPlaying}
       />
 
-      <div className="text-center px-2">
-        <div className="text-xs text-text-muted uppercase tracking-wider mb-1">
-          שני אמת ושקר אחד
-        </div>
-        <div className="text-sm md:text-base text-text-secondary">
-          הקש על הקביעה <span className="text-wrong font-bold">השקרית</span>
-        </div>
-      </div>
-
       <div className="space-y-2.5 px-2">
         {round.statements.map((s, idx) => {
           const cardState = stateForCard(idx);
